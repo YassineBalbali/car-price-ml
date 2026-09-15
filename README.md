@@ -1,92 +1,189 @@
-# 🏛️ AidesPubliques
+# Car MPG Prediction
 
-> Plateforme digitale de gestion et suivi des dossiers d'aides publiques
+Prédiction de la consommation de carburant d'un véhicule (miles per gallon) à partir de ses caractéristiques techniques, servie via une API REST containerisée et une interface React.
 
-![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+**Démo** : https://car-price-ml-pink.vercel.app  
+**API** : https://car-price-ml-906z.onrender.com/docs
 
----
+> L'API est hébergée sur une instance gratuite qui se met en veille après 15 minutes d'inactivité. Le premier appel peut donc prendre une trentaine de secondes.
 
-## 📋 Description
-
-**AidesPubliques** est une plateforme web complète permettant aux citoyens de découvrir, déposer et suivre leurs demandes d'aides publiques. Elle offre des espaces dédiés pour chaque profil utilisateur : demandeur, instructeur et administrateur.
+**Stack** : Python · scikit-learn · FastAPI · React · Docker
 
 ---
 
-## ✨ Fonctionnalités
+## Problème
 
-### 👤 Demandeur
-- Consulter le catalogue des aides disponibles
-- Déposer une demande de dossier
-- Suivre l'état de ses dossiers en temps réel
-- Recevoir des notifications email à chaque changement de statut
+Estimer la consommation d'un véhicule sans mesure physique, à partir de caractéristiques connues au catalogue : cylindrée, poids, puissance, nombre de cylindres, accélération, année et origine.
 
-### 🔵 Instructeur
-- Consulter uniquement les dossiers qui lui sont affectés
-- Changer le statut des dossiers (Accepter / Refuser / Instruire)
-- Tableau de bord avec statistiques personnelles
-
-### 🔴 Administrateur
-- Gérer tous les dossiers
-- Gérer le catalogue des aides
-- Gérer les utilisateurs et leurs rôles
-- Affecter les dossiers aux instructeurs
-- Tableau de bord global avec graphiques
+Il s'agit d'un problème de **régression supervisée** : la cible est une variable continue.
 
 ---
 
-## 🛠️ Technologies
+## Données
 
-| Couche | Technologie |
-|--------|-------------|
-| Frontend | React 18, Tailwind CSS, Recharts |
-| Backend | FastAPI, Python 3.11 |
-| Base de données | PostgreSQL 15 |
-| ORM | SQLAlchemy + Alembic |
-| Auth | JWT (JSON Web Tokens) |
-| Cache / Broker | Redis |
-| Tâches async | Celery |
-| Emails | FastAPI-Mail + Gmail SMTP |
-| Conteneurs | Docker + Docker Compose |
+Dataset `mpg` (Auto MPG, UCI Machine Learning Repository), 398 véhicules commercialisés entre 1970 et 1982.
+
+| Colonne | Type | Rôle |
+|---|---|---|
+| `mpg` | float | Cible |
+| `cylinders` | int | Feature |
+| `displacement` | float | Feature |
+| `horsepower` | float | Feature (6 valeurs manquantes) |
+| `weight` | int | Feature |
+| `acceleration` | float | Feature |
+| `model_year` | int | Source de `age` |
+| `origin` | str | Feature catégorielle |
+| `name` | str | Écartée (identifiant unique) |
 
 ---
 
-## 🚀 Installation
+## Méthodologie
 
-### Prérequis
-- [Docker Desktop](https://www.docker.com/products/docker-desktop/)
-- [Node.js 18+](https://nodejs.org/)
-- [Python 3.11+](https://www.python.org/)
+### Préparation
 
-### 1. Cloner le projet
+Le prétraitement est encapsulé dans un `Pipeline` scikit-learn, entraîné exclusivement sur le jeu d'entraînement afin d'éviter toute **fuite de données** :
 
-```bash
-git clone https://github.com/votre-username/aides-publiques.git
-cd aides-publiques
+- `SimpleImputer(median)` sur les variables numériques — la médiane résiste aux valeurs extrêmes
+- `StandardScaler` — sans normalisation, `weight` (~3000) écraserait `cylinders` (~6) dans les modèles linéaires
+- `OneHotEncoder` sur `origin` — un encodage ordinal introduirait un ordre fictif entre les pays
+
+### Feature engineering
+
+Création de la variable `age = 82 - model_year`, plus directement interprétable que l'année de sortie.
+
+### Découpage
+
+80% entraînement / 20% test (`random_state=42`). Le jeu de test n'est utilisé qu'une seule fois, en fin de projet. Toutes les décisions de modélisation reposent sur la validation croisée du jeu d'entraînement.
+
+---
+
+## Résultats
+
+| Modèle | MAE | RMSE | R² (test) |
+|---|---|---|---|
+| Baseline (moyenne) | 5.96 | — | 0.000 |
+| Régression linéaire | 2.29 | 2.89 | 0.845 |
+| **Random Forest** (300 arbres) | **1.58** | **2.17** | **0.912** |
+
+**Validation croisée** (5 plis, sur le jeu d'entraînement) : R² = **0.844 ± 0.033**
+
+Le score de 0.912 obtenu sur le jeu de test est optimiste : la validation croisée, moyennée sur cinq découpages, fournit l'estimation la plus honnête de la performance réelle. **C'est la valeur 0.844 qui doit être retenue.**
+
+L'écart entre R² d'entraînement (0.981) et R² de test (0.912) reste dans les limites attendues pour une forêt aléatoire, qui s'ajuste finement aux données d'entraînement par construction.
+
+---
+
+## Interprétation
+
+Importance des variables (Random Forest) :
+
+| Variable | Importance |
+|---|---|
+| `displacement` | 38% |
+| `weight` | 18% |
+| `cylinders` | 16% |
+| `horsepower` | 13% |
+| `age` | 12% |
+| `acceleration` | 3% |
+| `origin` (3 modalités) | < 1% |
+
+La cylindrée domine largement, ce qui est cohérent avec la physique du moteur.
+
+L'importance quasi nulle de `origin` ne signifie pas que l'origine du véhicule est sans lien avec la consommation, mais que cette information est **déjà contenue** dans les autres variables : un véhicule japonais de cette période se caractérise par un moteur de faible cylindrée et un poids réduit. Une fois `displacement` et `weight` connues, l'origine n'apporte plus d'information supplémentaire.
+
+La même réserve s'applique au partage entre `displacement` et `cylinders`, fortement corrélées entre elles : la répartition de leur importance respective est en partie arbitraire.
+
+---
+
+## Limites
+
+- **Données historiques** (1970-1982). Le modèle est inapplicable aux véhicules actuels : évolution des motorisations, injection, hybridation, normes d'émission.
+- **Volume réduit** (398 observations), d'où la variabilité observée entre les plis de validation croisée (0.783 à 0.873).
+- **Variables absentes** : aérodynamisme, type de transmission, conditions de conduite. Elles expliquent une partie des ~16% de variance non capturée.
+- **Pas d'optimisation d'hyperparamètres** : les paramètres de la forêt sont ceux par défaut, hors le nombre d'arbres. Une recherche par validation croisée apporterait un gain marginal sur un dataset de cette taille.
+
+---
+
+## Architecture
+
+| Composant | Technologie | Hébergement |
+|---|---|---|
+| Modèle | scikit-learn (Random Forest) | Sérialisé avec joblib |
+| API | FastAPI + Pydantic | Render |
+| Frontend | React + Vite | Vercel |
+| Conteneurisation | Docker | — |
+
+Le frontend n'embarque aucune logique métier : il envoie les caractéristiques du véhicule à l'API et affiche la prédiction retournée. Le modèle ne quitte jamais le serveur.
+
+---
+
+## API
+
+### Endpoints
+
+| Méthode | Route | Description |
+|---|---|---|
+| `GET` | `/health` | Statut du service |
+| `POST` | `/predict` | Prédiction de consommation |
+| `GET` | `/docs` | Documentation interactive (Swagger) |
+
+### Exemple
+
+**Requête**
+
+```json
+POST /predict
+{
+  "cylinders": 4,
+  "displacement": 120.0,
+  "horsepower": 90.0,
+  "weight": 2400,
+  "acceleration": 15.0,
+  "model_year": 80,
+  "origin": "japan"
+}
 ```
 
-### 2. Lancer la base de données et Redis
+**Réponse**
 
-```bash
-docker compose up db redis -d
+```json
+{
+  "mpg": 34.66,
+  "litres_per_100km": 6.79
+}
 ```
 
-### 3. Installer et lancer le backend
+Les entrées sont validées par Pydantic avant d'atteindre le modèle : bornes sur les valeurs numériques, `origin` restreinte à `usa` / `europe` / `japan`. Toute entrée invalide est rejetée en HTTP 422 sans appel au modèle.
+
+La variable `age` est recalculée côté API selon la formule exacte utilisée à l'entraînement — une divergence entre le feature engineering d'entraînement et celui de production produirait des prédictions silencieusement fausses.
+
+---
+
+## Installation
+
+### API — local
 
 ```bash
-cd backend
-python -m venv venv
-venv\Scripts\activate        # Windows
-# source venv/bin/activate   # Mac/Linux
+git clone https://github.com/YassineBalbali/car-price-ml.git
+cd car-price-ml
+
+python -m venv .venv
+source .venv/bin/activate        # Windows : .\.venv\Scripts\Activate.ps1
 
 pip install -r requirements.txt
-uvicorn app.main:app --reload
+uvicorn api:app --reload
 ```
 
-### 4. Installer et lancer le frontend
+API disponible sur `http://localhost:8000/docs`.
+
+### API — Docker
+
+```bash
+docker build -t car-mpg-api .
+docker run -p 8000:8000 car-mpg-api
+```
+
+### Frontend
 
 ```bash
 cd frontend
@@ -94,80 +191,52 @@ npm install
 npm run dev
 ```
 
-### 5. Lancer le worker Celery (emails)
+Interface disponible sur `http://localhost:5173`.
+
+L'URL de l'API est définie dans la constante `API_URL` de `frontend/src/App.jsx`.
+
+### Notebooks
 
 ```bash
-cd backend
-venv\Scripts\activate
-celery -A app.celery_app worker --loglevel=info --pool=solo
+pip install -r requirements-dev.txt
+jupyter notebook
 ```
 
 ---
 
-## 🌐 URLs
-
-| Service | URL |
-|---------|-----|
-| Frontend | http://localhost:5173 |
-| Backend API | http://localhost:8000 |
-| Documentation API | http://localhost:8000/docs |
-
----
-
-## 👥 Comptes de test
-
-| Rôle | Email | Mot de passe |
-|------|-------|--------------|
-| Admin | belbeliyassine2004@gmail.com | votre_mdp |
-| Instructeur | belbeliyassine12345@gmail.com | votre_mdp |
-| Demandeur | test@gmail.com | votre_mdp |
-
----
-
-## 📁 Structure du projet
+## Structure
 
 ```
-aides-publiques/
-├── backend/
-│   ├── app/
-│   │   ├── api/routes/      # Endpoints FastAPI
-│   │   ├── core/            # Config, database
-│   │   ├── models/          # Modèles SQLAlchemy
-│   │   ├── schemas/         # Schémas Pydantic
-│   │   ├── celery_app.py    # Config Celery
-│   │   ├── tasks.py         # Tâches async (emails)
-│   │   └── main.py          # Point d'entrée
-│   ├── alembic/             # Migrations BDD
-│   └── requirements.txt
+car-price-ml/
+├── notebooks/
+│   ├── 01_exploration.ipynb      # EDA, distributions, corrélations
+│   └── 02_modeling.ipynb         # Préparation, modèles, évaluation
 ├── frontend/
-│   ├── src/
-│   │   ├── pages/           # Pages React
-│   │   └── main.jsx
-│   └── package.json
-└── docker-compose.yml
+│   └── src/
+│       ├── App.jsx               # Formulaire et appel API
+│       └── App.css
+├── api.py                        # Service FastAPI
+├── model.pkl                     # Pipeline sérialisé (joblib)
+├── requirements.txt              # Dépendances de production
+├── requirements-dev.txt          # Dépendances notebooks
+├── Dockerfile
+└── README.md
 ```
 
----
-
-## 📧 Notifications email
-
-Chaque changement de statut d'un dossier déclenche automatiquement un email au demandeur via **Celery + Redis + Gmail SMTP**.
-
-Statuts disponibles :
-- 📤 Déposé
-- 📋 En instruction
-- 📎 Complément demandé
-- ✅ Accepté
-- ❌ Refusé
+Les versions de `scikit-learn`, `pandas` et `numpy` sont figées dans `requirements.txt` : `model.pkl` a été sérialisé avec ces versions précises, et un écart au chargement peut provoquer une erreur ou modifier silencieusement les prédictions.
 
 ---
 
-## 👨‍💻 Auteur
+## Pistes d'amélioration
 
-**Yassine Belbeli**  
-📧 belbeliyassine2004@gmail.com  
-🔗 [GitHub](https://github.com/votre-username)
+- Recherche d'hyperparamètres (`GridSearchCV`) et comparaison avec un modèle de gradient boosting
+- Suivi d'expériences avec MLflow
+- Intervalles de prédiction plutôt qu'une valeur ponctuelle
+- Journalisation des requêtes et détection de dérive des données en production
+- Tests automatisés sur les endpoints (`pytest` + `TestClient`)
 
 ---
 
-© 2026 AidesPubliques — Tous droits réservés
+## Auteur
+
+**Yassine Balbali** — [github.com/YassineBalbali](https://github.com/YassineBalbali)
