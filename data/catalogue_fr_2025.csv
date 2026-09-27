@@ -1,0 +1,1291 @@
+marque,modele,carburant,categorie,masse,cylindree,puissance,co2,consommation,conso_electrique,autonomie_electrique,immatriculations
+ABARTH,500,electric,electrique,1410.0,,113.0,0.0,,178.0,256.0,417
+ABARTH,600E,electric,electrique,1700.0,,175.0,0.0,,179.0,335.0,149
+AIWAYS,U5,electric,electrique,1845.0,,150.0,0.0,,170.0,400.0,93
+AIWAYS,U6,electric,electrique,1865.0,,160.0,0.0,,159.0,405.0,3
+ALFA ROMEO,ALFA ROMEO JUNIOR,electric,electrique,1620.0,,115.0,0.0,,151.0,410.0,1319
+ALFA ROMEO,ALFA ROMEO JUNIOR,petrol,hybride,1380.0,1199.0,100.0,109.0,4.8,,,3349
+ALFA ROMEO,GIULIA,diesel,thermique,1570.0,2143.0,118.0,137.0,5.2,,,164
+ALFA ROMEO,GIULIA,petrol,thermique,1620.0,1995.0,206.0,184.0,8.1,,,6
+ALFA ROMEO,GIULIA QUADRIFOGLIO VERDE,petrol,thermique,1735.0,2891.0,382.0,228.0,10.1,,,6
+ALFA ROMEO,JUNIOR,petrol,hybride,1380.0,1199.0,100.0,109.0,5.5,,,8
+ALFA ROMEO,STELVIO,diesel,thermique,1755.0,2143.0,118.0,159.0,6.0,,,148
+ALFA ROMEO,STELVIO QUADRIFOGLIO,petrol,thermique,1925.0,2891.0,382.0,267.0,11.8,,,6
+ALFA ROMEO,TONALE,diesel,thermique,1655.0,1598.0,96.0,140.0,5.3,,,76
+ALFA ROMEO,TONALE,petrol,hybride,1600.0,1469.0,117.0,130.5,5.8,,,1074
+ALFA ROMEO,TONALE,petrol/electric,hybride_rechargeable,1910.0,1332.0,132.0,31.0,1.4,188.0,61.0,171
+ALPINA,ALPINA B3 GT TOURING,petrol,thermique,1945.0,2993.0,389.0,241.0,10.6,,,3
+ALPINA,BMW ALPINA D3 S TOURING,diesel,hybride,2020.0,2993.0,261.0,182.0,6.9,,,1
+ALPINA,BMW ALPINA XD3,diesel,thermique,2280.0,2993.0,290.0,224.0,8.6,,,3
+ALPINA,BMW ALPINA XD4,diesel,thermique,2260.0,2993.0,290.0,224.0,8.6,,,1
+ALPINE,A110,petrol,thermique,1184.0,1798.0,221.0,157.0,6.9,,,1147
+ALPINE,A110 R ULTIME,petrol,thermique,1175.0,1798.0,239.0,170.0,7.5,,,12
+ALPINE,A110R,petrol,thermique,1162.0,1798.0,221.0,155.0,6.8,,,362
+ALPINE,A290,electric,electrique,1554.0,,160.0,0.0,,166.0,361.0,3831
+ALPINE,A390,electric,electrique,2199.0,,295.0,0.0,,206.0,501.0,82
+ASTON MARTIN,DB12,petrol,thermique,1895.0,3982.0,500.0,276.0,12.2,,,19
+ASTON MARTIN,DB12 VOLANTE,petrol,thermique,2005.0,3982.0,500.0,276.0,12.2,,,6
+ASTON MARTIN,DBS 770 ULTIMATE,petrol,thermique,1920.0,5204.0,566.0,314.0,13.9,,,2
+ASTON MARTIN,DBX,petrol,thermique,2320.0,3982.0,405.0,323.0,14.3,,,1
+ASTON MARTIN,DBX S,petrol,thermique,2300.0,3982.0,534.0,323.0,14.3,,,1
+ASTON MARTIN,DBX707,petrol,thermique,2320.0,3982.0,520.0,323.0,14.2,,,18
+ASTON MARTIN,VALHALLA,petrol/electric,hybride_rechargeable,1960.0,3982.0,609.0,275.0,12.2,63.0,12.0,3
+ASTON MARTIN,VALOUR,petrol,thermique,1860.0,5204.0,525.0,340.0,15.1,,,1
+ASTON MARTIN,VANQUISH,petrol,thermique,1985.0,5204.0,614.0,312.0,13.7,,,10
+ASTON MARTIN,VANQUISH VOLANTE,petrol,thermique,2080.0,5204.0,614.0,321.0,14.1,,,2
+ASTON MARTIN,VANTAGE,petrol,thermique,1820.0,3982.0,489.0,274.0,12.1,,,29
+ASTON MARTIN,VANTAGE ROADSTER,petrol,thermique,1880.0,3982.0,489.0,279.0,12.3,,,5
+ASTON MARTIN,VANTAGE S,petrol,thermique,1820.0,3982.0,500.0,274.0,12.1,,,2
+ASTON MARTIN,VANTAGE S ROADSTER,petrol,thermique,1880.0,3982.0,500.0,279.0,12.3,,,1
+AUDI,A1 ALLSTREET,petrol,thermique,1250.0,999.0,85.0,136.0,6.0,,,738
+AUDI,A1 SPORTBACK,petrol,thermique,1210.0,999.0,85.0,128.0,5.6,,,8077
+AUDI,A3 40 TFSIE,petrol/electric,hybride_rechargeable,1625.0,1395.0,110.0,26.0,1.1,147.0,64.0,62
+AUDI,A3 45 TFSIE,petrol/electric,hybride_rechargeable,1655.0,1395.0,110.0,30.0,1.3,155.0,59.0,2
+AUDI,A3 ALLSTREET,diesel,thermique,1510.0,1968.0,110.0,132.0,5.0,,,65
+AUDI,A3 ALLSTREET,petrol,hybride,1425.0,1498.0,110.0,124.0,5.5,,,235
+AUDI,A3 ALLSTREET,petrol,thermique,1395.0,1498.0,110.0,131.0,5.7,,,7
+AUDI,A3 ALLSTREET PHEV 150,petrol/electric,hybride_rechargeable,1685.0,1498.0,110.0,9.0,0.4,157.0,131.0,411
+AUDI,A3 LIMOUSINE,diesel,thermique,1485.0,1968.0,110.0,131.0,5.0,,,50
+AUDI,A3 LIMOUSINE,petrol,hybride,1400.0,1498.0,110.0,124.0,5.4,,,325
+AUDI,A3 LIMOUSINE,petrol,thermique,1365.0,1498.0,110.0,130.0,5.7,,,30
+AUDI,A3 SPORTBACK,diesel,thermique,1485.0,1968.0,110.0,135.0,5.1,,,985
+AUDI,A3 SPORTBACK,petrol,hybride,1400.0,1498.0,110.0,127.0,5.6,,,3336
+AUDI,A3 SPORTBACK,petrol,thermique,1365.0,1498.0,110.0,128.0,5.6,,,218
+AUDI,A3 SPORTBACK PHEV 150,petrol/electric,hybride_rechargeable,1675.0,1498.0,110.0,8.0,0.4,159.0,130.0,3588
+AUDI,A3 SPORTBACK PHEV 200,petrol/electric,hybride_rechargeable,1685.0,1498.0,130.0,8.0,0.4,164.0,126.0,914
+AUDI,A4 ALLROAD QUATTRO,diesel,hybride,1720.0,1968.0,150.0,155.0,5.9,,,1
+AUDI,A4 AVANT,diesel,hybride,1605.0,1968.0,120.0,131.0,5.0,,,27
+AUDI,A4 AVANT,petrol,hybride,1595.0,1984.0,110.0,152.0,6.7,,,40
+AUDI,A4 LIMOUSINE,diesel,hybride,1560.0,1968.0,120.0,125.0,4.8,,,1
+AUDI,A4 LIMOUSINE,petrol,hybride,1545.0,1984.0,110.0,149.0,6.6,,,41
+AUDI,A5 AVANT,diesel,hybride,1910.0,1968.0,150.0,133.0,5.1,,,883
+AUDI,A5 AVANT,petrol,thermique,1785.0,1984.0,150.0,161.0,7.1,,,241
+AUDI,A5 AVANT 220KW TFSI E,petrol/electric,hybride_rechargeable,2160.0,1984.0,185.0,59.0,2.6,156.0,99.0,489
+AUDI,A5 AVANT 270KW TFSI E,petrol/electric,hybride_rechargeable,2185.0,1984.0,185.0,59.0,2.6,156.0,99.0,261
+AUDI,A5 COUPE,diesel,hybride,1570.0,1968.0,150.0,135.0,5.2,,,1
+AUDI,A5 COUPE,petrol,hybride,1550.0,1984.0,110.0,155.0,6.8,,,1
+AUDI,A5 LIM 220KW TFSI E,petrol/electric,hybride_rechargeable,2145.0,1984.0,185.0,58.0,2.6,154.0,101.0,150
+AUDI,A5 LIM 270KW TFSI E,petrol/electric,hybride_rechargeable,2170.0,1984.0,185.0,59.0,2.6,154.0,101.0,84
+AUDI,A5 LIMOUSINE,diesel,hybride,1895.0,1968.0,150.0,130.0,5.0,,,372
+AUDI,A5 LIMOUSINE,petrol,thermique,1770.0,1984.0,150.0,161.0,7.1,,,294
+AUDI,A5 SPORTBACK,diesel,hybride,1605.0,1968.0,150.0,148.0,5.7,,,55
+AUDI,A5 SPORTBACK,petrol,hybride,1590.0,1984.0,150.0,158.0,6.9,,,44
+AUDI,A6 50 TFSI E,petrol/electric,hybride_rechargeable,2085.0,1984.0,195.0,29.0,1.3,196.0,67.0,54
+AUDI,A6 55 TFSI E,petrol/electric,hybride_rechargeable,2085.0,1984.0,195.0,30.0,1.3,197.0,67.0,5
+AUDI,A6 ALLROAD QUATTRO,diesel,hybride,1900.0,1968.0,150.0,166.0,6.3,,,3
+AUDI,A6 AV E-TRON,electric,electrique,2185.0,,210.0,0.0,,152.0,567.0,42
+AUDI,A6 AV E-TRON PERFORMANCE,electric,electrique,2260.0,,270.0,0.0,,166.0,647.0,584
+AUDI,A6 AV E-TRON QUATTRO,electric,electrique,2370.0,,315.0,0.0,,170.5,623.5,148
+AUDI,A6 AVANT,diesel,hybride,1780.0,1968.0,150.0,150.0,5.8,,,29
+AUDI,A6 AVANT,petrol,hybride,1785.0,1984.0,195.0,171.0,7.5,,,6
+AUDI,A6 AVANT 220KW TFSI E,petrol/electric,hybride_rechargeable,2225.0,1984.0,185.0,59.0,2.6,158.0,95.0,26
+AUDI,A6 AVANT 270KW TFSI E,petrol/electric,hybride_rechargeable,2240.0,1984.0,185.0,61.0,2.7,159.0,94.0,71
+AUDI,A6 AVANT 50 TFSI E,petrol/electric,hybride_rechargeable,2150.0,1984.0,195.0,35.0,1.5,209.0,63.0,99
+AUDI,A6 AVANT 55 TFSI E,petrol/electric,hybride_rechargeable,2150.0,1984.0,195.0,35.0,1.5,209.0,63.0,167
+AUDI,A6 LIM 220KW TFSI E,petrol/electric,hybride_rechargeable,2205.0,1984.0,185.0,57.0,2.5,156.0,97.0,4
+AUDI,A6 LIM 270KW TFSI E,petrol/electric,hybride_rechargeable,2220.0,1984.0,185.0,58.0,2.6,157.0,96.0,110
+AUDI,A6 LIMOUSINE,diesel,hybride,1715.0,1968.0,120.0,142.5,5.5,,,8
+AUDI,A6 LIMOUSINE,petrol,hybride,1720.0,1984.0,195.0,164.5,7.25,,,2
+AUDI,A6 SB E-TRON,electric,electrique,2175.0,,210.0,0.0,,143.0,603.0,34
+AUDI,A6 SB E-TRON PERFORMANCE,electric,electrique,2250.0,,270.0,0.0,,154.0,696.0,147
+AUDI,A6 SB E-TRON QUATTRO,electric,electrique,2360.0,,315.0,0.0,,154.0,689.0,39
+AUDI,A7 50 TFSI E,petrol/electric,hybride_rechargeable,2140.0,1984.0,195.0,35.0,1.5,210.0,62.0,3
+AUDI,A7 55 TFSI E,petrol/electric,hybride_rechargeable,2140.0,1984.0,195.0,35.0,1.6,210.0,62.0,9
+AUDI,A8,petrol/electric,hybride_rechargeable,2385.0,2995.0,250.0,42.0,1.8,223.5,59.0,12
+AUDI,AUDI A6 AVANT,diesel,hybride,2075.0,1968.0,150.0,148.0,5.7,,,110
+AUDI,AUDI A6 LIMOUSINE,diesel,hybride,2020.0,1968.0,150.0,137.5,5.25,,,12
+AUDI,AUDI Q5,diesel,hybride,2030.0,1968.0,150.0,166.0,6.3,,,134
+AUDI,AUDI Q5,petrol,hybride,1970.0,1984.0,150.0,168.0,7.4,,,212
+AUDI,AUDI Q5 SB,diesel,hybride,2045.0,1968.0,150.0,163.5,6.2,,,30
+AUDI,AUDI Q5 SB,petrol,hybride,1985.0,1984.0,150.0,169.0,7.5,,,137
+AUDI,AUDI SQ5,petrol,hybride,2115.0,2995.0,270.0,191.0,8.4,,,1
+AUDI,AUDI SQ5 SB,petrol,hybride,2115.0,2995.0,270.0,189.0,8.3,,,1
+AUDI,E-TRON GT,electric,electrique,2355.0,,370.0,0.0,,181.0,611.5,6
+AUDI,E-TRON SPORTBACK 55,electric,electrique,2595.0,,300.0,0.0,,235.5,414.5,2
+AUDI,Q2,diesel,thermique,1480.0,1968.0,110.0,145.0,5.5,,,809
+AUDI,Q2,petrol,thermique,1380.0,1498.0,110.0,140.0,6.2,,,3082
+AUDI,Q3,diesel,thermique,1655.0,1968.0,110.0,144.0,5.5,,,573
+AUDI,Q3,petrol,hybride,1646.0,1498.0,110.0,143.0,6.3,,,345
+AUDI,Q3,petrol,thermique,1570.0,1498.0,110.0,150.0,6.6,,,787
+AUDI,Q3 200KW TFSI E,petrol/electric,hybride_rechargeable,1900.0,1498.0,130.0,45.0,2.0,145.0,110.0,747
+AUDI,Q3 E-TRON,petrol/electric,hybride_rechargeable,1815.0,1395.0,110.0,37.0,1.6,177.0,54.0,16
+AUDI,Q3 SB 200KW TFSI E,petrol/electric,hybride_rechargeable,1900.0,1498.0,130.0,46.0,2.0,145.0,109.0,495
+AUDI,Q3 SPORTBACK,diesel,thermique,1655.0,1968.0,110.0,146.0,5.6,,,879
+AUDI,Q3 SPORTBACK,petrol,hybride,1646.0,1498.0,110.0,145.0,6.4,,,126
+AUDI,Q3 SPORTBACK,petrol,thermique,1570.0,1498.0,110.0,152.0,6.7,,,1361
+AUDI,Q3 SPORTBACK E-TRON,petrol/electric,hybride_rechargeable,1815.0,1395.0,110.0,32.0,1.4,170.0,57.0,31
+AUDI,Q4 40 E-TRON,electric,electrique,2125.0,,150.0,0.0,,169.0,521.0,1
+AUDI,Q4 45 E-TRON,electric,electrique,2145.0,,210.0,0.0,,166.0,543.0,3518
+AUDI,Q4 55 E-TRON,electric,electrique,2235.0,,250.0,0.0,,175.5,501.5,62
+AUDI,Q4 SPORTBACK 45 E-TRON,electric,electrique,2145.0,,210.0,0.0,,161.0,559.0,2820
+AUDI,Q4 SPORTBACK 55 E-TRON,electric,electrique,2235.0,,250.0,0.0,,170.0,516.5,92
+AUDI,Q5,diesel,hybride,1815.0,1968.0,120.0,153.0,5.9,,,25
+AUDI,Q5,petrol,hybride,1910.0,1984.0,150.0,157.0,7.2,,,5
+AUDI,Q5 220KW TFSI E,petrol/electric,hybride_rechargeable,2225.0,1984.0,185.0,66.0,2.9,163.0,91.0,513
+AUDI,Q5 270KW TFSI E,petrol/electric,hybride_rechargeable,2245.0,1984.0,185.0,69.0,3.0,165.0,87.0,86
+AUDI,Q5 50 TFSI E,petrol/electric,hybride_rechargeable,2150.0,1984.0,195.0,40.0,1.8,229.0,59.0,256
+AUDI,Q5 55 TFSI E,petrol/electric,hybride_rechargeable,2150.0,1984.0,195.0,40.0,1.8,230.0,58.0,90
+AUDI,Q5 SB,diesel,hybride,2045.0,1968.0,150.0,167.5,6.3,,,2
+AUDI,Q5 SB,petrol,hybride,1925.0,1984.0,150.0,152.0,7.2,,,2
+AUDI,Q5 SB 220KW TFSI E,petrol/electric,hybride_rechargeable,2225.0,1984.0,185.0,65.0,2.9,162.0,91.0,533
+AUDI,Q5 SB 270KW TFSI E,petrol/electric,hybride_rechargeable,2245.0,1984.0,185.0,68.0,3.0,164.0,89.0,153
+AUDI,Q5 SPORTBACK,diesel,hybride,1830.0,1968.0,120.0,156.5,6.0,,,32
+AUDI,Q5 SPORTBACK,petrol,hybride,1850.0,1984.0,195.0,204.5,9.0,,,2
+AUDI,Q5 SPORTBACK 50 TFSI E,petrol/electric,hybride_rechargeable,2150.0,1984.0,195.0,41.0,1.8,231.0,58.0,300
+AUDI,Q5 SPORTBACK 55 TFSI E,petrol/electric,hybride_rechargeable,2150.0,1984.0,195.0,41.0,1.8,232.0,58.0,286
+AUDI,Q6 SB E-TRON,electric,electrique,2200.0,,185.0,0.0,,169.0,506.0,69
+AUDI,Q6 SB E-TRON PERFORMANCE,electric,electrique,2275.0,,225.0,0.0,,177.0,603.0,767
+AUDI,Q6 SB E-TRON QUATTRO,electric,electrique,2400.0,,285.0,0.0,,183.0,582.0,502
+AUDI,Q6 SUV E-TRON,electric,electrique,2200.0,,185.0,0.0,,164.0,523.0,143
+AUDI,Q6 SUV E-TRON PERFORMANCE,electric,electrique,2275.0,,225.0,0.0,,183.0,583.0,1664
+AUDI,Q6 SUV E-TRON QUATTRO,electric,electrique,2400.0,,285.0,0.0,,189.0,562.0,1241
+AUDI,Q7,diesel,hybride,2215.0,2967.0,210.0,213.0,8.1,,,4
+AUDI,Q7 55 TFSI E,petrol/electric,hybride_rechargeable,2460.0,2995.0,250.0,30.0,1.3,284.0,82.0,28
+AUDI,Q7 60 TFSI E,petrol/electric,hybride_rechargeable,2460.0,2995.0,250.0,31.0,1.4,286.0,81.0,80
+AUDI,Q8 50 E-TRON,electric,electrique,2585.0,,250.0,0.0,,221.0,447.0,1
+AUDI,Q8 55 E-TRON,electric,electrique,2585.0,,300.0,0.0,,229.5,515.0,32
+AUDI,Q8 55 TFSI E,petrol/electric,hybride_rechargeable,2490.0,2995.0,250.0,34.0,1.5,295.0,78.0,90
+AUDI,Q8 60 TFSI E,petrol/electric,hybride_rechargeable,2490.0,2995.0,250.0,34.0,1.5,296.0,78.0,142
+AUDI,Q8 E-TRON DAKAR,electric,electrique,2665.0,,300.0,0.0,,290.0,233.0,15
+AUDI,Q8 SPORTBACK 50 E-TRON,electric,electrique,2585.0,,250.0,0.0,,213.0,465.0,4
+AUDI,Q8 SPORTBACK 55 E-TRON,electric,electrique,2585.0,,300.0,0.0,,220.0,542.0,175
+AUDI,R8 COUPE,petrol,thermique,1670.0,5204.0,456.0,296.0,13.1,,,1
+AUDI,RS 3 LIMOUSINE,petrol,thermique,1640.0,2480.0,294.0,210.0,9.2,,,3
+AUDI,RS 3 SPORTBACK,petrol,thermique,1640.0,2480.0,294.0,213.0,9.4,,,22
+AUDI,RS 4 AVANT,petrol,thermique,1820.0,2894.0,346.0,224.0,9.9,,,2
+AUDI,RS 6 AVANT,petrol,hybride,2150.0,3996.0,463.0,280.0,12.3,,,27
+AUDI,RS 6 GT AVANT,petrol,hybride,2150.0,3996.0,463.0,278.0,12.2,,,12
+AUDI,RS E-TRON GT,electric,electrique,2395.0,,570.0,0.0,,191.0,581.0,32
+AUDI,RS E-TRON GT PERFORMANCE,electric,electrique,2395.0,,620.0,0.0,,193.0,574.5,48
+AUDI,RS Q8,petrol,hybride,2350.0,3996.0,471.0,307.0,13.5,,,7
+AUDI,S E-TRON GT,electric,electrique,2385.0,,435.0,0.0,,184.0,598.0,102
+AUDI,S3 LIMOUSINE,petrol,thermique,1610.0,1984.0,245.0,189.0,8.3,,,2
+AUDI,S3 SPORTBACK,petrol,thermique,1610.0,1984.0,245.0,191.5,8.45,,,4
+AUDI,S4 AVANT,diesel,hybride,1910.0,2967.0,251.0,193.5,7.4,,,2
+AUDI,S5 AVANT,petrol,hybride,2040.0,2995.0,270.0,178.0,7.9,,,57
+AUDI,S5 LIMOUSINE,petrol,hybride,2025.0,2995.0,270.0,174.0,7.7,,,33
+AUDI,S6 AV E-TRON,electric,electrique,2410.0,,370.0,0.0,,171.0,621.0,273
+AUDI,S6 SB E-TRON,electric,electrique,2400.0,,370.0,0.0,,164.0,649.0,51
+AUDI,S8,petrol,hybride,2295.0,3996.0,420.0,262.5,11.55,,,2
+AUDI,SQ2,petrol,thermique,1610.0,1984.0,221.0,184.0,9.2,,,1
+AUDI,SQ5,petrol,hybride,2115.0,2995.0,270.0,190.0,8.5,,,1
+AUDI,SQ6 SB E-TRON,electric,electrique,2425.0,,360.0,0.0,,177.0,590.0,849
+AUDI,SQ6 SUV E-TRON,electric,electrique,2425.0,,360.0,0.0,,182.0,575.0,991
+AUDI,SQ7,petrol,thermique,2340.0,3996.0,373.0,281.0,12.4,,,1
+AUDI,SQ8 E-TRON,electric,electrique,2725.0,,370.0,0.0,,312.0,438.0,1
+AUDI,SQ8 SPORTBACK E-TRON,electric,electrique,2725.0,,370.0,0.0,,312.0,438.0,7
+BENTLEY,BENTAYGA AZURE HYBRID,petrol/electric,hybride_rechargeable,2585.0,2995.0,250.0,71.0,3.1,274.0,45.0,2
+BENTLEY,BENTAYGA AZURE V8,petrol,thermique,2482.0,3996.0,404.0,294.0,13.0,,,1
+BENTLEY,BENTAYGA EXTENDED WHEELBASE AZURE V8,petrol,thermique,2585.5,3996.0,404.0,296.0,13.0,,,2
+BENTLEY,BENTAYGA HYBRID,petrol/electric,hybride_rechargeable,2585.0,2995.0,250.0,71.0,3.1,274.0,45.0,2
+BENTLEY,BENTAYGA S HYBRID,petrol/electric,hybride_rechargeable,2585.0,2995.0,250.0,71.0,3.1,274.0,45.0,3
+BENTLEY,BENTAYGA S V8,petrol,thermique,2487.0,3996.0,404.0,296.0,12.9,,,2
+BENTLEY,CONTINENTAL GT,petrol/electric,hybride_rechargeable,2534.0,3996.0,382.0,29.0,1.3,277.0,85.0,5
+BENTLEY,CONTINENTAL GT AZURE,petrol/electric,hybride_rechargeable,2534.0,3996.0,382.0,93.0,4.1,198.0,84.0,2
+BENTLEY,CONTINENTAL GT MULLINER,petrol/electric,hybride_rechargeable,2534.0,3996.0,441.0,93.0,4.1,198.0,84.0,8
+BENTLEY,CONTINENTAL GT S V8,petrol,thermique,2240.0,3996.0,404.0,275.0,12.1,,,5
+BENTLEY,CONTINENTAL GT SPEED,petrol/electric,hybride_rechargeable,2534.0,3996.0,441.0,29.0,1.3,277.0,85.0,7
+BENTLEY,CONTINENTAL GTC,petrol/electric,hybride_rechargeable,2711.0,3996.0,382.0,31.0,1.4,279.0,82.0,2
+BENTLEY,CONTINENTAL GTC AZURE,petrol/electric,hybride_rechargeable,2711.0,3996.0,382.0,98.0,4.3,199.0,82.0,3
+BENTLEY,CONTINENTAL GTC MULLINER,petrol/electric,hybride_rechargeable,2711.0,3996.0,441.0,31.0,1.4,279.0,82.0,4
+BENTLEY,CONTINENTAL GTC SPEED,petrol/electric,hybride_rechargeable,2711.0,3996.0,441.0,31.0,1.4,279.0,82.0,3
+BENTLEY,FLYING SPUR MULLINER,petrol/electric,hybride_rechargeable,2718.0,3996.0,441.0,66.5,2.9000000000000004,239.0,80.5,2
+BENTLEY,FLYING SPUR S HYBRID,petrol/electric,hybride_rechargeable,2580.0,2894.0,306.0,75.0,3.3,244.0,41.0,2
+BMW,116,petrol,thermique,1465.0,1499.0,90.0,135.0,6.0,,,3065
+BMW,116D,diesel,thermique,1460.0,1496.0,85.0,126.0,4.8,,,9
+BMW,116I,petrol,thermique,1415.0,1499.0,80.0,135.0,5.9,,,11
+BMW,118D,diesel,thermique,1540.0,1995.0,110.0,124.0,4.7,,,17
+BMW,118I,petrol,thermique,1395.0,1499.0,100.0,134.5,5.9,,,16
+BMW,120,petrol,hybride,1500.0,1499.0,115.0,122.0,5.4,,,6892
+BMW,120D,diesel,hybride,1570.0,1995.0,110.0,113.0,4.3,,,2404
+BMW,120D,diesel,thermique,1525.0,1995.0,140.0,141.0,5.4,,,1
+BMW,123 XDRIVE,petrol,hybride,1605.0,1998.0,150.0,140.0,6.2,,,753
+BMW,128TI,petrol,thermique,1520.0,1998.0,195.0,159.0,6.9,,,1
+BMW,216,petrol,thermique,1495.0,1499.0,90.0,134.0,5.9,,,180
+BMW,216D,diesel,thermique,1505.0,1496.0,85.0,125.5,4.8,,,2
+BMW,218D,diesel,thermique,1555.0,1995.0,110.0,126.0,4.800000000000001,,,2
+BMW,218D ACTIVE TOURER,diesel,thermique,1620.0,1995.0,110.0,126.0,4.8,,,309
+BMW,218I,petrol,thermique,1450.0,1499.0,100.0,134.0,5.9,,,71
+BMW,218I ACTIVE TOURER,petrol,thermique,1545.0,1499.0,100.0,141.0,6.3,,,369
+BMW,220,petrol,hybride,1525.0,1499.0,115.0,122.0,5.4,,,579
+BMW,220D,diesel,hybride,1600.0,1995.0,110.0,113.0,4.3,,,279
+BMW,220D ACTIVE TOURER,diesel,hybride,1640.0,1995.0,110.0,118.0,4.5,,,157
+BMW,220I,petrol,thermique,1565.0,1998.0,135.0,148.0,6.5,,,105
+BMW,220I ACTIVE TOURER,petrol,hybride,1595.0,1499.0,115.0,129.0,5.7,,,743
+BMW,223 XDRIVE,petrol,hybride,1640.0,1998.0,150.0,135.0,6.0,,,130
+BMW,223I XDRIVE ACTIVE TOURER,petrol,hybride,1690.0,1998.0,150.0,143.0,6.300000000000001,,,2
+BMW,225E XDRIVE ACTIVE TOURER,petrol/electric,hybride_rechargeable,1900.0,1499.0,100.0,20.0,0.9,165.0,85.0,865
+BMW,230E XDRIVE ACTIVE TOURER,petrol/electric,hybride_rechargeable,1920.0,1499.0,110.0,20.0,0.9,168.0,84.0,5
+BMW,230I,petrol,thermique,1600.0,1998.0,180.0,155.0,6.8,,,96
+BMW,318D,diesel,hybride,1735.0,1995.0,110.0,136.0,5.2,,,275
+BMW,318I,petrol,thermique,1650.0,1998.0,115.0,153.0,6.8,,,171
+BMW,320D,diesel,hybride,1670.0,1995.0,140.0,135.0,5.2,,,7
+BMW,320D XDRIVE,diesel,hybride,1800.0,1995.0,140.0,143.0,5.5,,,301
+BMW,320E,petrol/electric,hybride_rechargeable,1845.0,1998.0,120.0,33.0,1.5,182.0,56.0,26
+BMW,320E XDRIVE,petrol/electric,hybride_rechargeable,1955.0,1998.0,120.0,38.0,1.7,195.0,51.0,7
+BMW,320I,petrol,thermique,1660.0,1998.0,135.0,154.0,6.8,,,12
+BMW,320I XDRIVE,petrol,thermique,1655.0,1998.0,135.0,155.0,6.9,,,27
+BMW,330E,petrol/electric,hybride_rechargeable,1970.0,1998.0,135.0,20.0,0.9,216.0,96.0,686
+BMW,330E XDRIVE,petrol/electric,hybride_rechargeable,2025.0,1998.0,135.0,23.0,1.0,230.0,91.0,524
+BMW,420D,diesel,hybride,1850.0,1995.0,140.0,144.0,5.5,,,77
+BMW,420D XDRIVE,diesel,hybride,1835.0,1995.0,140.0,144.0,5.5,,,650
+BMW,420I,petrol,thermique,1765.0,1998.0,135.0,155.0,6.8,,,408
+BMW,430D XDRIVE,diesel,hybride,1920.0,2993.0,210.0,156.0,6.0,,,65
+BMW,520D,diesel,hybride,1910.0,1995.0,145.0,142.0,5.4,,,113
+BMW,520D XDRIVE,diesel,hybride,1970.0,1995.0,145.0,153.0,5.8,,,55
+BMW,520I,petrol,hybride,1800.0,1998.0,140.0,133.0,5.9,,,63
+BMW,530D XDRIVE,diesel,hybride,1895.0,2993.0,210.0,148.0,5.7,,,1
+BMW,530E,petrol/electric,hybride_rechargeable,2080.0,1998.0,140.0,15.0,0.7,204.0,100.0,269
+BMW,530E XDRIVE,petrol/electric,hybride_rechargeable,2195.0,1998.0,140.0,19.0,0.8,222.0,89.0,164
+BMW,540D XDRIVE,diesel,hybride,2050.0,2993.0,210.0,160.0,6.1,,,71
+BMW,550E XDRIVE,petrol/electric,hybride_rechargeable,2285.0,2998.0,230.0,21.0,0.9,225.0,87.0,224
+BMW,740D XDRIVE,diesel,hybride,2255.0,2993.0,210.0,164.0,6.2,,,11
+BMW,750E XDRIVE,petrol/electric,hybride_rechargeable,2455.0,2998.0,230.0,26.0,1.2,246.0,77.0,59
+BMW,840D XDRIVE,diesel,hybride,1990.0,2993.0,250.0,176.0,6.7,,,1
+BMW,I4 EDRIVE35,electric,electrique,2070.0,,210.0,0.0,,154.0,490.0,1071
+BMW,I4 EDRIVE40,electric,electrique,2120.0,,250.0,0.0,,158.0,584.0,1508
+BMW,I4 M50,electric,electrique,2290.0,,400.0,0.0,,188.0,503.0,30
+BMW,I4 M50 XDRIVE,electric,electrique,2290.0,,400.0,0.0,,184.0,501.0,121
+BMW,I4 M60 XDRIVE,electric,electrique,2285.0,,442.0,0.0,,179.0,515.0,93
+BMW,I4 XDRIVE40,electric,electrique,2260.0,,295.0,0.0,,176.0,520.0,215
+BMW,I5 EDRIVE40,electric,electrique,2255.0,,250.0,0.0,,166.0,561.0,284
+BMW,I5 M60 XDRIVE,electric,electrique,2380.0,,442.0,0.0,,202.0,464.0,45
+BMW,I5 XDRIVE40,electric,electrique,2395.0,,290.0,0.0,,178.0,520.0,39
+BMW,I7 EDRIVE50,electric,electrique,2595.0,,335.0,0.0,,197.5,591.0,10
+BMW,I7 M70 XDRIVE,electric,electrique,2770.0,,485.0,0.0,,217.0,539.0,1
+BMW,I7 XDRIVE60,electric,electrique,2715.0,,400.0,0.0,,194.0,597.0,13
+BMW,IX M60,electric,electrique,2670.0,,397.0,0.0,,224.0,554.0,5
+BMW,IX M70 XDRIVE,electric,electrique,2655.0,,485.0,0.0,,223.0,553.0,13
+BMW,IX XDRIVE40,electric,electrique,2440.0,,240.0,0.0,,206.0,414.5,22
+BMW,IX XDRIVE45,electric,electrique,2525.0,,300.0,0.0,,190.0,569.0,164
+BMW,IX XDRIVE50,electric,electrique,2585.0,,385.0,0.0,,208.0,602.0,40
+BMW,IX XDRIVE60,electric,electrique,2580.0,,400.0,0.0,,194.0,651.0,99
+BMW,IX1 EDRIVE20,electric,electrique,1940.0,,150.0,0.0,,159.0,460.0,8525
+BMW,IX1 XDRIVE30,electric,electrique,2085.0,,225.0,0.0,,175.0,428.0,437
+BMW,IX2 EDRIVE20,electric,electrique,1960.0,,150.0,0.0,,161.0,454.0,3610
+BMW,IX2 XDRIVE30,electric,electrique,2095.0,,225.0,0.0,,174.0,426.0,367
+BMW,IX3,electric,electrique,2270.0,,210.0,0.0,,179.0,465.0,298
+BMW,IX3 50 XDRIVE,electric,electrique,2360.0,,345.0,0.0,,158.0,773.0,9
+BMW,M135 XDRIVE,petrol,thermique,1625.0,1998.0,221.0,176.0,7.8,,,67
+BMW,M135I XDRIVE,petrol,thermique,1600.0,1998.0,225.0,173.0,7.6,,,1
+BMW,M2,petrol,thermique,1800.0,2993.0,338.0,220.0,9.7,,,56
+BMW,M2 CS,petrol,thermique,1775.0,2993.0,390.0,226.0,10.0,,,5
+BMW,M235 XDRIVE,petrol,thermique,1650.0,1998.0,221.0,174.0,7.7,,,55
+BMW,M235I XDRIVE,petrol,thermique,1645.0,1998.0,225.0,167.0,7.4,,,3
+BMW,M240I XDRIVE,petrol,thermique,1765.0,2998.0,275.0,186.0,8.2,,,5
+BMW,M3 COMPETITION,petrol,thermique,1805.0,2993.0,375.0,223.0,9.8,,,1
+BMW,M3 COMPETITION M XDRIVE,petrol,thermique,1940.0,2993.0,390.0,234.0,10.4,,,43
+BMW,M3 CS,petrol,thermique,1925.0,2993.0,405.0,238.0,10.5,,,33
+BMW,M340D XDRIVE,diesel,hybride,1945.0,2993.0,250.0,164.0,6.2,,,104
+BMW,M340I XDRIVE,petrol,hybride,1905.0,2998.0,280.0,168.0,7.4,,,23
+BMW,M4 COMPETITION M XDRIVE,petrol,thermique,1850.0,2993.0,390.0,228.5,10.1,,,10
+BMW,M4 CS,petrol,thermique,1835.0,2993.0,405.0,232.0,10.2,,,8
+BMW,M440D XDRIVE,diesel,hybride,1895.0,2993.0,250.0,166.0,6.3,,,52
+BMW,M440I XDRIVE,petrol,hybride,1845.0,2998.0,280.0,168.0,7.4,,,19
+BMW,M5,petrol/electric,hybride_rechargeable,2550.0,4395.0,430.0,40.0,1.8,260.0,66.0,245
+BMW,M760E XDRIVE,petrol/electric,hybride_rechargeable,2525.0,2998.0,255.0,26.0,1.2,240.0,78.0,14
+BMW,M8 COMPETITION,petrol,thermique,1975.0,4395.0,460.0,258.0,11.3,,,1
+BMW,X1 M35I XDRIVE,petrol,thermique,1740.0,1998.0,221.0,175.0,7.8,,,21
+BMW,X1 SDRIVE18D,diesel,thermique,1650.0,1995.0,110.0,134.0,5.1,,,679
+BMW,X1 SDRIVE18I,petrol,thermique,1575.0,1499.0,100.0,146.0,6.5,,,306
+BMW,X1 SDRIVE20D,diesel,hybride,1685.0,1995.0,110.0,121.0,4.6,,,1394
+BMW,X1 SDRIVE20I,petrol,hybride,1625.0,1499.0,115.0,131.0,5.8,,,4539
+BMW,X1 XDRIVE20D,diesel,hybride,1765.0,1995.0,110.0,130.0,5.0,,,5
+BMW,X1 XDRIVE23D,diesel,hybride,1765.0,1995.0,145.0,128.0,4.9,,,677
+BMW,X1 XDRIVE23I,petrol,hybride,1730.0,1998.0,150.0,149.0,6.6,,,11
+BMW,X1 XDRIVE25E,petrol/electric,hybride_rechargeable,1930.0,1499.0,100.0,19.0,0.8,172.0,81.0,3424
+BMW,X1 XDRIVE30E,petrol/electric,hybride_rechargeable,1935.0,1499.0,110.0,20.0,0.9,174.0,80.0,601
+BMW,X2 M35I XDRIVE,petrol,thermique,1770.0,1998.0,221.0,179.5,7.95,,,12
+BMW,X2 SDRIVE18D,diesel,thermique,1675.0,1995.0,110.0,136.0,5.2,,,293
+BMW,X2 SDRIVE18I,petrol,thermique,1505.0,1499.0,100.0,146.0,6.4,,,1
+BMW,X2 SDRIVE20D,diesel,hybride,1710.0,1995.0,110.0,122.0,4.7,,,587
+BMW,X2 SDRIVE20I,petrol,hybride,1645.0,1499.0,115.0,132.0,5.8,,,2595
+BMW,X2 XDRIVE20D,diesel,hybride,1780.0,1995.0,110.0,129.0,4.9,,,318
+BMW,X2 XDRIVE25E,petrol/electric,hybride_rechargeable,1805.0,1499.0,92.0,39.5,1.75,154.5,52.0,2
+BMW,X3 20 XDRIVE,petrol,hybride,1930.0,1998.0,140.0,160.0,7.1,,,222
+BMW,X3 20D XDRIVE,diesel,hybride,1965.0,1995.0,145.0,158.0,6.0,,,658
+BMW,X3 30E XDRIVE,petrol/electric,hybride_rechargeable,2140.0,1998.0,140.0,23.0,1.0,227.0,87.0,4573
+BMW,X3 40D XDRIVE,diesel,hybride,2050.0,2993.0,210.0,166.0,6.3,,,121
+BMW,X3 M50 XDRIVE,petrol,hybride,2055.0,2998.0,280.0,179.0,7.9,,,86
+BMW,X3 SDRIVE18D,diesel,hybride,1885.0,1995.0,110.0,153.0,5.8,,,3
+BMW,X3 XDRIVE20D,diesel,hybride,1915.0,1995.0,140.0,157.0,6.0,,,3
+BMW,X3 XDRIVE20I,petrol,hybride,1875.0,1998.0,135.0,177.0,7.8,,,1
+BMW,X3 XDRIVE30E,petrol/electric,hybride_rechargeable,2065.0,1998.0,135.0,49.0,2.1500000000000004,217.5,43.5,4
+BMW,X4 M COMPETITION,petrol,thermique,2085.0,2993.0,375.0,244.0,10.7,,,1
+BMW,X4 M40D,diesel,hybride,2095.0,2993.0,250.0,185.0,7.0,,,1
+BMW,X4 XDRIVE20D,diesel,hybride,1945.0,1995.0,140.0,160.0,6.1,,,48
+BMW,X4 XDRIVE30D,diesel,hybride,2010.0,2993.0,210.0,175.5,6.699999999999999,,,6
+BMW,X4 XDRIVE30I,petrol,hybride,1890.0,1998.0,180.0,175.0,7.7,,,1
+BMW,X5 M COMPETITION,petrol,hybride,2475.0,4395.0,460.0,295.0,13.0,,,1
+BMW,X5 XDRIVE30D,diesel,hybride,2295.0,2993.0,210.0,196.0,7.5,,,11
+BMW,X5 XDRIVE50E,petrol/electric,hybride_rechargeable,2495.0,2998.0,230.0,21.0,0.9,274.0,101.0,1076
+BMW,X6 XDRIVE30D M SPORT,diesel,hybride,2295.0,2993.0,210.0,188.0,7.2,,,1
+BMW,X7 XDRIVE40D,diesel,hybride,2565.0,2993.0,250.0,224.0,8.5,,,5
+BMW,XM,petrol/electric,hybride_rechargeable,2785.0,4395.0,360.0,43.0,1.9,335.0,77.0,53
+BMW,XM 50E,petrol/electric,hybride_rechargeable,2695.0,2998.0,230.0,37.0,1.6,320.0,80.0,112
+BMW,XM LABEL,petrol/electric,hybride_rechargeable,2795.0,4395.0,430.0,53.0,2.3,337.0,76.0,46
+BMW,Z4 M40I,petrol,thermique,1640.0,2998.0,250.0,180.0,8.0,,,12
+BMW,Z4 SDRIVE20I,petrol,thermique,1525.0,1998.0,145.0,163.0,7.2,,,130
+BMW,Z4 SDRIVE30I,petrol,thermique,1545.0,1998.0,190.0,165.5,7.3,,,4
+BYD,ATTO 3,electric,electrique,1825.0,,150.0,0.0,,160.0,420.0,633
+BYD,BYD ATTO 2,electric,electrique,1645.0,,130.0,0.0,,160.0,312.0,740
+BYD,BYD DOLPHIN,electric,electrique,1733.0,,150.0,0.0,,159.0,427.0,1108
+BYD,BYD DOLPHIN SURF,electric,electrique,1465.0,,115.0,0.0,,160.0,310.0,1049
+BYD,BYD SEAL,electric,electrique,2130.0,,230.0,0.0,,166.0,570.0,1837
+BYD,BYD SEAL U,electric,electrique,2222.0,,160.0,0.0,,205.0,500.0,580
+BYD,BYD SEAL U DM-I,petrol/electric,hybride_rechargeable,2015.0,1498.0,72.0,16.0,0.7,169.0,80.0,6044
+BYD,BYD SEALION 7,electric,electrique,2300.0,,230.0,0.0,,199.0,482.0,1809
+BYD,HAN,electric,electrique,2325.0,,380.0,0.0,,185.0,521.0,29
+BYD,SEAL 6 DM-I,petrol/electric,hybride_rechargeable,1840.0,1498.0,72.0,34.0,1.5,107.0,109.0,162
+BYD,SEAL 6 DM-I TOURING,petrol/electric,hybride_rechargeable,1880.0,1498.0,72.0,38.0,1.7,112.0,101.0,128
+BYD,SEAL U,electric,electrique,2158.5,,160.0,0.0,,202.0,460.0,2
+BYD,SEAL U,petrol/electric,hybride_rechargeable,2015.0,1498.0,72.0,20.0,0.9,188.0,77.0,11
+BYD,SEALION 7,electric,electrique,2510.0,,390.0,0.0,,219.0,502.0,2
+BYD,TANG EV,electric,electrique,2705.0,,380.0,0.0,,240.0,530.0,174
+CADILLAC,LYRIQ,electric,electrique,2774.0,,388.0,0.0,,225.0,530.0,187
+CASELANI,FOURGONNETTE,electric,electrique,1811.0,,100.0,0.0,,183.0,341.0,1
+CATERHAM,SEVEN CSR,petrol,thermique,725.0,1999.0,167.0,176.0,7.8,,,1
+CATERHAM,SEVEN S3,petrol,thermique,650.0,1999.0,127.0,148.0,6.7,,,48
+CATERHAM,SEVEN SV,petrol,thermique,700.0,1999.0,127.0,148.0,6.5,,,32
+CITROEN,BERLINGO,diesel,thermique,1546.0,1499.0,96.0,145.0,5.5,,,1134
+CITROEN,BERLINGO,petrol,thermique,1476.0,1199.0,81.0,143.0,6.3,,,15
+CITROEN,C3,diesel,thermique,1163.0,1499.0,75.0,117.0,4.5,,,94
+CITROEN,C3,petrol,hybride,1327.0,1199.0,74.0,114.0,5.0,,,12179
+CITROEN,C3,petrol,thermique,1226.0,1199.0,74.0,127.0,5.6,,,34131
+CITROEN,C3 AIRCROSS,diesel,thermique,1310.0,1499.0,81.0,127.0,4.8,,,50
+CITROEN,C3 AIRCROSS,petrol,hybride,1423.0,1199.0,100.0,120.0,5.3,,,9510
+CITROEN,C3 AIRCROSS,petrol,thermique,1312.0,1199.0,74.0,136.0,6.0,,,3669
+CITROEN,C4,diesel,thermique,1399.0,1499.0,96.0,133.0,5.1,,,868
+CITROEN,C4,petrol,hybride,1403.0,1199.0,100.0,106.0,4.7,,,12467
+CITROEN,C4,petrol,thermique,1341.0,1199.0,96.0,134.0,5.9,,,1325
+CITROEN,C4 X,diesel,thermique,1395.0,1499.0,96.0,130.0,4.9,,,25
+CITROEN,C4 X,petrol,hybride,1419.0,1199.0,100.0,106.0,4.7,,,1267
+CITROEN,C4 X,petrol,thermique,1364.0,1199.0,96.0,132.0,5.8,,,47
+CITROEN,C4X,petrol,thermique,1365.0,1199.0,96.0,133.0,5.9,,,26
+CITROEN,C5 AIRCROSS,diesel,thermique,1567.0,1499.0,96.0,144.0,5.5,,,7224
+CITROEN,C5 AIRCROSS,electric,electrique,2184.0,,157.0,0.0,,175.0,509.0,855
+CITROEN,C5 AIRCROSS,petrol,hybride,1606.0,1199.0,100.0,128.0,5.7,,,11227
+CITROEN,C5 AIRCROSS,petrol,thermique,1483.0,1199.0,96.0,142.0,6.3,,,116
+CITROEN,C5 AIRCROSS,petrol/electric,hybride_rechargeable,1845.0,1598.0,133.0,33.0,1.4,179.0,58.0,1227
+CITROEN,C5 X,petrol,hybride,1591.0,1199.0,100.0,116.0,5.1,,,100
+CITROEN,C5 X,petrol,thermique,1493.0,1199.0,96.0,139.0,6.1,,,158
+CITROEN,C5 X,petrol/electric,hybride_rechargeable,1797.0,1598.0,132.0,32.0,1.4,166.0,55.0,96
+CITROEN,E-BERLINGO,electric,electrique,1811.0,,100.0,0.0,,183.0,339.0,547
+CITROEN,E-C3,electric,electrique,1491.0,,83.0,0.0,,167.0,322.0,17370
+CITROEN,E-C3 AIRCROSS,electric,electrique,1579.0,,83.0,0.0,,183.0,304.0,4236
+CITROEN,E-C4,electric,electrique,1646.0,,115.0,0.0,,150.0,414.0,2051
+CITROEN,E-C4 X,electric,electrique,1652.0,,115.0,0.0,,147.0,421.0,785
+CITROEN,JUMPY,diesel,thermique,1977.0,1997.0,130.0,191.0,7.3,,,922
+CITROEN,JUMPY,electric,electrique,2202.0,,100.0,0.0,,242.0,344.0,225
+CITROEN,JUMPY SPACE TOURER,diesel,thermique,2009.0,1997.0,130.0,203.0,7.9,,,8
+CITROEN,SPACETOURER,diesel,thermique,1986.0,1997.0,130.0,193.0,7.4,,,192
+CITROEN,SPACETOURER,electric,electrique,2240.0,,100.0,0.0,,244.0,340.0,53
+CUPRA,BORN 150 KW 58 62 KWH,electric,electrique,1828.0,,150.0,0.0,,154.0,424.0,35
+CUPRA,BORN 150 KW 60 63 KWH,electric,electrique,1842.0,,150.0,0.0,,156.0,428.0,481
+CUPRA,BORN 170 KW 58 62 KWH,electric,electrique,1840.0,,170.0,0.0,,155.0,421.0,13
+CUPRA,BORN 170 KW 60 63 KWH,electric,electrique,1841.0,,170.0,0.0,,156.0,426.0,245
+CUPRA,BORN 170 KW 77 82 KWH,electric,electrique,1969.0,,170.0,0.0,,159.0,548.0,2703
+CUPRA,BORN 170 KW 79 84 KWH,electric,electrique,1977.0,,170.0,0.0,,160.0,553.0,1298
+CUPRA,BORN 240 KW 79 84 KWH,electric,electrique,1999.0,,240.0,0.0,,150.0,590.0,374
+CUPRA,CUPRA ATECA,petrol,thermique,1449.0,1498.0,110.0,154.0,6.75,,,6
+CUPRA,CUPRA LEON,diesel,thermique,1479.0,1968.0,110.0,127.0,4.8,,,147
+CUPRA,CUPRA LEON,petrol,hybride,1401.0,1498.0,110.0,125.0,5.5,,,1045
+CUPRA,CUPRA LEON,petrol,thermique,1517.0,1984.0,221.0,173.0,7.6,,,7
+CUPRA,CUPRA LEON E-HYBRID150,petrol/electric,hybride_rechargeable,1673.0,1498.0,110.0,9.0,0.4,158.0,130.0,979
+CUPRA,CUPRA LEON E-HYBRID180,petrol/electric,hybride_rechargeable,1660.0,1395.0,110.0,29.0,1.3,155.0,59.0,18
+CUPRA,CUPRA LEON E-HYBRID200,petrol/electric,hybride_rechargeable,1708.0,1498.0,130.0,10.0,0.4,167.0,123.0,545
+CUPRA,CUPRA LEON SP,diesel,thermique,1524.0,1968.0,110.0,130.0,4.9,,,154
+CUPRA,CUPRA LEON SP,petrol,hybride,1439.0,1498.0,110.0,124.0,5.5,,,378
+CUPRA,CUPRA LEON SP,petrol,thermique,1624.0,1984.0,228.0,186.0,8.2,,,1
+CUPRA,CUPRA LEON SP E-HYBRID150,petrol/electric,hybride_rechargeable,1720.0,1498.0,110.0,9.0,0.4,160.0,128.0,297
+CUPRA,CUPRA LEON SP E-HYBRID180,petrol/electric,hybride_rechargeable,1704.0,1395.0,110.0,30.0,1.3,156.0,58.0,1
+CUPRA,CUPRA LEON SP E-HYBRID200,petrol/electric,hybride_rechargeable,1756.0,1498.0,130.0,10.0,0.5,170.0,121.0,330
+CUPRA,FORMENTOR,diesel,thermique,1541.0,1968.0,110.0,137.5,5.3,,,426
+CUPRA,FORMENTOR,petrol,hybride,1482.0,1498.0,110.0,134.0,5.9,,,2197
+CUPRA,FORMENTOR,petrol,thermique,1458.0,1498.0,110.0,155.0,6.8,,,57
+CUPRA,FORMENTOR E-HYBRID,petrol/electric,hybride_rechargeable,1717.0,1498.0,110.0,10.0,0.4,170.0,117.0,5220
+CUPRA,FORMENTOR VZ E-HYBRID,petrol/electric,hybride_rechargeable,1701.0,1395.0,110.0,33.0,1.5,160.0,54.0,44
+CUPRA,LEON,diesel,thermique,1479.0,1968.0,110.0,128.0,5.4,,,1
+CUPRA,LEON,petrol,hybride,1401.0,1498.0,110.0,125.5,6.2,,,8
+CUPRA,LEON SP,diesel,thermique,1524.0,1968.0,110.0,129.0,5.4,,,6
+CUPRA,LEON SP,petrol,hybride,1447.0,1498.0,110.0,126.0,6.2,,,3
+CUPRA,LEON SP E-HYBRID150,petrol/electric,hybride_rechargeable,1720.0,1498.0,110.0,8.0,0.5,162.0,127.0,1
+CUPRA,TAVASCAN,electric,electrique,2178.0,,210.0,0.0,,153.0,566.0,2126
+CUPRA,TERRAMAR,petrol,hybride,1638.0,1498.0,110.0,140.0,6.1,,,1299
+CUPRA,TERRAMAR E-HYBRID,petrol/electric,hybride_rechargeable,1943.0,1498.0,130.0,10.0,0.5,179.0,118.0,2663
+DACIA,BIGSTER,lpg,thermique,1484.0,1199.0,103.0,115.0,7.1,,,1086
+DACIA,BIGSTER,petrol,hybride,1494.0,1789.0,80.0,106.0,4.7,,,15636
+DACIA,DUSTER,diesel,thermique,1429.0,1461.0,85.0,125.0,4.8,,,53
+DACIA,DUSTER,lpg,thermique,1351.0,999.0,74.0,127.0,7.8,,,9400
+DACIA,DUSTER,petrol,hybride,1455.0,1598.0,69.0,113.0,5.0,,,31640
+DACIA,DUSTER,petrol,thermique,1264.0,999.0,67.0,140.0,6.2,,,109
+DACIA,JOGGER,lpg,thermique,1327.0,999.0,74.0,119.0,7.7,,,5823
+DACIA,JOGGER,petrol,hybride,1460.0,1598.0,69.0,107.0,4.8,,,5977
+DACIA,JOGGER,petrol,thermique,1280.0,999.0,81.0,131.0,5.8,,,3054
+DACIA,LOGAN,petrol,thermique,1162.0,999.0,67.0,115.0,5.5,,,1
+DACIA,SANDERO,lpg,thermique,1225.0,999.0,74.0,112.0,7.0,,,25605
+DACIA,SANDERO,petrol,thermique,1147.0,999.0,67.0,122.0,5.4,,,42181
+DACIA,SPRING,electric,electrique,1049.0,,48.0,0.0,,132.0,228.0,7636
+DALLARA,DALLARA STRADALE,petrol,thermique,1010.0,2261.0,292.0,216.0,9.6,,,2
+DFSK,SERES 3,electric,electrique,1765.0,,120.0,0.0,,191.0,310.0,66
+DONGFENG,BOX,electric,electrique,1356.0,,70.0,0.0,,154.0,230.0,1
+DS,DS 3,diesel,thermique,1358.0,1499.0,96.0,136.0,5.2,,,64
+DS,DS 3,electric,electrique,1625.0,,115.0,0.0,,155.0,398.0,403
+DS,DS 3,petrol,hybride,1372.0,1199.0,100.0,112.0,4.9,,,1157
+DS,DS 3,petrol,thermique,1324.0,1199.0,96.0,137.0,6.1,,,93
+DS,DS 3 CROSSBACK,electric,electrique,1598.0,,100.0,0.0,,161.0,330.0,1
+DS,DS 4,diesel,thermique,1489.0,1499.0,96.0,138.0,5.9,,,1
+DS,DS 4,petrol,hybride,1529.0,1199.0,100.0,117.5,5.9,,,2
+DS,DS 4,petrol/electric,hybride_rechargeable,1728.0,1598.0,132.0,33.0,1.6,206.0,55.0,3
+DS,DS 9,petrol,thermique,1615.0,1598.0,165.0,154.0,6.8,,,2
+DS,DS 9,petrol/electric,hybride_rechargeable,1939.0,1598.0,147.0,28.0,1.3,175.0,58.0,51
+DS,DS3,electric,electrique,1625.0,,115.0,0.0,,155.0,400.0,5
+DS,DS3,petrol,thermique,1324.0,1199.0,96.0,135.0,6.0,,,3
+DS,DS4,diesel,thermique,1489.0,1499.0,96.0,138.0,5.2,,,675
+DS,DS4,electric,electrique,1868.0,,157.0,0.0,,154.0,444.0,5
+DS,DS4,petrol,hybride,1529.0,1199.0,100.0,117.0,5.2,,,2096
+DS,DS4,petrol,thermique,1427.0,1199.0,96.0,138.0,6.1,,,92
+DS,DS4,petrol/electric,hybride_rechargeable,1728.0,1598.0,132.0,33.0,1.5,166.0,55.0,588
+DS,DS7,diesel,thermique,1585.0,1499.0,96.0,146.0,5.6,,,1992
+DS,DS7,petrol/electric,hybride_rechargeable,1835.0,1598.0,133.0,32.0,1.4,179.0,58.0,2854
+DS,DS9,petrol/electric,hybride_rechargeable,2006.0,1598.0,147.0,38.0,1.7,197.0,56.0,7
+DS AUTOMOBILES,DS 3,electric,electrique,1625.0,,115.0,0.0,,156.0,396.0,273
+DS AUTOMOBILES,DS 3,petrol,hybride,1372.0,1199.0,100.0,112.0,5.0,,,2067
+DS AUTOMOBILES,N 4,diesel,thermique,1511.0,1499.0,96.0,137.0,5.2,,,6
+DS AUTOMOBILES,N 4,electric,electrique,1867.0,,157.0,0.0,,153.0,441.0,322
+DS AUTOMOBILES,N 4,petrol,hybride,1538.0,1199.0,100.0,117.0,5.2,,,1003
+DS AUTOMOBILES,N 4,petrol/electric,hybride_rechargeable,1768.0,1598.0,132.0,60.0,3.0,132.0,77.0,208
+DS AUTOMOBILES,N 7,electric,electrique,2213.0,,207.0,0.0,,173.0,693.0,4
+DS AUTOMOBILES,N 8,electric,electrique,2255.0,,207.0,0.0,,171.0,646.0,655
+FAW,E-HS9,electric,electrique,2735.0,,405.0,0.0,,220.0,465.0,1
+FERRARI,296 GTB,petrol/electric,hybride_rechargeable,1735.0,2992.0,488.0,149.0,6.6,174.0,16.0,24
+FERRARI,296 GTS,petrol/electric,hybride_rechargeable,1825.0,2992.0,488.0,153.0,6.7,174.0,16.0,178
+FERRARI,488,petrol,thermique,1610.0,3902.0,530.0,289.0,12.8,,,1
+FERRARI,812,petrol,thermique,1740.0,6496.0,607.0,385.0,16.9,,,1
+FERRARI,812 COMPETIZIONE,petrol,thermique,1740.0,6496.0,607.0,385.0,16.9,,,4
+FERRARI,812 COMPETIZIONE A,petrol,thermique,1810.0,6496.0,607.0,370.0,16.3,,,1
+FERRARI,FERRARI 12CILINDRI,petrol,thermique,1835.0,6496.0,607.0,353.0,15.5,,,38
+FERRARI,FERRARI 12CILINDRI SPIDER,petrol,thermique,1895.0,6496.0,607.0,360.0,15.9,,,12
+FERRARI,FERRARI DAYTONA SP3,petrol,thermique,1705.0,6496.0,614.0,368.0,16.2,,,5
+FERRARI,FERRARI PORTOFINO M,petrol,thermique,1750.0,3855.0,456.0,256.0,11.3,,,1
+FERRARI,FERRARI PUROSANGUE,petrol,thermique,2245.0,6496.0,529.0,393.0,17.3,,,57
+FERRARI,FERRARI ROMA,petrol,thermique,1655.0,3855.0,456.0,255.0,11.2,,,1
+FERRARI,FERRARI ROMA SPIDER,petrol,thermique,1780.0,3855.0,456.0,258.0,11.4,,,36
+FERRARI,SF90 SPIDER,petrol/electric,hybride_rechargeable,1925.0,3990.0,574.0,156.0,6.9,236.0,20.0,11
+FERRARI,SF90 STRADALE,petrol/electric,hybride_rechargeable,1820.0,3990.0,574.0,160.0,6.0,120.0,19.0,1
+FERRARI,SF90 XX SPIDER,petrol/electric,hybride_rechargeable,1915.0,3990.0,586.0,167.0,7.3,237.0,19.0,13
+FERRARI,SF90 XX STRADALE,petrol/electric,hybride_rechargeable,1835.0,3990.0,586.0,167.0,7.3,237.0,19.0,20
+FIAT,500,electric,electrique,1365.0,,87.0,0.0,,136.0,301.0,4457
+FIAT,500,petrol,hybride,1043.0,999.0,51.0,105.0,5.2,,,1
+FIAT,500 HYBRID,petrol,hybride,1130.0,999.0,48.0,119.0,5.2,,,236
+FIAT,500X,petrol,hybride,1480.0,1469.0,96.0,129.0,5.7,,,6
+FIAT,500X,petrol,thermique,1365.0,999.0,88.0,145.0,6.4,,,2
+FIAT,600,electric,electrique,1595.0,,115.0,0.0,,153.0,405.0,1707
+FIAT,600,petrol,hybride,1355.0,1199.0,74.0,109.0,4.8,,,6146
+FIAT,ABARTH 500,petrol,thermique,1140.0,1368.0,132.0,162.0,7.2,,,7
+FIAT,FIAT 500,petrol,hybride,1043.0,999.0,51.0,109.0,4.8,,,15
+FIAT,FIAT TIPO,diesel,thermique,1375.0,1598.0,96.0,121.0,4.6,,,1012
+FIAT,PANDA,electric,electrique,1515.0,,83.0,0.0,,168.0,320.0,2428
+FIAT,PANDA,petrol,hybride,1315.0,1199.0,74.0,116.0,5.1,,,4776
+FIAT,SCUDO,diesel,thermique,1977.0,1997.0,130.0,194.0,7.4,,,74
+FIAT,SCUDO,electric,electrique,2126.0,,100.0,0.0,,245.5,282.5,2
+FIAT,TIPO,diesel,thermique,1375.0,1598.0,96.0,121.0,4.9,,,2
+FIAT,ULYSSE,diesel,thermique,1986.0,1997.0,130.0,194.0,7.4,,,18
+FIAT,ULYSSE,electric,electrique,2011.0,,100.0,0.0,,246.0,225.0,2
+FORD,CAPRI,electric,electrique,2129.0,,210.0,0.0,,141.0,598.0,943
+FORD,ECOSPORT,petrol,thermique,1359.0,998.0,92.0,143.0,6.3,,,2
+FORD,EXPLORER,electric,electrique,2090.0,,210.0,0.0,,145.0,599.0,2488
+FORD,EXPLORER,petrol/electric,hybride_rechargeable,2541.0,2956.0,267.0,71.0,3.1,219.0,42.0,1
+FORD,FIESTA,e85,thermique,1189.0,999.0,69.0,119.0,5.3,,,26
+FORD,FIESTA,petrol,hybride,1246.0,999.0,91.0,114.0,5.1,,,15
+FORD,FOCUS,diesel,thermique,1441.0,1499.0,84.0,130.0,5.0,,,606
+FORD,FOCUS,e85,hybride,1399.0,999.0,91.0,119.0,5.3,,,86
+FORD,FOCUS,petrol,hybride,1444.0,999.0,114.0,121.0,5.4,,,1794
+FORD,FOCUS,petrol,thermique,1536.0,2261.0,206.0,183.0,8.2,,,1
+FORD,GT,petrol,thermique,1598.0,3496.0,463.0,315.0,13.7,,,1
+FORD,KUGA,diesel,thermique,1599.0,1499.0,88.0,138.0,5.3,,,1
+FORD,KUGA,e85,hybride,1689.0,2488.0,111.0,123.0,5.4,,,11433
+FORD,KUGA,petrol,hybride,1765.0,2488.0,111.0,133.0,5.8,,,228
+FORD,KUGA,petrol,thermique,1526.0,1496.0,111.0,145.0,7.2,,,1
+FORD,KUGA,petrol/electric,hybride_rechargeable,1859.0,2488.0,111.0,21.0,0.9,163.0,68.0,784
+FORD,MUSTANG,petrol,thermique,1891.0,5038.0,334.0,282.0,12.4,,,28
+FORD,MUSTANG MACH-E,electric,electrique,2161.0,,221.0,0.0,,177.0,600.0,368
+FORD,PUMA,e85,hybride,1315.0,999.0,91.0,121.0,5.4,,,170
+FORD,PUMA,electric,electrique,1566.0,,123.0,0.0,,131.0,376.0,2483
+FORD,PUMA,petrol,hybride,1326.0,999.0,91.0,124.0,5.5,,,14766
+FORD,PUMA,petrol,thermique,1363.0,1496.0,147.0,152.0,6.7,,,3
+FORD,TOURNEO CONNECT,diesel,thermique,1694.0,1968.0,75.0,145.0,5.5,,,459
+FORD,TOURNEO CONNECT,petrol,thermique,1583.0,1498.0,85.0,152.0,6.7,,,94
+FORD,TOURNEO CONNECT,petrol/electric,hybride_rechargeable,1833.0,1498.0,85.0,11.0,0.5,188.0,117.0,183
+FORD,TOURNEO COURIER,electric,electrique,1724.0,,100.0,0.0,,176.0,283.0,40
+FORD,TOURNEO COURIER,petrol,thermique,1448.0,999.0,91.0,153.0,6.7,,,348
+FORD,TOURNEO CUSTOM,diesel,thermique,2322.0,1996.0,125.0,214.0,8.2,,,172
+FORD,TOURNEO CUSTOM,electric,electrique,2560.0,,160.0,0.0,,250.0,299.0,11
+FORD,TOURNEO CUSTOM,petrol/electric,hybride_rechargeable,2457.0,2488.0,86.0,48.0,2.1,200.0,49.0,429
+FORD,TRANSIT,diesel,thermique,2402.0,1996.0,95.0,233.0,8.9,,,3
+FORD,TRANSIT CUSTOM,diesel,thermique,2212.0,1996.0,100.0,195.0,7.4,,,1186
+FORD,TRANSIT CUSTOM,electric,electrique,2430.0,,100.0,0.0,,226.0,322.0,21
+FORD,TRANSIT CUSTOM,petrol/electric,hybride_rechargeable,2367.0,2488.0,86.0,94.0,4.1,129.0,51.0,246
+GEELY,GEOMETRY C,electric,electrique,1760.0,,150.0,0.0,,165.0,485.0,23
+GENESIS,GV60,electric,electrique,2117.5,,200.5,0.0,,175.5,536.5,2
+GENESIS,GV70,electric,electrique,2335.0,,360.0,0.0,,200.0,462.0,1
+HONDA,CIVIC,petrol,hybride,1533.0,1993.0,105.0,113.0,5.0,,,1127
+HONDA,CIVIC TYPE R,petrol,thermique,1480.0,1996.0,242.0,186.0,8.2,,,3
+HONDA,CR-V,petrol,hybride,1821.0,1993.0,109.0,134.0,5.9,,,195
+HONDA,CR-V,petrol/electric,hybride_rechargeable,1988.0,1993.0,109.0,18.0,0.8,156.0,81.0,253
+HONDA,E:NY1,electric,electrique,1730.0,,150.0,0.0,,182.0,412.0,163
+HONDA,HONDA E,electric,electrique,1595.0,,113.0,0.0,,178.0,210.0,3
+HONDA,HR-V,petrol,hybride,1452.0,1498.0,79.0,122.0,5.4,,,1464
+HONDA,JAZZ,petrol,hybride,1314.0,1498.0,79.0,106.0,4.7,,,1324
+HONDA,ZR-V,petrol,hybride,1675.0,1993.0,105.0,131.0,5.8,,,1104
+HYUNDAI,BAYON,petrol,hybride,1220.0,998.0,73.0,120.0,5.3,,,36
+HYUNDAI,BAYON,petrol,thermique,1195.0,998.0,73.0,124.0,5.5,,,4118
+HYUNDAI,I 10,petrol,thermique,999.0,998.0,46.0,119.0,5.2,,,3326
+HYUNDAI,I 20,petrol,hybride,1165.0,998.0,73.0,117.0,5.2,,,82
+HYUNDAI,I 20,petrol,thermique,1140.0,998.0,73.0,121.0,5.3,,,6542
+HYUNDAI,I 20 N,petrol,thermique,1265.0,1598.0,150.0,158.0,7.0,,,2
+HYUNDAI,I 30,petrol,hybride,1414.0,998.0,88.0,126.0,5.6,,,53
+HYUNDAI,I 30,petrol,thermique,1321.0,998.0,73.0,136.0,6.0,,,246
+HYUNDAI,INSTER,electric,electrique,1386.0,,71.0,0.0,,148.0,323.0,3629
+HYUNDAI,IONIQ5,electric,electrique,2060.0,,168.0,0.0,,160.0,570.0,658
+HYUNDAI,IONIQ5 N,electric,electrique,2275.0,,478.0,0.0,,212.0,448.0,59
+HYUNDAI,IONIQ6,electric,electrique,1985.0,,168.0,0.0,,143.0,614.0,176
+HYUNDAI,IONIQ9,electric,electrique,2685.0,,314.0,0.0,,206.0,600.0,182
+HYUNDAI,KONA,electric,electrique,1773.0,,160.0,0.0,,148.0,511.0,4721
+HYUNDAI,KONA,petrol,hybride,1485.0,1580.0,68.0,106.0,4.7,,,7960
+HYUNDAI,KONA,petrol,thermique,1370.0,998.0,73.0,131.0,5.8,,,892
+HYUNDAI,SANTA FE,petrol,hybride,1975.0,1598.0,117.0,159.0,7.0,,,174
+HYUNDAI,SANTA FE,petrol/electric,hybride_rechargeable,2165.0,1598.0,117.0,38.0,1.7,192.0,54.0,427
+HYUNDAI,STARIA,petrol,hybride,2275.0,1598.0,117.0,172.0,7.6,,,634
+HYUNDAI,TUCSON,diesel,hybride,1606.0,1598.0,100.0,134.0,5.1,,,15
+HYUNDAI,TUCSON,petrol,hybride,1650.0,1598.0,117.0,133.0,5.9,,,14290
+HYUNDAI,TUCSON,petrol,thermique,1520.0,1598.0,117.0,154.0,6.8,,,3
+HYUNDAI,TUCSON,petrol/electric,hybride_rechargeable,1825.0,1598.0,117.0,25.0,1.1,178.0,68.0,2080
+JAECOO,JAECOO7,petrol/electric,hybride_rechargeable,1870.0,1499.0,105.0,54.0,2.4,215.0,90.0,2
+JAECOO,JAECOO7 PHEV,petrol/electric,hybride_rechargeable,1870.0,1499.0,105.0,38.5,1.5499999999999998,201.0,90.0,2
+JAGUAR,JAGUAR I-PACE,electric,electrique,2244.0,,294.0,0.0,,230.0,450.0,37
+JEEP,AVENGER,electric,electrique,1595.0,,115.0,0.0,,157.0,394.0,2475
+JEEP,AVENGER,petrol,hybride,1355.0,1199.0,74.0,112.0,5.0,,,3798
+JEEP,AVENGER,petrol,thermique,1255.0,1199.0,74.0,130.0,5.8,,,1126
+JEEP,COMPASS,electric,electrique,2185.0,,157.0,0.0,,186.0,467.0,2
+JEEP,COMPASS,petrol,hybride,1575.0,1469.0,96.0,126.0,5.6,,,1367
+JEEP,COMPASS,petrol,thermique,1505.0,1332.0,96.0,139.0,7.2,,,1
+JEEP,COMPASS,petrol/electric,hybride_rechargeable,1935.0,1332.0,132.0,49.0,2.0,177.0,36.0,227
+JEEP,GRAND CHEROKEE,petrol/electric,hybride_rechargeable,2578.0,1995.0,200.0,64.0,2.8,252.0,46.0,12
+JEEP,RENEGADE,petrol,hybride,1495.0,1469.0,96.0,127.0,5.6,,,1028
+JEEP,RENEGADE,petrol,thermique,1395.0,999.0,88.0,141.0,6.3,,,1
+JEEP,RENEGADE,petrol/electric,hybride_rechargeable,1845.0,1332.0,132.0,48.0,2.1,177.0,36.0,185
+JEEP,WRANGLER UNLIMITED,petrol/electric,hybride_rechargeable,2403.0,1995.0,200.0,79.0,3.5,254.0,40.0,82
+KIA,CEED,diesel,hybride,1445.0,1598.0,100.0,116.0,4.4,,,9
+KIA,CEED,petrol,hybride,1390.0,998.0,73.0,130.0,5.7,,,115
+KIA,CEED,petrol,thermique,1360.0,1482.0,103.0,134.0,5.9,,,1262
+KIA,CEED,petrol/electric,hybride_rechargeable,1608.0,1580.0,77.0,29.0,1.3,116.0,50.0,16
+KIA,EV3,electric,electrique,1885.0,,150.0,0.0,,150.0,589.0,3986
+KIA,EV4,electric,electrique,1910.0,,150.0,0.0,,155.0,584.0,652
+KIA,EV5,electric,electrique,2094.0,,160.0,0.0,,171.0,520.0,3
+KIA,EV6,electric,electrique,1985.0,,168.0,0.0,,165.0,528.0,827
+KIA,EV6 GT,electric,electrique,2220.0,,478.0,0.0,,209.0,450.0,3
+KIA,EV9,electric,electrique,2648.0,,282.0,0.0,,228.0,505.0,155
+KIA,NIRO,electric,electrique,1757.0,,150.0,0.0,,162.0,460.0,540
+KIA,NIRO,petrol,hybride,1474.0,1580.0,68.0,100.0,4.4,,,5989
+KIA,NIRO,petrol/electric,hybride_rechargeable,1594.0,1580.0,68.0,18.0,0.8,129.0,65.0,354
+KIA,PICANTO,petrol,thermique,990.0,1197.0,57.0,123.0,5.4,,,7159
+KIA,PROCEED,petrol,thermique,1425.0,1482.0,103.0,134.0,5.9,,,235
+KIA,PV5,electric,electrique,2145.0,,120.0,0.0,,193.0,412.0,154
+KIA,RIO,petrol,thermique,1120.0,1197.0,61.0,124.0,5.5,,,1
+KIA,SORENTO,petrol,hybride,1896.0,1598.0,117.0,152.0,6.7,,,12
+KIA,SORENTO,petrol/electric,hybride_rechargeable,2105.0,1598.0,117.0,37.0,1.6,182.0,55.0,270
+KIA,SOUL,electric,electrique,1757.0,,150.0,0.0,,157.0,452.0,15
+KIA,SPORTAGE,diesel,hybride,1602.0,1598.0,100.0,137.0,5.2,,,186
+KIA,SPORTAGE,diesel,thermique,1570.0,1598.0,100.0,150.0,5.7,,,28
+KIA,SPORTAGE,petrol,hybride,1649.0,1598.0,117.0,129.0,5.7,,,9221
+KIA,SPORTAGE,petrol,thermique,1558.0,1598.0,110.0,160.5,7.1,,,32
+KIA,SPORTAGE,petrol/electric,hybride_rechargeable,1905.0,1598.0,117.0,27.0,1.2,186.0,65.0,719
+KIA,STONIC,petrol,hybride,1270.0,998.0,84.0,123.5,5.5,,,488
+KIA,STONIC,petrol,thermique,1195.0,998.0,73.0,127.0,5.6,,,4555
+KIA,XCEED,diesel,hybride,1445.0,1598.0,100.0,130.0,5.0,,,49
+KIA,XCEED,petrol,hybride,1405.0,1482.0,103.0,139.0,6.1,,,16
+KIA,XCEED,petrol,thermique,1400.0,1482.0,103.0,142.0,6.3,,,312
+KIA,XCEED,petrol/electric,hybride_rechargeable,1594.0,1580.0,77.0,32.0,1.4,123.0,48.0,50
+KTM,X-BOW GT-XR,petrol,thermique,1250.0,2480.0,368.0,214.0,9.1,,,1
+LAMBORGHINI,HURACAN,petrol,thermique,1542.5,5204.0,470.0,331.0,14.2,,,4
+LAMBORGHINI,REVUELTO,petrol/electric,hybride_rechargeable,1967.0,6498.0,607.0,276.0,11.9,101.0,13.0,16
+LAMBORGHINI,URUS,petrol,thermique,2225.0,3996.0,490.0,320.0,14.1,,,15
+LAMBORGHINI,URUS,petrol/electric,hybride_rechargeable,2580.0,3996.0,456.0,51.0,2.1,331.0,66.0,110
+LANCIA,YPSILON,electric,electrique,1561.0,,115.0,0.0,,146.0,397.0,148
+LANCIA,YPSILON,petrol,hybride,1282.0,1199.0,74.0,103.0,4.6,,,702
+LAND ROVER,DEFENDER,diesel,hybride,2410.0,2997.0,221.0,226.0,8.6,,,95
+LAND ROVER,DEFENDER,petrol,hybride,2671.0,4395.0,467.0,300.0,13.3,,,47
+LAND ROVER,DEFENDER,petrol,thermique,2546.0,4999.0,377.0,320.0,14.2,,,22
+LAND ROVER,DEFENDER,petrol/electric,hybride_rechargeable,2693.0,1997.0,165.0,66.0,3.0,259.0,47.0,73
+LAND ROVER,DISCOVERY,diesel,hybride,2529.0,2997.0,258.0,220.0,8.4,,,1
+LAND ROVER,DISCOVERY SPORT,diesel,hybride,2026.0,1998.0,150.0,177.0,6.8,,,1
+LAND ROVER,DISCOVERY SPORT,e85,hybride,2039.0,1997.0,147.0,218.0,9.5,,,8
+LAND ROVER,DISCOVERY SPORT,petrol/electric,hybride_rechargeable,2229.0,1498.0,118.0,36.0,1.6,201.0,59.0,47
+LAND ROVER,RANGE ROVER,diesel,hybride,2585.0,2997.0,258.0,201.0,7.65,,,2
+LAND ROVER,RANGE ROVER,petrol,hybride,2797.5,4395.0,390.0,267.5,11.8,,,4
+LAND ROVER,RANGE ROVER,petrol/electric,hybride_rechargeable,2810.0,2996.0,294.0,19.0,0.8,296.5,113.0,32
+LAND ROVER,RANGE ROVER EVOQUE,diesel,hybride,1992.0,1998.0,150.0,172.0,6.5,,,5
+LAND ROVER,RANGE ROVER EVOQUE,e85,hybride,1917.0,1997.0,147.0,207.0,9.1,,,8
+LAND ROVER,RANGE ROVER EVOQUE,petrol/electric,hybride_rechargeable,2192.0,1498.0,118.0,34.0,1.5,196.0,60.0,232
+LAND ROVER,RANGE ROVER SPORT,diesel,hybride,2435.0,2997.0,258.0,198.0,7.6,,,1
+LAND ROVER,RANGE ROVER SPORT,petrol,hybride,2560.0,4395.0,467.0,274.0,12.1,,,9
+LAND ROVER,RANGE ROVER SPORT,petrol,thermique,2505.0,4395.0,390.0,263.0,11.6,,,1
+LAND ROVER,RANGE ROVER SPORT,petrol/electric,hybride_rechargeable,2735.0,2996.0,294.0,18.0,0.8,288.0,116.0,191
+LAND ROVER,RANGE ROVER VELAR,petrol/electric,hybride_rechargeable,2308.0,1997.0,221.0,43.0,1.9,257.0,62.0,39
+LEAPMOTOR,B10,electric,electrique,1920.0,,160.0,0.0,,173.0,435.0,269
+LEAPMOTOR,C10,electric,electrique,2055.0,,160.0,0.0,,198.0,424.0,308
+LEAPMOTOR,C10,petrol/electric,hybride_rechargeable,2025.0,1499.0,65.0,10.0,0.4,205.0,124.0,515
+LEAPMOTOR,T03,electric,electrique,1250.0,,70.0,0.0,,163.0,265.0,2561
+LEXUS,ES300H,petrol,hybride,1755.0,2487.0,131.0,120.0,5.5,,,1
+LEXUS,LEXUS ES300H,petrol,hybride,1755.0,2487.0,131.0,115.0,5.1,,,482
+LEXUS,LEXUS LBX,petrol,hybride,1355.0,1490.0,67.0,103.0,4.6,,,3249
+LEXUS,LEXUS LM350H,petrol,hybride,2420.0,2487.0,140.0,163.0,7.2,,,5
+LEXUS,LEXUS NX350H,petrol,hybride,1805.0,2487.0,140.0,129.0,5.7,,,555
+LEXUS,LEXUS NX450H+,petrol/electric,hybride_rechargeable,2065.0,2487.0,136.0,26.0,1.1,183.0,68.0,1107
+LEXUS,LEXUS RX450H+,petrol/electric,hybride_rechargeable,2185.0,2487.0,136.0,25.0,1.1,181.0,67.0,252
+LEXUS,LEXUS RX500H,petrol,hybride,2180.0,2393.0,200.0,184.0,8.1,,,1
+LEXUS,LEXUS RZ300E,electric,electrique,2050.0,,150.0,0.0,,151.0,474.0,24
+LEXUS,LEXUS RZ450E,electric,electrique,2150.0,,230.0,0.0,,171.0,435.0,34
+LEXUS,LEXUS UX250H,petrol,hybride,1615.0,1987.0,112.0,122.0,5.4,,,34
+LEXUS,LEXUS UX300E,electric,electrique,1850.0,,150.0,0.0,,168.0,444.0,3
+LEXUS,LEXUS UX300H,petrol,hybride,1570.0,1987.0,112.0,114.0,5.1,,,538
+LEXUS,NX350H,petrol,hybride,1835.0,2487.0,140.0,134.5,6.15,,,2
+LEXUS,RX350H,petrol,hybride,2040.0,2487.0,140.0,144.0,6.6,,,1
+LEXUS,RX500H,petrol,hybride,2175.0,2393.0,200.0,184.0,8.3,,,1
+LEXUS,UX300H,petrol,hybride,1570.0,1987.0,112.0,115.5,5.15,,,2
+LINK&CO,LYNK  CO 08,petrol/electric,hybride_rechargeable,2187.0,1499.0,102.0,23.0,0.9,185.0,200.0,48
+LOTUS,ELETRE,electric,electrique,2615.0,,450.0,0.0,,240.0,532.5,66
+LOTUS,EMEYA,electric,electrique,2555.0,,450.0,0.0,,214.0,500.0,14
+LOTUS,EMIRA,petrol,thermique,1530.0,1991.0,268.0,208.0,9.2,,,3
+LYNK&CO,LYNK  CO 01,petrol/electric,hybride_rechargeable,1954.0,1477.0,132.0,24.0,1.0,185.0,75.0,639
+LYNK&CO,LYNK  CO 02,electric,electrique,1895.0,,200.0,0.0,,171.0,445.0,40
+MASERATI,GHIBLI TROFEO,petrol,thermique,2035.0,3798.0,427.0,286.0,12.7,,,2
+MASERATI,GRANCABRIO FOLGORE,electric,electrique,2415.0,,572.0,0.0,,236.0,422.0,8
+MASERATI,GRANTURISMO,petrol,thermique,1870.0,2992.0,404.0,228.0,10.1,,,1
+MASERATI,GRANTURISMO FOLGORE,electric,electrique,2335.0,,572.0,0.0,,219.0,458.0,8
+MASERATI,GRANTURISMO MODENA,petrol,thermique,1870.0,2992.0,361.0,230.0,10.2,,,4
+MASERATI,GRANTURISMO TROFEO,petrol,thermique,1870.0,2992.0,404.0,230.0,10.2,,,3
+MASERATI,GRECALE FOLGORE,electric,electrique,2555.0,,410.0,0.0,,252.0,478.0,63
+MASERATI,GRECALE GT,petrol,hybride,1961.0,1995.0,221.0,203.5,8.95,,,2
+MASERATI,GRECALE TROFEO,petrol,thermique,2107.0,2992.0,390.0,254.0,11.2,,,2
+MASERATI,LEVANTE HYBRID,petrol,hybride,2165.0,1995.0,243.0,237.0,10.5,,,1
+MASERATI,LEVANTE TROFEO,petrol,thermique,2245.0,3798.0,427.0,328.0,14.5,,,3
+MASERATI,MC20,petrol,thermique,1550.0,2992.0,463.0,261.0,11.5,,,4
+MASERATI,MC20 CIELO,petrol,thermique,1635.0,2992.0,463.0,265.0,11.7,,,7
+MASERATI,QUATTROPORTE MODENA Q4,petrol,thermique,2055.0,2979.0,316.0,262.0,11.6,,,1
+MAZDA,MAZDA 3,petrol,hybride,1461.0,1998.0,137.0,135.0,6.0,,,9
+MAZDA,MAZDA 6E,electric,electrique,2037.0,,190.0,0.0,,166.0,479.0,392
+MAZDA,MAZDA CX-30,petrol,hybride,1485.0,2488.0,103.0,139.0,6.2,,,2853
+MAZDA,MAZDA CX-5,diesel,thermique,1739.0,2191.0,110.0,160.0,6.1,,,2
+MAZDA,MAZDA CX-5,petrol,hybride,1629.0,1998.0,121.0,156.0,6.9,,,4
+MAZDA,MAZDA CX-60,diesel,hybride,2019.0,3283.0,187.0,142.0,5.5,,,208
+MAZDA,MAZDA CX-60,petrol/electric,hybride_rechargeable,2083.0,2488.0,141.0,33.0,1.4,230.0,63.0,194
+MAZDA,MAZDA CX-80,diesel,hybride,2195.0,3283.0,187.0,151.0,5.8,,,67
+MAZDA,MAZDA CX-80,petrol/electric,hybride_rechargeable,2310.0,2488.0,141.0,36.0,1.6,239.0,60.0,57
+MAZDA,MAZDA MX-30,electric,electrique,1720.0,,107.0,0.0,,179.0,200.0,7
+MAZDA,MAZDA MX-30,petrol/electric,hybride_rechargeable,1853.0,1660.0,55.0,21.0,1.0,175.0,85.0,84
+MAZDA,MAZDA MX-5,petrol,thermique,1078.0,1496.0,97.0,140.0,6.2,,,798
+MAZDA,MAZDA2,petrol,hybride,1112.0,1496.0,66.0,107.0,4.7,,,2
+MAZDA,MAZDA2 HYBRID,petrol,hybride,1180.0,1490.0,68.0,87.0,3.8,,,1498
+MAZDA,MAZDA3,petrol,hybride,1461.0,2488.0,103.0,135.0,6.0,,,2537
+MAZDA,MX-5,petrol,thermique,1078.0,1496.0,97.0,140.0,6.2,,,4
+MCLAREN,ARTURA COUPE,petrol/electric,hybride_rechargeable,1573.0,2993.0,445.0,108.0,4.8,207.0,33.0,9
+MCLAREN,ARTURA SPIDER,petrol/electric,hybride_rechargeable,1636.0,2993.0,445.0,108.0,4.8,207.0,33.0,11
+MCLAREN,MCLAREN 750S COUPE,petrol,thermique,1464.0,3994.0,552.0,276.0,12.2,,,2
+MCLAREN,MCLAREN 750S SPIDER,petrol,thermique,1513.0,3994.0,552.0,276.0,12.2,,,3
+MERCEDES-AMG,AMG GT 43,petrol,hybride,1790.0,1991.0,310.0,235.0,10.3,,,1
+MERCEDES-AMG,AMG GT 63 4MATIC+,petrol,thermique,1970.0,3982.0,430.0,319.0,14.1,,,22
+MERCEDES-AMG,AMG GT 63 PRO 4MATIC+,petrol,thermique,1950.0,3982.0,450.0,319.0,14.0,,,8
+MERCEDES-AMG,AMG GT 63 S E PERFORMANCE,petrol/electric,hybride_rechargeable,2195.0,3982.0,450.0,188.0,8.2,126.0,13.0,18
+MERCEDES-AMG,AMG PURESPEED,petrol,thermique,1960.0,3982.0,430.0,312.0,13.7,,,1
+MERCEDES-AMG,AMG SL 43,petrol,hybride,1810.0,1991.0,310.0,216.0,9.5,,,1
+MERCEDES-AMG,AMG SL 63 4MATIC+,petrol,thermique,1970.0,3982.0,430.0,298.5,13.2,,,16
+MERCEDES-AMG,AMG SL 63 S E PERFORMANCE,petrol/electric,hybride_rechargeable,2195.0,3982.0,450.0,175.0,7.7,115.0,13.0,16
+MERCEDES-AMG,CLASSE G,petrol,thermique,2866.0,3982.0,430.0,456.0,20.1,,,5
+MERCEDES-AMG,MAYBACH SL 680,petrol,thermique,2050.0,3982.0,430.0,309.0,13.6,,,2
+MERCEDES-BENZ,A 180,petrol,hybride,1440.0,1332.0,100.0,134.0,5.9,,,2047
+MERCEDES-BENZ,A 180 D,diesel,thermique,1530.0,1950.0,85.0,135.0,5.2,,,1228
+MERCEDES-BENZ,A 200,petrol,hybride,1440.0,1332.0,120.0,136.0,6.0,,,921
+MERCEDES-BENZ,A 200 D,diesel,thermique,1530.0,1950.0,110.0,133.0,5.1,,,3117
+MERCEDES-BENZ,A 250 E,petrol/electric,hybride_rechargeable,1705.0,1332.0,120.0,18.0,0.8,182.0,84.0,1650
+MERCEDES-BENZ,AMG A 35 4MATIC,petrol,hybride,1645.0,1991.0,225.0,194.0,8.5,,,1
+MERCEDES-BENZ,AMG C 43 4MATIC,petrol,hybride,1885.0,1991.0,310.0,213.5,9.35,,,2
+MERCEDES-BENZ,AMG C 43 4MATIC+,petrol,hybride,1840.0,1991.0,300.0,203.0,9.0,,,1
+MERCEDES-BENZ,AMG C 63 S E PERFORMANCE,petrol/electric,hybride_rechargeable,2165.0,1991.0,350.0,156.0,6.9,117.0,13.0,22
+MERCEDES-BENZ,AMG CLA 35 4MATIC,petrol,hybride,1705.0,1991.0,225.0,196.0,8.6,,,1
+MERCEDES-BENZ,AMG CLA 45 S 4MATIC+,petrol,thermique,1720.0,1991.0,310.0,203.0,9.0,,,1
+MERCEDES-BENZ,AMG CLE 53 4MATIC,petrol,hybride,2000.0,2999.0,330.0,216.5,9.55,,,8
+MERCEDES-BENZ,AMG E 53 HYBRID,petrol/electric,hybride_rechargeable,2435.0,2998.0,330.0,23.0,1.0,253.5,94.0,52
+MERCEDES-BENZ,AMG E 63 S,petrol,thermique,2010.0,3982.0,450.0,276.0,12.1,,,4
+MERCEDES-BENZ,AMG EQE 43 4MATIC,electric,electrique,2600.0,,700.0,0.0,,234.5,463.5,6
+MERCEDES-BENZ,AMG EQE 53 4MATIC+,electric,electrique,2690.0,,920.0,0.0,,235.0,446.0,15
+MERCEDES-BENZ,AMG EQS 53 4MATIC+,electric,electrique,2715.0,,484.0,0.0,,235.0,544.0,3
+MERCEDES-BENZ,AMG G 63,petrol,hybride,2640.0,3982.0,430.0,338.0,14.8,,,36
+MERCEDES-BENZ,AMG G 63,petrol,thermique,2595.0,3982.0,430.0,369.0,16.2,,,6
+MERCEDES-BENZ,AMG GLA 45 S 4MATIC+,petrol,thermique,1770.0,1991.0,310.0,224.0,9.9,,,1
+MERCEDES-BENZ,AMG GLB 35 4MATIC,petrol,hybride,1820.0,1991.0,225.0,207.0,9.1,,,1
+MERCEDES-BENZ,AMG GLC 43 4MATIC,petrol,hybride,1995.0,1991.0,310.0,236.0,10.4,,,9
+MERCEDES-BENZ,AMG GLC 63S E PERFORMANCE,petrol/electric,hybride_rechargeable,2310.0,1991.0,350.0,170.0,7.5,127.0,12.0,31
+MERCEDES-BENZ,AMG GLE 53 4MATIC+,petrol,hybride,2375.0,2998.0,320.0,243.0,10.7,,,1
+MERCEDES-BENZ,AMG GLE 53 4MATIC+ COUPE,petrol,hybride,2375.0,2998.0,320.0,235.0,10.3,,,1
+MERCEDES-BENZ,AMG GLE 53 HYBRID,petrol/electric,hybride_rechargeable,2800.0,2998.0,330.0,32.0,1.4,295.0,86.0,254
+MERCEDES-BENZ,AMG GLE 53 HYBRID COUPE,petrol/electric,hybride_rechargeable,2780.0,2998.0,330.0,28.0,1.2,302.0,89.0,208
+MERCEDES-BENZ,AMG GLE 63 S 4MATIC+,petrol,hybride,2495.0,3982.0,450.0,290.0,12.8,,,1
+MERCEDES-BENZ,AMG GLE 63 S 4MATIC+COUPE,petrol,hybride,2505.0,3982.0,450.0,284.0,12.5,,,4
+MERCEDES-BENZ,AMG S 63 E PERFORMANCE,petrol/electric,hybride_rechargeable,2595.0,3982.0,450.0,100.0,4.4,332.0,33.0,7
+MERCEDES-BENZ,B 180,petrol,hybride,1490.0,1332.0,100.0,136.0,6.0,,,232
+MERCEDES-BENZ,B 180 D,diesel,thermique,1580.0,1950.0,85.0,137.0,5.2,,,178
+MERCEDES-BENZ,B 200,petrol,hybride,1490.0,1332.0,120.0,139.0,6.1,,,66
+MERCEDES-BENZ,B 200 D,diesel,thermique,1580.0,1950.0,110.0,137.0,5.2,,,541
+MERCEDES-BENZ,B 250 E,petrol/electric,hybride_rechargeable,1745.0,1332.0,120.0,21.0,0.9,179.0,74.0,267
+MERCEDES-BENZ,C 200,petrol,hybride,1695.0,1496.0,150.0,144.0,6.3,,,26
+MERCEDES-BENZ,C 200 4MATIC ALL-TERRAIN,petrol,hybride,1845.0,1496.0,150.0,160.0,7.0,,,1
+MERCEDES-BENZ,C 200 D,diesel,hybride,1790.0,1993.0,120.0,121.0,4.6,,,237
+MERCEDES-BENZ,C 220 D,diesel,hybride,1795.0,1993.0,145.0,121.0,4.6,,,923
+MERCEDES-BENZ,C 220 D 4MATIC,diesel,hybride,1845.0,1993.0,145.0,134.0,5.1,,,53
+MERCEDES-BENZ,C 220D 4MATIC ALL-TERRAIN,diesel,hybride,1940.0,1993.0,145.0,131.0,5.0,,,20
+MERCEDES-BENZ,C 300 DE,diesel/electric,hybride_rechargeable,2160.0,1993.0,145.0,12.0,0.4,184.0,112.0,217
+MERCEDES-BENZ,C 300 DE 4MATIC,diesel/electric,hybride_rechargeable,2195.0,1993.0,145.0,14.0,0.5,204.0,103.0,30
+MERCEDES-BENZ,C 300 E,petrol/electric,hybride_rechargeable,2085.0,1999.0,150.0,13.0,0.6,195.0,113.0,395
+MERCEDES-BENZ,C 400 E 4MATIC,petrol/electric,hybride_rechargeable,2130.0,1999.0,185.0,15.0,0.7,192.0,107.0,13
+MERCEDES-BENZ,CITAN,diesel,thermique,1678.0,1461.0,85.0,148.0,5.7,,,13
+MERCEDES-BENZ,CLA 180,petrol,hybride,1505.0,1332.0,100.0,135.0,6.0,,,97
+MERCEDES-BENZ,CLA 180 D,diesel,thermique,1595.0,1950.0,85.0,136.5,5.2,,,36
+MERCEDES-BENZ,CLA 200,petrol,hybride,1505.0,1332.0,120.0,140.0,6.2,,,143
+MERCEDES-BENZ,CLA 200 D,diesel,thermique,1595.0,1950.0,110.0,136.0,5.2,,,741
+MERCEDES-BENZ,CLA 220 D,diesel,thermique,1610.0,1950.0,140.0,139.0,5.3,,,71
+MERCEDES-BENZ,CLA 250 E,petrol/electric,hybride_rechargeable,1750.0,1332.0,120.0,21.0,0.9,181.0,77.0,823
+MERCEDES-BENZ,CLA 250+,electric,electrique,2055.0,,200.0,0.0,,128.0,760.5,1178
+MERCEDES-BENZ,CLA 350 4MATIC,electric,electrique,2135.0,,260.0,0.0,,139.5,708.5,62
+MERCEDES-BENZ,CLASSE A,diesel,thermique,1530.0,1950.0,110.0,136.0,5.8,,,8
+MERCEDES-BENZ,CLASSE A,petrol,hybride,1440.0,1332.0,100.0,137.0,6.3,,,14
+MERCEDES-BENZ,CLASSE A,petrol/electric,hybride_rechargeable,1700.0,1332.0,120.0,18.5,0.95,195.0,81.0,4
+MERCEDES-BENZ,CLASSE B,diesel,thermique,1580.0,1950.0,85.0,139.0,5.9,,,1
+MERCEDES-BENZ,CLASSE B,petrol,hybride,1490.0,1332.0,110.0,142.5,6.55,,,2
+MERCEDES-BENZ,CLASSE B,petrol/electric,hybride_rechargeable,1755.0,1332.0,120.0,18.0,0.8,203.0,82.0,1
+MERCEDES-BENZ,CLASSE C,diesel,hybride,1795.0,1993.0,120.0,126.0,5.0,,,9
+MERCEDES-BENZ,CLASSE C,petrol,hybride,1695.0,1496.0,150.0,148.0,6.7,,,1
+MERCEDES-BENZ,CLASSE C,petrol/electric,hybride_rechargeable,2105.0,1999.0,150.0,13.0,0.7,196.0,114.0,3
+MERCEDES-BENZ,CLASSE CLA,diesel,thermique,1620.0,1950.0,110.0,137.0,5.8,,,7
+MERCEDES-BENZ,CLASSE CLA,petrol,hybride,1505.0,1332.0,100.0,139.0,6.3,,,7
+MERCEDES-BENZ,CLASSE CLA,petrol/electric,hybride_rechargeable,1752.5,1332.0,120.0,21.5,1.1,197.0,74.0,2
+MERCEDES-BENZ,CLASSE CLE,diesel,hybride,1870.0,1993.0,145.0,126.0,5.2,,,3
+MERCEDES-BENZ,CLASSE CLE,petrol,hybride,1925.0,1999.0,150.0,155.0,7.1,,,3
+MERCEDES-BENZ,CLASSE E,diesel,hybride,1900.0,1993.0,145.0,129.5,5.25,,,6
+MERCEDES-BENZ,CLASSE E,diesel/electric,hybride_rechargeable,2245.0,1993.0,145.0,12.0,0.5,206.0,108.0,1
+MERCEDES-BENZ,CLASSE E,petrol/electric,hybride_rechargeable,2190.0,1999.0,150.0,13.0,0.7,202.0,111.0,3
+MERCEDES-BENZ,CLASSE EQA,electric,electrique,2050.0,,140.0,0.0,,148.0,547.5,4
+MERCEDES-BENZ,CLASSE EQB,electric,electrique,2105.0,,140.0,0.0,,161.0,506.0,5
+MERCEDES-BENZ,CLASSE EQE,electric,electrique,2585.0,,365.0,0.0,,207.0,531.5,6
+MERCEDES-BENZ,CLASSE EQS,electric,electrique,2545.0,,265.0,0.0,,180.0,770.0,1
+MERCEDES-BENZ,CLASSE EQV,electric,electrique,2797.0,,150.0,0.0,,279.0,353.0,3
+MERCEDES-BENZ,CLASSE G,electric,electrique,3085.0,,432.0,0.0,,316.0,415.0,1
+MERCEDES-BENZ,CLASSE G,petrol,thermique,2595.0,3982.0,430.0,369.0,16.2,,,1
+MERCEDES-BENZ,CLASSE GLA,diesel,thermique,1660.0,1950.0,110.0,144.0,6.2,,,8
+MERCEDES-BENZ,CLASSE GLA,petrol,hybride,1570.0,1332.0,100.0,152.0,7.0,,,13
+MERCEDES-BENZ,CLASSE GLA,petrol/electric,hybride_rechargeable,1810.0,1332.0,120.0,26.0,1.3,237.0,68.5,4
+MERCEDES-BENZ,CLASSE GLB,diesel,thermique,1730.0,1950.0,110.0,149.0,6.2,,,1
+MERCEDES-BENZ,CLASSE GLC,diesel,hybride,1985.0,1993.0,145.0,141.0,5.6,,,29
+MERCEDES-BENZ,CLASSE GLC,diesel/electric,hybride_rechargeable,2395.0,1993.0,145.0,12.0,0.5,247.0,120.0,3
+MERCEDES-BENZ,CLASSE GLC,petrol,hybride,1930.0,1999.0,150.0,166.5,7.6,,,4
+MERCEDES-BENZ,CLASSE GLC,petrol/electric,hybride_rechargeable,2315.0,1999.0,185.0,13.0,0.6,221.0,120.0,3
+MERCEDES-BENZ,CLASSE GLE,diesel/electric,hybride_rechargeable,2710.0,1993.0,145.0,22.0,0.9,312.0,95.0,1
+MERCEDES-BENZ,CLASSE GLE,petrol/electric,hybride_rechargeable,2780.0,2999.0,330.0,29.0,1.3,322.0,86.0,1
+MERCEDES-BENZ,CLASSE GLS,diesel,hybride,2615.0,2989.0,270.0,234.0,9.2,,,1
+MERCEDES-BENZ,CLASSE GLS,petrol,hybride,2535.0,2999.0,280.0,230.0,10.9,,,1
+MERCEDES-BENZ,CLASSE V,diesel,thermique,2364.0,1950.0,140.0,203.0,9.1,,,19
+MERCEDES-BENZ,CLE 200,petrol,hybride,1925.0,1999.0,150.0,154.0,6.8,,,213
+MERCEDES-BENZ,CLE 220D,diesel,hybride,1870.0,1993.0,145.0,126.0,4.8,,,353
+MERCEDES-BENZ,CLE 300 4MATIC,petrol,hybride,1985.0,1999.0,190.0,166.0,7.35,,,70
+MERCEDES-BENZ,CLE 300 E,petrol/electric,hybride_rechargeable,2175.0,1999.0,150.0,13.0,0.6,194.0,111.0,152
+MERCEDES-BENZ,CLE 450 4MATIC,petrol,hybride,1945.0,2998.0,280.0,176.0,7.7,,,13
+MERCEDES-BENZ,E 200,petrol,hybride,1810.0,1999.0,150.0,149.0,6.6,,,18
+MERCEDES-BENZ,E 200 D,diesel,hybride,1900.0,1993.0,120.0,124.5,4.7,,,10
+MERCEDES-BENZ,E 220 D,diesel,hybride,1900.0,1993.0,145.0,127.0,4.8,,,570
+MERCEDES-BENZ,E 220 D,diesel,thermique,1800.0,1950.0,143.0,149.0,5.7,,,2
+MERCEDES-BENZ,E 220 D 4MATIC,diesel,hybride,1955.0,1993.0,145.0,134.0,5.1,,,21
+MERCEDES-BENZ,E 220 D 4MATIC ALLTERRAIN,diesel,hybride,2045.0,1993.0,145.0,143.0,5.4,,,15
+MERCEDES-BENZ,E 300 DE,diesel/electric,hybride_rechargeable,2245.0,1993.0,145.0,12.0,0.4,197.0,109.0,56
+MERCEDES-BENZ,E 300 DE 4MATIC,diesel/electric,hybride_rechargeable,2290.0,1993.0,145.0,14.0,0.5,212.0,103.0,17
+MERCEDES-BENZ,E 300 E,petrol/electric,hybride_rechargeable,2190.0,1999.0,150.0,13.0,0.6,195.0,112.0,128
+MERCEDES-BENZ,E 300 E 4MATIC,petrol/electric,hybride_rechargeable,2245.0,1999.0,150.0,16.0,0.7,213.0,101.0,3
+MERCEDES-BENZ,E 300DE 4MATIC ALLTERRAIN,diesel/electric,hybride_rechargeable,2380.0,1993.0,145.0,16.0,0.6,220.0,97.0,11
+MERCEDES-BENZ,E 400 E 4MATIC,petrol/electric,hybride_rechargeable,2245.0,1999.0,185.0,17.0,0.7,214.0,101.0,9
+MERCEDES-BENZ,E 450 D 4MATIC,diesel,hybride,2050.0,2989.0,270.0,159.5,6.1,,,38
+MERCEDES-BENZ,E 450 D 4MATIC ALLTERRAIN,diesel,hybride,2140.0,2989.0,270.0,169.0,6.4,,,5
+MERCEDES-BENZ,EQA 250+,electric,electrique,2050.0,,140.0,0.0,,147.0,551.0,3652
+MERCEDES-BENZ,EQA 300 4MATIC,electric,electrique,2115.0,,168.0,0.0,,173.0,465.0,78
+MERCEDES-BENZ,EQA 350 4MATIC,electric,electrique,2115.0,,215.0,0.0,,183.0,438.5,10
+MERCEDES-BENZ,EQB 250,electric,electrique,2110.0,,140.0,0.0,,176.0,440.0,2
+MERCEDES-BENZ,EQB 250+,electric,electrique,2105.0,,140.0,0.0,,159.0,512.0,2720
+MERCEDES-BENZ,EQB 300 4MATIC,electric,electrique,2170.0,,168.0,0.0,,180.0,449.0,56
+MERCEDES-BENZ,EQB 350 4MATIC,electric,electrique,2165.0,,430.0,0.0,,178.0,431.0,14
+MERCEDES-BENZ,EQC 400 4MATIC,electric,electrique,2495.0,,600.0,0.0,,231.5,404.5,4
+MERCEDES-BENZ,EQE 300,electric,electrique,2405.0,,180.0,0.0,,165.0,629.0,151
+MERCEDES-BENZ,EQE 350,electric,electrique,2405.0,,215.0,0.0,,172.0,601.0,118
+MERCEDES-BENZ,EQE 350 4MATIC,electric,electrique,2580.0,,430.0,0.0,,195.0,529.0,132
+MERCEDES-BENZ,EQE 350+,electric,electrique,2490.0,,215.0,0.0,,185.0,605.0,86
+MERCEDES-BENZ,EQE 500 4MATIC,electric,electrique,2610.0,,300.0,0.0,,198.0,567.0,26
+MERCEDES-BENZ,EQS 450+,electric,electrique,2545.0,,265.0,0.0,,177.0,768.0,15
+MERCEDES-BENZ,EQS 580 4MATIC,electric,electrique,2635.0,,800.0,0.0,,186.0,673.0,19
+MERCEDES-BENZ,EQT,electric,electrique,1874.0,,90.0,0.0,,200.0,271.0,20
+MERCEDES-BENZ,EQV,electric,electrique,2660.0,,150.0,0.0,,289.0,344.0,90
+MERCEDES-BENZ,EVITO TOURER,electric,electrique,2596.0,,150.0,0.0,,282.0,351.0,40
+MERCEDES-BENZ,G 500,petrol,hybride,2485.0,2998.5,330.0,258.5,11.35,,,4
+MERCEDES-BENZ,G 500,petrol,thermique,2481.0,3982.0,310.0,339.0,14.9,,,4
+MERCEDES-BENZ,G 580,electric,electrique,3085.0,,432.0,0.0,,316.0,415.0,101
+MERCEDES-BENZ,GLA 180,petrol,hybride,1570.0,1332.0,100.0,150.0,6.6,,,575
+MERCEDES-BENZ,GLA 180 D,diesel,thermique,1660.0,1950.0,85.0,143.0,5.5,,,533
+MERCEDES-BENZ,GLA 200,petrol,hybride,1570.0,1332.0,120.0,151.0,6.7,,,969
+MERCEDES-BENZ,GLA 200 D,diesel,thermique,1660.0,1950.0,110.0,145.0,5.5,,,5137
+MERCEDES-BENZ,GLA 200 D 4MATIC,diesel,thermique,1715.0,1950.0,110.0,151.0,5.8,,,118
+MERCEDES-BENZ,GLA 220 D 4MATIC,diesel,thermique,1725.0,1950.0,140.0,153.0,5.8,,,181
+MERCEDES-BENZ,GLA 250 E,petrol/electric,hybride_rechargeable,1810.0,1332.0,120.0,24.0,1.1,198.0,72.0,3792
+MERCEDES-BENZ,GLB 200,petrol,hybride,1640.0,1332.0,120.0,162.0,7.1,,,93
+MERCEDES-BENZ,GLB 200,petrol,thermique,1570.0,1332.0,120.0,162.0,7.1,,,1
+MERCEDES-BENZ,GLB 200 D,diesel,thermique,1730.0,1950.0,110.0,151.0,5.8,,,1359
+MERCEDES-BENZ,GLB 220 D 4MATIC,diesel,thermique,1790.0,1950.0,140.0,159.0,6.1,,,52
+MERCEDES-BENZ,GLC 200 4MATIC,petrol,hybride,1930.0,1999.0,150.0,166.0,7.3,,,16
+MERCEDES-BENZ,GLC 200 D 4MATIC,diesel,hybride,1985.0,1993.0,120.0,139.0,5.3,,,366
+MERCEDES-BENZ,GLC 220 D 4MATIC,diesel,hybride,1985.0,1993.0,145.0,140.0,5.3,,,2278
+MERCEDES-BENZ,GLC 300 DE 4MATIC,diesel/electric,hybride_rechargeable,2395.0,1993.0,145.0,13.0,0.5,237.0,116.0,1240
+MERCEDES-BENZ,GLC 300 E 4MATIC,petrol/electric,hybride_rechargeable,2325.0,1999.0,150.0,13.0,0.6,234.0,122.0,1493
+MERCEDES-BENZ,GLC 400 E 4MATIC,petrol/electric,hybride_rechargeable,2325.0,1999.0,185.0,13.0,0.6,235.0,122.0,324
+MERCEDES-BENZ,GLC 450 D 4MATIC,diesel,hybride,2085.0,2989.0,270.0,171.0,6.5,,,81
+MERCEDES-BENZ,GLE 300 D 4MATIC,diesel,hybride,2335.0,1993.0,198.0,184.0,7.0,,,2
+MERCEDES-BENZ,GLE 350 DE 4MATIC,diesel/electric,hybride_rechargeable,2710.0,1993.0,145.0,18.0,0.7,264.0,105.0,131
+MERCEDES-BENZ,GLE 350 DE 4MATIC COUPE,diesel/electric,hybride_rechargeable,2770.0,1993.0,145.0,20.0,0.8,275.0,100.0,117
+MERCEDES-BENZ,GLE 400 E 4MATIC,petrol/electric,hybride_rechargeable,2665.0,1999.0,185.0,21.0,0.9,261.5,106.0,24
+MERCEDES-BENZ,GLE 400 E 4MATIC COUPE,petrol/electric,hybride_rechargeable,2710.0,1999.0,185.0,22.0,1.0,277.0,101.0,25
+MERCEDES-BENZ,GLS 450 D 4MATIC,diesel,hybride,2615.0,2989.0,270.0,227.0,8.7,,,7
+MERCEDES-BENZ,MAYBACH GLS 600,petrol,hybride,2825.0,3982.0,410.0,313.0,13.85,,,2
+MERCEDES-BENZ,S 350 D,diesel,hybride,2110.0,2989.0,230.0,173.0,6.6,,,72
+MERCEDES-BENZ,S 400 D 4MATIC,diesel,thermique,2060.0,2925.0,243.0,181.5,6.95,,,2
+MERCEDES-BENZ,S 450 D 4MATIC,diesel,hybride,2125.0,2989.0,270.0,167.0,6.4,,,3
+MERCEDES-BENZ,S 450 E,petrol/electric,hybride_rechargeable,2430.0,2998.0,220.0,16.0,0.7,232.5,111.0,12
+MERCEDES-BENZ,S 580 E,petrol/electric,hybride_rechargeable,2415.0,2999.0,270.0,15.0,0.7,217.0,110.0,5
+MERCEDES-BENZ,S 580 E 4MATIC,petrol/electric,hybride_rechargeable,2470.0,2998.0,270.0,18.0,0.8,238.0,101.0,71
+MERCEDES-BENZ,S 580 E MAYBACH,petrol/electric,hybride_rechargeable,2650.0,2999.0,270.0,21.0,0.9,244.0,97.0,4
+MERCEDES-BENZ,S 680 MAYBACH,petrol,thermique,2365.0,5980.0,450.0,314.0,13.8,,,2
+MERCEDES-BENZ,SPRINTER,diesel,thermique,2356.0,1950.0,110.0,283.0,10.8,,,7
+MERCEDES-BENZ,T-CLASS,diesel,thermique,1678.0,1461.0,85.0,141.0,5.4,,,21
+MERCEDES-BENZ,T-CLASS,petrol,thermique,1666.5,1332.0,96.0,160.0,7.05,,,18
+MERCEDES-BENZ,V-KLASSE,diesel,thermique,2364.0,1950.0,140.0,200.0,7.6,,,1097
+MERCEDES-BENZ,V-KLASSE,petrol,hybride,2374.0,1999.0,170.0,235.0,10.3,,,17
+MERCEDES-BENZ,VITO TOURER,diesel,thermique,2035.0,1950.0,120.0,192.0,7.3,,,623
+MG,CYBERSTER,electric,electrique,2060.0,,400.0,0.0,,187.0,451.0,1
+MG,MG CYBERSTER,electric,electrique,2060.0,,400.0,0.0,,191.0,443.0,275
+MG,MG EHS PLUG-IN HYBRID,petrol/electric,hybride_rechargeable,1850.0,1490.0,119.0,43.0,1.8,173.0,54.0,10
+MG,MG HS,petrol/electric,hybride_rechargeable,1930.0,1496.0,105.0,14.0,0.5,218.0,127.0,3740
+MG,MG HS HYBRID+,petrol,hybride,1765.0,1496.0,105.0,126.0,5.5,,,2183
+MG,MG MARVEL R ELECTRIC,electric,electrique,1885.0,,132.0,0.0,,194.0,402.0,20
+MG,MG S5 EV,electric,electrique,1800.0,,170.0,0.0,,160.0,465.0,1084
+MG,MG ZS,petrol,hybride,1495.0,1498.0,75.0,115.0,5.1,,,13524
+MG,MG ZS,petrol,thermique,1330.0,999.0,82.0,149.0,6.6,,,9
+MG,MG ZS EV,electric,electrique,1695.0,,115.0,0.0,,178.0,440.0,52
+MG,MG3 HYBRID+,petrol,hybride,1383.0,1498.0,75.0,100.0,4.4,,,11700
+MG,MG4 ELECTRIC,electric,electrique,1750.0,,150.0,0.0,,164.0,450.0,2615
+MG,MG5 ELECTRIC,electric,electrique,1632.0,,122.5,0.0,,179.0,350.0,6
+MINI,ACEMAN E,electric,electrique,1720.0,,135.0,0.0,,144.0,304.0,1990
+MINI,ACEMAN SE,electric,electrique,1785.0,,160.0,0.0,,144.0,394.0,1840
+MINI,CLUBMAN JCW ALL4,petrol,thermique,1630.0,1998.0,225.0,179.0,7.9,,,1
+MINI,COOPER,petrol,thermique,1277.5,1499.0,100.0,127.0,5.6,,,2
+MINI,COOPER C,petrol,thermique,1395.0,1499.0,115.0,138.0,6.1,,,8663
+MINI,COOPER E,electric,electrique,1615.0,,135.0,0.0,,142.0,295.0,1665
+MINI,COOPER S,petrol,thermique,1430.0,1998.0,150.0,145.0,6.4,,,2109
+MINI,COOPER SE,electric,electrique,1680.0,,160.0,0.0,,146.0,389.0,1814
+MINI,COUNTRYMAN C,petrol,hybride,1620.0,1499.0,115.0,137.0,6.1,,,2810
+MINI,COUNTRYMAN COOPER SE ALL4,petrol/electric,hybride_rechargeable,1790.0,1499.0,92.0,42.0,1.9,155.0,51.0,1
+MINI,COUNTRYMAN D,diesel,hybride,1695.0,1995.0,110.0,125.0,4.8,,,238
+MINI,COUNTRYMAN E,electric,electrique,1940.0,,150.0,0.0,,166.0,444.0,3577
+MINI,COUNTRYMAN S ALL4,petrol,hybride,1715.0,1998.0,150.0,153.0,6.8,,,499
+MINI,COUNTRYMAN SE ALL4,electric,electrique,2075.0,,225.0,0.0,,180.0,410.0,467
+MINI,JCW,petrol,thermique,1405.0,1998.0,170.0,149.0,6.6,,,512
+MINI,JCW ACEMAN E,electric,electrique,1825.0,,190.0,0.0,,161.0,351.0,119
+MINI,JCW COUNTRYMAN ALL4,petrol,thermique,1735.0,1998.0,221.0,183.0,8.05,,,4
+MINI,JCW E,electric,electrique,1730.0,,190.0,0.0,,154.0,366.0,198
+MINI,JOHN COOPER WORKS,petrol,thermique,1320.0,1998.0,170.0,157.0,6.9,,,1
+MITSUBISHI,ASX,petrol,hybride,1341.0,1332.0,103.0,130.0,5.7,,,208
+MITSUBISHI,ASX,petrol,thermique,1294.0,999.0,67.0,134.0,5.9,,,65
+MITSUBISHI,ASX,petrol/electric,hybride_rechargeable,1631.0,1598.0,68.0,30.0,1.3,133.0,48.0,26
+MITSUBISHI,COLT,lpg,thermique,1226.0,999.0,74.0,108.0,7.0,,,11
+MITSUBISHI,COLT,petrol,hybride,1360.0,1598.0,69.0,96.0,4.3,,,229
+MITSUBISHI,COLT,petrol,thermique,1195.0,999.0,67.0,118.0,5.2,,,658
+MITSUBISHI,ECLIPSE CROSS,electric,electrique,1901.0,,160.0,0.0,,165.0,632.0,41
+MITSUBISHI,GRANDIS,petrol,hybride,1465.0,1789.0,80.0,100.0,4.4,,,20
+MITSUBISHI,MITSUBISHI ECLIPSE CROSS,petrol/electric,hybride_rechargeable,1975.0,2360.0,72.0,46.0,2.0,175.0,45.0,46
+MITSUBISHI,MITSUBISHI OUTLANDER,petrol/electric,hybride_rechargeable,2195.0,2360.0,100.0,19.0,0.8,235.0,83.0,600
+MITSUBISHI,MITSUBISHI SPACE STAR,petrol,thermique,950.0,1193.0,52.0,116.0,5.1,,,689
+MITSUBISHI,OUTLANDER,petrol/electric,hybride_rechargeable,2195.0,2360.0,100.0,18.0,0.8,234.0,82.0,1
+MOKE,MOKE,electric,electrique,831.0,,28.0,0.0,,132.0,88.0,26
+MORGAN,PLUS FOUR,petrol,thermique,1115.0,1998.0,190.0,142.0,6.2,,,14
+MORGAN,PLUS SIX,petrol,thermique,1220.0,2997.0,250.0,175.0,7.7,,,4
+MORGAN,PLUS SIX SUPERSPORT,petrol,thermique,1220.0,2997.0,250.0,175.0,7.7,,,6
+NISSAN,JUKE,petrol,hybride,1405.0,1598.0,69.0,111.0,5.0,,,10
+NISSAN,JUKE,petrol,thermique,1298.0,999.0,84.0,136.5,6.35,,,4
+NISSAN,NISSAN ARIYA,electric,electrique,2121.0,,178.0,0.0,,181.0,519.0,706
+NISSAN,NISSAN JUKE,petrol,hybride,1405.0,1598.0,69.0,108.0,4.7,,,7437
+NISSAN,NISSAN JUKE,petrol,thermique,1274.0,999.0,84.0,131.0,5.8,,,3235
+NISSAN,NISSAN LEAF 40KWH,electric,electrique,1580.0,,110.0,0.0,,168.0,277.5,222
+NISSAN,NISSAN LEAF 62KWH,electric,electrique,1756.0,,160.0,0.0,,178.0,394.5,2
+NISSAN,NISSAN MICRA,electric,electrique,1527.0,,110.0,0.0,,149.0,413.0,391
+NISSAN,NISSAN QASHQAI,petrol,hybride,1665.0,1497.0,116.0,118.0,5.2,,,13667
+NISSAN,NISSAN X-TRAIL,petrol,hybride,1782.0,1497.0,116.0,133.0,5.9,,,3121
+NISSAN,PRIMASTAR,diesel,thermique,2088.0,1997.0,110.0,186.0,7.1,,,440
+NISSAN,QASHQAI,petrol,hybride,1465.0,1332.0,116.0,144.0,6.6,,,61
+NISSAN,TOWNSTAR,electric,electrique,1872.0,,90.0,0.0,,199.0,274.0,23
+NISSAN,TOWNSTAR,petrol,thermique,1550.0,1332.0,96.0,155.0,6.8,,,42
+NISSAN,X-TRAIL,petrol,hybride,1753.5,1497.0,118.0,146.5,6.65,,,2
+OPEL,ASTRA,diesel,thermique,1438.0,1499.0,96.0,128.0,4.9,,,133
+OPEL,ASTRA,electric,electrique,1736.0,,115.0,0.0,,149.0,414.0,100
+OPEL,ASTRA,petrol,hybride,1454.0,1199.0,100.0,109.0,4.8,,,550
+OPEL,ASTRA,petrol,thermique,1371.0,1199.0,96.0,127.0,5.6,,,176
+OPEL,ASTRA,petrol/electric,hybride_rechargeable,1678.0,1598.0,110.0,28.0,1.2,160.0,67.0,83
+OPEL,ASTRA SPORTS TOURER,diesel,thermique,1483.0,1499.0,96.0,130.0,5.0,,,234
+OPEL,ASTRA SPORTS TOURER,electric,electrique,1760.0,,115.0,0.0,,150.0,412.0,120
+OPEL,ASTRA SPORTS TOURER,petrol,hybride,1502.0,1199.0,100.0,111.0,4.9,,,465
+OPEL,ASTRA SPORTS TOURER,petrol,thermique,1421.0,1199.0,96.0,130.0,5.8,,,105
+OPEL,ASTRA SPORTS TOURER,petrol/electric,hybride_rechargeable,1717.0,1598.0,110.0,29.0,1.3,162.0,57.0,78
+OPEL,COMBO LIFE,diesel,thermique,1546.0,1499.0,96.0,145.0,5.5,,,80
+OPEL,COMBO LIFE,petrol,thermique,1476.0,1199.0,81.0,143.0,6.3,,,8
+OPEL,COMBO-E LIFE,electric,electrique,1811.0,,100.0,0.0,,186.0,335.0,35
+OPEL,CORSA,diesel,thermique,1220.0,1499.0,75.0,112.0,4.3,,,266
+OPEL,CORSA,electric,electrique,1544.0,,100.0,0.0,,158.0,355.0,1673
+OPEL,CORSA,petrol,hybride,1267.0,1199.0,74.0,103.0,4.6,,,4149
+OPEL,CORSA,petrol,thermique,1175.0,1199.0,74.0,120.0,5.3,,,9899
+OPEL,CROSSLAND,diesel,thermique,1312.0,1499.0,81.0,127.0,4.9,,,2
+OPEL,CROSSLAND,petrol,thermique,1301.0,1199.0,88.5,138.0,6.1,,,24
+OPEL,E-COMBO LIFE,electric,electrique,1811.0,,100.0,0.0,,182.0,340.5,8
+OPEL,FRONTERA,electric,electrique,1589.0,,83.0,0.0,,183.0,304.0,1660
+OPEL,FRONTERA,petrol,hybride,1394.0,1199.0,100.0,119.0,5.3,,,3437
+OPEL,GRANDLAND,diesel,thermique,1523.0,1499.0,96.0,142.0,5.4,,,6
+OPEL,GRANDLAND,electric,electrique,2207.0,,157.0,0.0,,173.0,513.0,290
+OPEL,GRANDLAND,petrol,hybride,1675.0,1199.0,100.0,123.0,5.5,,,3047
+OPEL,GRANDLAND,petrol,thermique,1461.0,1199.0,96.0,144.0,6.4,,,70
+OPEL,GRANDLAND,petrol/electric,hybride_rechargeable,1945.0,1598.0,110.0,28.0,1.2,163.0,81.0,121
+OPEL,MOKKA,diesel,thermique,1295.0,1499.0,81.0,118.0,4.5,,,2
+OPEL,MOKKA,electric,electrique,1615.0,,115.0,0.0,,154.0,403.0,1627
+OPEL,MOKKA,petrol,hybride,1362.0,1199.0,100.0,109.0,4.8,,,3633
+OPEL,MOKKA,petrol,thermique,1294.0,1199.0,100.0,128.0,5.7,,,1679
+OPEL,VIVARO,diesel,thermique,1977.0,1997.0,130.0,192.0,7.3,,,196
+OPEL,VIVARO,electric,electrique,2167.0,,100.0,0.0,,243.0,317.0,21
+OPEL,ZAFIRA LIFE,diesel,thermique,1953.0,1997.0,130.0,193.0,7.3,,,23
+OPEL,ZAFIRA LIFE,electric,electrique,2240.0,,100.0,0.0,,245.0,340.0,11
+PEUGEOT,2008,diesel,thermique,1345.0,1499.0,96.0,135.0,5.1,,,41
+PEUGEOT,2008,electric,electrique,1623.0,,115.0,0.0,,155.0,400.0,8400
+PEUGEOT,2008,petrol,hybride,1372.0,1199.0,100.0,111.0,4.9,,,34546
+PEUGEOT,2008,petrol,thermique,1263.0,1199.0,74.0,128.0,5.7,,,14207
+PEUGEOT,208,diesel,thermique,1165.0,1499.0,75.0,108.5,4.15,,,34
+PEUGEOT,208,electric,electrique,1530.0,,100.0,0.0,,154.0,362.0,17929
+PEUGEOT,208,petrol,hybride,1295.0,1199.0,74.0,102.0,4.5,,,36872
+PEUGEOT,208,petrol,thermique,1165.0,1199.0,74.0,117.0,5.2,,,32094
+PEUGEOT,3008,diesel,thermique,1504.0,1499.0,96.0,142.0,5.4,,,9
+PEUGEOT,3008,electric,electrique,2183.0,,157.0,0.0,,169.0,524.0,6285
+PEUGEOT,3008,petrol,hybride,1648.0,1199.0,100.0,123.0,5.4,,,30766
+PEUGEOT,3008,petrol,thermique,1395.0,1199.0,96.0,144.0,6.4,,,21
+PEUGEOT,3008,petrol/electric,hybride_rechargeable,1953.0,1598.0,110.0,20.0,0.9,206.0,84.0,2645
+PEUGEOT,308,diesel,thermique,1436.0,1499.0,96.0,130.0,5.0,,,6754
+PEUGEOT,308,electric,electrique,1759.0,,115.0,0.0,,152.0,410.0,2002
+PEUGEOT,308,petrol,hybride,1450.0,1199.0,100.0,110.0,4.9,,,19248
+PEUGEOT,308,petrol,thermique,1363.0,1199.0,96.0,128.0,5.7,,,293
+PEUGEOT,308,petrol/electric,hybride_rechargeable,1708.0,1598.0,110.0,29.0,1.3,161.0,57.0,2509
+PEUGEOT,408,electric,electrique,1879.0,,157.0,0.0,,150.0,450.0,292
+PEUGEOT,408,petrol,hybride,1544.0,1199.0,100.0,115.0,5.1,,,3821
+PEUGEOT,408,petrol,thermique,1467.0,1199.0,96.0,136.0,6.0,,,35
+PEUGEOT,408,petrol/electric,hybride_rechargeable,1781.0,1598.0,132.0,32.0,1.4,164.0,55.0,526
+PEUGEOT,5008,diesel,thermique,1611.0,1499.0,96.0,146.0,5.6,,,41
+PEUGEOT,5008,electric,electrique,2293.0,,157.0,0.0,,179.0,498.0,2343
+PEUGEOT,5008,petrol,hybride,1700.0,1199.0,100.0,130.0,5.7,,,14037
+PEUGEOT,5008,petrol,thermique,1505.0,1199.0,96.0,149.0,6.6,,,52
+PEUGEOT,5008,petrol/electric,hybride_rechargeable,2068.0,1598.0,110.0,23.0,1.0,218.0,77.0,959
+PEUGEOT,508,diesel,thermique,1588.0,1499.0,96.0,135.0,5.2,,,28
+PEUGEOT,508,petrol/electric,hybride_rechargeable,1846.0,1598.0,110.0,35.0,1.6,174.0,51.0,912
+PEUGEOT,E-RIFTER,electric,electrique,1830.0,,100.0,0.0,,186.0,335.0,601
+PEUGEOT,EXPERT,diesel,thermique,1977.0,1997.0,130.0,190.0,7.3,,,689
+PEUGEOT,EXPERT,electric,electrique,2202.0,,100.0,0.0,,243.0,342.0,248
+PEUGEOT,EXPERT TRAVELLER,diesel,thermique,1953.0,1997.0,130.0,192.0,8.0,,,66
+PEUGEOT,RIFTER,diesel,thermique,1582.0,1499.0,96.0,150.0,5.7,,,648
+PEUGEOT,RIFTER,petrol,thermique,1498.0,1199.0,81.0,145.0,6.4,,,8
+PEUGEOT,TRAVELLER,diesel,thermique,1977.0,1997.0,130.0,192.0,7.3,,,253
+PEUGEOT,TRAVELLER,electric,electrique,2240.0,,100.0,0.0,,245.0,341.0,113
+POLESTAR,POLESTAR 2,electric,electrique,2084.0,,220.0,0.0,,152.0,640.0,55
+POLESTAR,POLESTAR 3,electric,electrique,2660.0,,360.0,0.0,,196.0,634.0,33
+POLESTAR,POLESTAR 4,electric,electrique,2305.0,,200.0,0.0,,181.0,620.0,122
+PORSCHE,718 CAYMAN GT4 RS,petrol,thermique,1490.0,3996.0,368.0,295.0,13.0,,,20
+PORSCHE,718 SPYDER RS,petrol,thermique,1485.0,3996.0,368.0,288.0,12.7,,,52
+PORSCHE,911 CARRERA,petrol,thermique,1635.0,2981.0,290.0,233.0,10.25,,,22
+PORSCHE,911 CARRERA 4 GTS,petrol,hybride,1720.0,3591.0,357.0,239.0,10.6,,,60
+PORSCHE,911 CARRERA GTS,petrol,hybride,1670.0,3591.0,357.0,240.0,10.6,,,40
+PORSCHE,911 CARRERA GTS,petrol,thermique,1620.0,2981.0,353.0,247.0,10.9,,,3
+PORSCHE,911 CARRERA S,petrol,thermique,1615.0,2981.0,353.0,237.0,10.5,,,4
+PORSCHE,911 CARRERA T,petrol,thermique,1610.0,2981.0,290.0,242.0,10.7,,,2
+PORSCHE,911 GT3,petrol,thermique,1552.0,3996.0,375.0,312.0,13.8,,,114
+PORSCHE,911 GT3 RS,petrol,thermique,1525.0,3996.0,386.0,299.0,13.2,,,93
+PORSCHE,911 S T,petrol,thermique,1455.0,3996.0,386.0,313.0,13.8,,,11
+PORSCHE,911 TARGA 4 GTS,petrol,hybride,1820.0,3591.0,357.0,241.0,10.6,,,50
+PORSCHE,911 TARGA 4S,petrol,thermique,1770.0,2981.0,353.0,246.0,10.85,,,4
+PORSCHE,911 TURBO 50,petrol,thermique,1715.0,3745.0,478.0,278.0,12.3,,,36
+PORSCHE,911 TURBO S,petrol,thermique,1750.0,3745.0,478.0,274.0,12.1,,,2
+PORSCHE,CAYENNE E-HYBRID,petrol/electric,hybride_rechargeable,2530.0,2995.0,224.0,36.0,1.6,333.0,74.0,417
+PORSCHE,CAYENNE S E-HYBRID,petrol/electric,hybride_rechargeable,2515.0,2995.0,260.0,35.0,1.6,323.0,76.0,279
+PORSCHE,CAYENNE TURBO E-HYBRID,petrol/electric,hybride_rechargeable,2645.0,3996.0,441.0,41.5,1.8,347.0,71.5,120
+PORSCHE,MACAN,electric,electrique,2295.0,,250.0,0.0,,175.0,624.5,306
+PORSCHE,MACAN 4,electric,electrique,2405.0,,285.0,0.0,,190.0,577.0,826
+PORSCHE,MACAN 4S,electric,electrique,2420.0,,330.0,0.0,,189.0,566.0,676
+PORSCHE,MACAN TURBO,electric,electrique,2480.0,,430.0,0.0,,198.0,553.0,412
+PORSCHE,PANAMERA 4 E-HYBRID,petrol/electric,hybride_rechargeable,2305.0,2894.0,224.0,30.0,1.3,274.0,88.0,121
+PORSCHE,PANAMERA 4S E-HYBRID,petrol/electric,hybride_rechargeable,2330.0,2894.0,260.0,31.0,1.4,280.0,84.0,55
+PORSCHE,PANAMERA TURBO E-HYBRID,petrol/electric,hybride_rechargeable,2435.0,3996.0,382.0,28.0,1.2,278.0,89.0,8
+PORSCHE,PANAMERA TURBO S E-HYBRID,petrol/electric,hybride_rechargeable,2440.0,3996.0,441.0,32.0,1.4,285.0,84.5,24
+PORSCHE,TAYCAN,electric,electrique,2245.0,,320.0,0.0,,179.0,649.5,60
+PORSCHE,TAYCAN 4,electric,electrique,2355.0,,320.0,0.0,,194.0,592.0,44
+PORSCHE,TAYCAN 4S,electric,electrique,2350.0,,440.0,0.0,,191.5,601.0,92
+PORSCHE,TAYCAN GTS,electric,electrique,2385.0,,515.0,0.0,,194.0,589.0,26
+PORSCHE,TAYCAN TURBO,electric,electrique,2365.0,,590.0,0.0,,184.0,619.0,7
+PORSCHE,TAYCAN TURBO GT,electric,electrique,2365.0,,700.0,0.0,,209.0,547.5,6
+PORSCHE,TAYCAN TURBO S,electric,electrique,2395.0,,640.0,0.0,,197.0,581.0,12
+RENAULT,ARKANA,petrol,hybride,1411.0,1332.0,103.0,133.0,5.9,,,311
+RENAULT,ARKANA E-TECH,petrol,hybride,1510.0,1598.0,69.0,107.0,4.7,,,5973
+RENAULT,AUSTRAL,petrol,hybride,1592.0,1199.0,96.0,106.0,4.7,,,19355
+RENAULT,CAPTUR,lpg,thermique,1354.0,999.0,74.0,118.0,7.5,,,5690
+RENAULT,CAPTUR,petrol,hybride,1372.0,1332.0,116.0,133.0,5.9,,,523
+RENAULT,CAPTUR,petrol,thermique,1293.0,999.0,67.0,133.0,5.9,,,4179
+RENAULT,CAPTUR E-TECH HYBRID,petrol,hybride,1445.0,1598.0,69.0,103.0,4.6,,,28412
+RENAULT,CAPTUR E-TECH PLUG-IN HYBRID,petrol/electric,hybride_rechargeable,1614.0,1598.0,68.0,30.0,1.3,133.0,48.0,1
+RENAULT,CLIO,diesel,thermique,1270.0,1461.0,74.0,109.0,4.1,,,19971
+RENAULT,CLIO,lpg,thermique,1234.0,999.0,74.0,108.0,7.0,,,9992
+RENAULT,CLIO,petrol,hybride,1346.0,1789.0,80.0,92.0,4.0,,,1666
+RENAULT,CLIO,petrol,thermique,1178.0,999.0,67.0,118.0,5.2,,,48660
+RENAULT,CLIO E-TECH HYBRID,petrol,hybride,1348.0,1598.0,69.0,96.0,4.3,,,39033
+RENAULT,ESPACE,petrol,hybride,1747.0,1199.0,96.0,109.0,4.8,,,8743
+RENAULT,KANGOO,diesel,thermique,1655.0,1461.0,70.0,139.0,5.3,,,1953
+RENAULT,KANGOO,petrol,thermique,1550.0,1332.0,75.0,155.0,6.8,,,1516
+RENAULT,KANGOO E-TECH ELECTRIC,electric,electrique,1871.0,,90.0,0.0,,195.0,279.0,212
+RENAULT,MEGANE,diesel,thermique,1447.0,1461.0,85.0,121.0,4.6,,,6
+RENAULT,MEGANE,petrol,thermique,1415.0,1332.0,103.0,135.0,6.0,,,14
+RENAULT,MEGANE E-TECH ELECTRIC,electric,electrique,1719.0,,160.0,0.0,,150.0,462.0,9684
+RENAULT,MEGANE E-TECH PLUG-IN HYBRID,petrol/electric,hybride_rechargeable,1673.0,1598.0,67.0,28.0,1.2,132.0,51.0,1
+RENAULT,RAFALE,petrol,hybride,1735.0,1199.0,96.0,107.0,4.7,,,5989
+RENAULT,RAFALE,petrol/electric,hybride_rechargeable,2009.0,1199.0,110.0,15.0,0.6,211.0,96.0,2542
+RENAULT,RENAULT 4 E-TECH ELECTRIC,electric,electrique,1537.0,,110.0,0.0,,155.0,398.0,6924
+RENAULT,RENAULT 5 E-TECH ELECTRIC,electric,electrique,1504.0,,110.0,0.0,,150.0,406.0,40836
+RENAULT,SCENIC E-TECH ELECTRIC,electric,electrique,1917.0,,160.0,0.0,,172.0,610.0,16287
+RENAULT,SYMBIOZ,petrol,hybride,1498.0,1598.0,69.0,104.0,4.6,,,30901
+RENAULT,TRAFIC,diesel,thermique,2088.0,1997.0,110.0,185.0,7.1,,,1128
+RENAULT,TWINGO,electric,electrique,1201.0,,60.0,0.0,,152.0,188.0,93
+RENAULT,TWINGO,petrol,thermique,993.0,999.0,48.0,117.0,5.2,,,11
+RENAULT,TWINGO E-TECH ELECTRIC,electric,electrique,1275.0,,60.0,0.0,,131.0,261.0,18
+RENAULT,ZOE,electric,electrique,1577.0,,80.0,0.0,,166.0,389.0,17
+ROLLS-ROYCE,BLACK BADGE CULLINAN,petrol,thermique,2800.0,6749.0,441.0,367.0,16.2,,,1
+ROLLS-ROYCE,BLACK BADGE GHOST,petrol,thermique,2580.0,6749.0,441.0,355.0,15.7,,,1
+ROLLS-ROYCE,BLACK BADGE SPECTRE,electric,electrique,2975.0,,485.0,0.0,,237.0,495.0,1
+ROLLS-ROYCE,CULLINAN,petrol,thermique,2800.0,6749.0,420.0,371.0,16.4,,,3
+SEAT,ARONA,petrol,thermique,1188.0,999.0,70.0,125.0,5.5,,,3655
+SEAT,ATECA,petrol,thermique,1418.0,1498.0,110.0,147.0,7.1,,,1
+SEAT,IBIZA,petrol,thermique,1144.0,999.0,70.0,117.0,5.1,,,8743
+SEAT,LEON,diesel,thermique,1455.0,1968.0,110.0,127.0,5.4,,,1
+SEAT,LEON,petrol,hybride,1372.5,1498.0,97.5,119.0,5.300000000000001,,,2
+SEAT,LEON E-HYBRID150,petrol/electric,hybride_rechargeable,1670.0,1498.0,110.0,9.0,0.4,158.0,130.0,1
+SEAT,LEON SP,diesel,thermique,1504.0,1968.0,110.0,131.0,5.4,,,1
+SEAT,LEON SP,petrol,hybride,1425.0,1498.0,110.0,125.0,6.2,,,1
+SEAT,LEON SP,petrol,thermique,1394.5,1498.0,97.5,128.5,6.55,,,2
+SEAT,SEAT ATECA,diesel,thermique,1514.0,1968.0,110.0,136.0,5.2,,,598
+SEAT,SEAT ATECA,petrol,thermique,1418.0,1498.0,110.0,145.0,6.4,,,551
+SEAT,SEAT LEON,diesel,thermique,1455.0,1968.0,110.0,123.0,4.7,,,418
+SEAT,SEAT LEON,ng,thermique,1409.0,1498.0,96.0,110.0,,,,7
+SEAT,SEAT LEON,petrol,hybride,1368.0,1498.0,85.0,121.0,5.3,,,1839
+SEAT,SEAT LEON,petrol,thermique,1344.0,1498.0,85.0,127.0,5.6,,,828
+SEAT,SEAT LEON E-HYBRID150,petrol/electric,hybride_rechargeable,1657.0,1498.0,110.0,28.0,1.2,129.0,133.0,110
+SEAT,SEAT LEON SP,diesel,thermique,1504.0,1968.0,110.0,125.0,4.8,,,180
+SEAT,SEAT LEON SP,petrol,hybride,1416.0,1498.0,85.0,122.0,5.4,,,239
+SEAT,SEAT LEON SP,petrol,thermique,1392.0,1498.0,85.0,129.0,5.7,,,95
+SEAT,SEAT LEON SP E-HYBRID150,petrol/electric,hybride_rechargeable,1708.0,1498.0,110.0,9.0,0.4,158.0,131.0,56
+SEAT,TARRACO,diesel,thermique,1720.0,1968.0,110.0,143.0,5.5,,,3
+SEAT,TARRACO,petrol/electric,hybride_rechargeable,1868.0,1395.0,110.0,35.0,1.5,174.0,52.0,2
+SECMA,FUN 1600,petrol,thermique,658.0,1598.0,84.0,135.0,6.0,,,9
+SECMA,FUN 1600 BUGGY,petrol,thermique,668.0,1598.0,84.0,135.0,6.0,,,22
+SECMA,FUN 1600 TURBO GT,petrol,thermique,748.0,1598.0,165.0,132.0,5.8,,,2
+SERES,SERES 5,electric,electrique,2435.0,,430.0,0.0,,173.0,522.0,1
+SKODA,ELROQ 50,electric,electrique,1949.0,,125.0,0.0,,158.0,374.0,655
+SKODA,ELROQ 60,electric,electrique,1978.0,,150.0,0.0,,159.0,426.0,2144
+SKODA,ELROQ 85,electric,electrique,2119.0,,210.0,0.0,,154.0,570.0,5107
+SKODA,ELROQ 85X,electric,electrique,2220.0,,210.0,0.0,,165.0,527.0,13
+SKODA,ELROQ RS,electric,electrique,2230.0,,250.0,0.0,,169.0,530.0,123
+SKODA,ENYAQ 60,electric,electrique,1992.0,,132.0,0.0,,160.0,398.5,12
+SKODA,ENYAQ 80,electric,electrique,2119.0,,150.0,0.0,,158.0,542.0,7
+SKODA,ENYAQ 80X,electric,electrique,2205.0,,195.0,0.0,,173.0,503.0,1
+SKODA,ENYAQ 85,electric,electrique,2141.0,,210.0,0.0,,152.0,576.0,4099
+SKODA,ENYAQ 85X,electric,electrique,2230.0,,210.0,0.0,,161.0,532.0,211
+SKODA,ENYAQ RS,electric,electrique,2240.0,,250.0,0.0,,160.0,542.0,75
+SKODA,FABIA,petrol,thermique,1159.0,999.0,70.0,117.0,5.2,,,12743
+SKODA,KAMIQ,petrol,thermique,1250.0,999.0,85.0,127.0,5.6,,,8520
+SKODA,KAROQ,diesel,thermique,1514.0,1968.0,110.0,135.0,5.1,,,891
+SKODA,KAROQ,petrol,thermique,1417.0,1498.0,110.0,140.0,6.1,,,1797
+SKODA,KODIAQ,diesel,thermique,1790.0,1968.0,110.0,144.0,5.5,,,933
+SKODA,KODIAQ,petrol,hybride,1706.0,1498.0,110.0,140.0,6.1,,,1779
+SKODA,KODIAQ,petrol,thermique,1607.0,1498.0,110.0,157.0,6.9,,,108
+SKODA,KODIAQ,petrol/electric,hybride_rechargeable,1917.0,1498.0,110.0,10.0,0.5,178.0,115.0,1627
+SKODA,OCTAVIA,diesel,thermique,1477.0,1968.0,110.0,121.0,4.6,,,4168
+SKODA,OCTAVIA,petrol,hybride,1403.0,1498.0,110.0,116.0,5.1,,,4636
+SKODA,OCTAVIA,petrol,thermique,1366.0,1498.0,85.0,123.0,5.4,,,265
+SKODA,OCTAVIA RS,petrol,thermique,1534.0,1984.0,195.0,156.5,6.9,,,184
+SKODA,OCTAVIA RS,petrol/electric,hybride_rechargeable,1690.0,1395.0,110.0,28.0,1.2,150.0,61.0,3
+SKODA,SCALA,petrol,thermique,1239.0,999.0,85.0,122.0,5.4,,,1551
+SKODA,SUPERB,diesel,thermique,1682.0,1968.0,110.0,131.0,5.0,,,575
+SKODA,SUPERB,petrol,hybride,1576.0,1498.0,110.0,123.0,5.4,,,386
+SKODA,SUPERB,petrol,thermique,1496.0,1498.0,110.0,147.0,6.5,,,1
+SKODA,SUPERB,petrol/electric,hybride_rechargeable,1854.0,1498.0,110.0,9.0,0.4,164.0,125.0,622
+SKYWORTH,"BE11, SKYWORTH K",electric,electrique,2005.0,,150.0,0.0,,198.0,489.0,640
+SKYWORTH,SKYWORTH K,electric,electrique,2005.0,,150.0,0.0,,199.0,489.0,1
+SMART,#1,electric,electrique,1875.0,,200.0,0.0,,174.0,420.0,300
+SMART,#3,electric,electrique,1885.0,,200.0,0.0,,168.0,435.0,418
+SMART,#5,electric,electrique,2453.0,,475.0,0.0,,199.0,540.0,211
+SSANGYONG,TORRES EVX,electric,electrique,1990.0,,152.0,0.0,,186.0,462.0,1
+SUBARU,SOLTERRA,electric,electrique,2085.0,,160.0,0.0,,160.0,466.0,29
+SUZUKI,E VITARA,electric,electrique,1935.0,,128.0,0.0,,166.0,395.0,25
+SUZUKI,IGNIS,petrol,hybride,935.0,1197.0,61.0,112.0,5.0,,,154
+SUZUKI,S-CROSS,petrol,hybride,1360.0,1373.0,80.0,122.0,5.4,,,2027
+SUZUKI,SUZUKI ACROSS,petrol/electric,hybride_rechargeable,2000.0,2487.0,136.0,22.0,1.0,171.0,75.0,1
+SUZUKI,SUZUKI SWACE,petrol,hybride,1475.0,1798.0,72.0,102.0,4.5,,,405
+SUZUKI,SWIFT,petrol,hybride,994.0,1197.0,60.0,99.0,4.4,,,13454
+SUZUKI,SX4,petrol,hybride,1360.0,1373.0,95.0,131.0,5.9,,,25
+SUZUKI,"SX4, SUZUKI SX4, S-CROSS",petrol,hybride,1280.0,1373.0,95.0,120.0,5.3,,,4
+SUZUKI,VITARA,petrol,hybride,1325.0,1373.0,80.0,127.0,5.4,,,5375
+TESLA,MODEL 3,electric,electrique,1836.0,,235.0,0.0,,132.0,571.0,6128
+TESLA,MODEL S,electric,electrique,2265.0,,932.0,0.0,,180.0,611.0,47
+TESLA,MODEL X,electric,electrique,2464.0,,504.0,0.0,,191.0,576.0,78
+TESLA,MODEL Y,electric,electrique,1976.0,,255.0,0.0,,142.0,600.0,19232
+TOYOTA,AYGO X,petrol,thermique,1040.0,998.0,53.0,111.0,5.2,,,26
+TOYOTA,COROLLA,petrol,hybride,1475.0,1892.5,85.0,114.0,5.3,,,114
+TOYOTA,GR YARIS,petrol,thermique,1355.0,1618.0,206.0,197.0,8.7,,,1
+TOYOTA,LAND CRUISER,diesel,thermique,2415.0,2755.0,151.0,280.0,10.9,,,1
+TOYOTA,MIRAI,hydrogen,thermique,1995.0,,134.0,0.0,,,,1
+TOYOTA,PROACE,diesel,thermique,1955.0,1997.0,106.0,196.0,7.5,,,533
+TOYOTA,PROACE,electric,electrique,2202.0,,100.0,0.0,,247.0,337.0,37
+TOYOTA,PROACE CITY VERSO,diesel,thermique,1595.0,1499.0,96.0,146.0,5.6,,,131
+TOYOTA,PROACE CITY VERSO,petrol,thermique,1441.0,1199.0,81.0,147.0,6.5,,,66
+TOYOTA,PROACE CITY VERSO ELECTRIC,electric,electrique,1811.0,,100.0,0.0,,182.0,341.0,22
+TOYOTA,RAV4,petrol,hybride,1680.0,2487.0,131.0,129.0,5.8,,,19
+TOYOTA,RAV4,petrol/electric,hybride_rechargeable,2005.0,2487.0,136.0,22.0,1.0,171.0,75.0,3
+TOYOTA,TOYOTA AYGO X,petrol,hybride,1165.0,1490.0,68.0,85.0,3.7,,,28
+TOYOTA,TOYOTA AYGO X,petrol,thermique,1025.0,998.0,53.0,109.0,4.8,,,12193
+TOYOTA,TOYOTA BZ4X,electric,electrique,1985.0,,150.0,0.0,,144.0,513.0,1228
+TOYOTA,TOYOTA C-HR,petrol,hybride,1510.0,1798.0,72.0,108.0,4.8,,,10687
+TOYOTA,TOYOTA C-HR,petrol/electric,hybride_rechargeable,1725.0,1987.0,111.0,19.0,0.8,152.0,66.0,4239
+TOYOTA,TOYOTA CAMRY,petrol,hybride,1670.0,2487.0,131.0,120.0,5.3,,,622
+TOYOTA,TOYOTA COROLLA,petrol,hybride,1475.0,1798.0,72.0,104.0,4.6,,,9592
+TOYOTA,TOYOTA GR YARIS,petrol,thermique,1375.0,1618.0,206.0,215.0,9.5,,,32
+TOYOTA,TOYOTA HIGHLANDER,petrol,hybride,2130.0,2487.0,140.0,159.0,7.0,,,3
+TOYOTA,TOYOTA LAND CRUISER,diesel,thermique,2415.0,2755.0,151.0,279.0,10.6,,,121
+TOYOTA,TOYOTA LAND CRUISER (150 SERIES),diesel,thermique,2255.0,2755.0,150.0,250.5,9.55,,,2
+TOYOTA,TOYOTA MIRAI,hydrogen,thermique,1995.0,,134.0,0.0,,,,310
+TOYOTA,TOYOTA PRIUS PHEV,petrol/electric,hybride_rechargeable,1630.0,1987.0,111.0,17.0,0.7,133.0,71.0,410
+TOYOTA,TOYOTA RAV4,petrol,hybride,1680.0,2487.0,131.0,129.0,5.7,,,4914
+TOYOTA,TOYOTA RAV4,petrol/electric,hybride_rechargeable,2005.0,2487.0,136.0,22.0,1.0,171.0,75.0,1782
+TOYOTA,TOYOTA SUPRA,petrol,thermique,1497.0,1998.0,190.0,161.0,7.1,,,4
+TOYOTA,TOYOTA YARIS,petrol,hybride,1165.0,1490.0,68.0,91.0,4.0,,,35693
+TOYOTA,TOYOTA YARIS,petrol,thermique,1125.0,1490.0,92.0,122.0,5.2,,,115
+TOYOTA,TOYOTA YARIS CROSS,petrol,hybride,1275.0,1490.0,68.0,102.0,4.5,,,33854
+TOYOTA,TOYOTA YARIS CROSS,petrol,thermique,1190.0,1490.0,92.0,135.0,6.0,,,11
+TOYOTA,YARIS,petrol,hybride,1165.0,1490.0,68.0,91.0,4.9,,,52
+TOYOTA,YARIS,petrol,thermique,1125.0,1490.0,92.0,122.0,5.2,,,1
+TOYOTA,YARIS CROSS,petrol,hybride,1270.0,1490.0,68.0,102.5,5.0,,,84
+VINFAST,VF 6,electric,electrique,2113.0,,150.0,0.0,,204.0,379.0,21
+VINFAST,VF 8,electric,electrique,2595.0,,300.0,0.0,,219.0,457.0,10
+VOLKSWAGEN,ARTEON,diesel,thermique,1659.0,1968.0,110.0,136.0,5.2,,,3
+VOLKSWAGEN,ARTEON,petrol/electric,hybride_rechargeable,1813.0,1395.0,115.0,31.0,1.4,163.0,55.0,10
+VOLKSWAGEN,CADDY,diesel,thermique,1694.0,1968.0,90.0,148.0,5.6,,,231
+VOLKSWAGEN,CADDY,petrol,thermique,1604.5,1498.0,85.0,154.5,6.8,,,160
+VOLKSWAGEN,CADDY,petrol/electric,hybride_rechargeable,1833.0,1498.0,85.0,11.0,0.5,187.0,119.0,58
+VOLKSWAGEN,CALIFORNIA,diesel,thermique,2205.0,1968.0,110.0,177.0,7.4,,,2
+VOLKSWAGEN,CALIFORNIA,petrol,thermique,2137.0,1984.0,150.0,205.0,9.6,,,1
+VOLKSWAGEN,CALIFORNIA,petrol/electric,hybride_rechargeable,2567.0,1498.0,130.0,22.0,1.1,233.0,86.0,1
+VOLKSWAGEN,CARAVELLE,diesel,thermique,2242.0,1996.0,110.0,211.0,8.1,,,294
+VOLKSWAGEN,CARAVELLE,electric,electrique,2519.0,,210.0,0.0,,246.0,303.0,14
+VOLKSWAGEN,GOLF,diesel,thermique,1441.0,1968.0,110.0,120.0,4.6,,,2436
+VOLKSWAGEN,GOLF,petrol,hybride,1332.0,1498.0,85.0,119.0,5.2,,,5340
+VOLKSWAGEN,GOLF,petrol,thermique,1307.0,1498.0,85.0,125.0,5.5,,,1383
+VOLKSWAGEN,GOLF,petrol/electric,hybride_rechargeable,1649.0,1498.0,110.0,7.0,0.3,148.0,141.0,4624
+VOLKSWAGEN,GOLF GTE,petrol/electric,hybride_rechargeable,1627.0,1395.0,110.0,27.0,1.2,149.0,61.0,9
+VOLKSWAGEN,ID. 7 TOURER PRO S,electric,electrique,2235.0,,210.0,0.0,,143.0,677.0,1
+VOLKSWAGEN,ID. BUZZ GTX KR 250 KW,electric,electrique,2631.0,,250.0,0.0,,211.0,410.0,37
+VOLKSWAGEN,ID. BUZZ GTX LR 250 KW,electric,electrique,2828.0,,250.0,0.0,,237.0,396.0,90
+VOLKSWAGEN,ID. BUZZ PRO 150 KW,electric,electrique,2459.0,,150.0,0.0,,213.0,410.0,7
+VOLKSWAGEN,ID. BUZZ PRO KR 210 KW,electric,electrique,2508.0,,210.0,0.0,,197.0,445.0,307
+VOLKSWAGEN,ID. BUZZ PRO LR 210 KW,electric,electrique,2714.0,,210.0,0.0,,233.0,403.0,579
+VOLKSWAGEN,ID.3 GTX 210 KW,electric,electrique,1981.0,,210.0,0.0,,147.0,599.0,173
+VOLKSWAGEN,ID.3 GTX PERF. 240 KW,electric,electrique,1993.0,,240.0,0.0,,152.0,582.0,567
+VOLKSWAGEN,ID.3 PRO 150 KW,electric,electrique,1815.0,,170.0,0.0,,154.0,431.0,2563
+VOLKSWAGEN,ID.3 PRO S 150 KW,electric,electrique,1957.0,,170.0,0.0,,157.0,555.0,2099
+VOLKSWAGEN,ID.3 PURE 125 KW,electric,electrique,1787.0,,125.0,0.0,,153.0,387.0,3281
+VOLKSWAGEN,ID.4 GTX 220 KW,electric,electrique,2236.0,,220.0,0.0,,176.0,500.0,1
+VOLKSWAGEN,ID.4 GTX 250KW,electric,electrique,2261.0,,250.0,0.0,,172.0,512.0,48
+VOLKSWAGEN,ID.4 PRO 128 KW,electric,electrique,2123.0,,128.0,0.0,,168.0,523.5,4
+VOLKSWAGEN,ID.4 PRO 150 KW,electric,electrique,2120.0,,150.0,0.0,,168.0,523.0,14
+VOLKSWAGEN,ID.4 PRO 210 KW,electric,electrique,2139.0,,210.0,0.0,,166.0,538.0,1
+VOLKSWAGEN,ID.4 PRO 210KW,electric,electrique,2144.0,,210.0,0.0,,161.0,553.0,4896
+VOLKSWAGEN,ID.4 PRO 4MOTION 210KW,electric,electrique,2233.0,,210.0,0.0,,169.0,520.0,439
+VOLKSWAGEN,ID.4 PURE 109 KW,electric,electrique,1969.5,,109.0,0.0,,164.5,356.5,2
+VOLKSWAGEN,ID.4 PURE 125KW,electric,electrique,1975.0,,125.0,0.0,,167.0,360.0,790
+VOLKSWAGEN,ID.5 GTX 220 KW,electric,electrique,2243.0,,220.0,0.0,,175.0,502.0,3
+VOLKSWAGEN,ID.5 GTX 250KW,electric,electrique,2246.0,,250.0,0.0,,169.0,525.0,75
+VOLKSWAGEN,ID.5 PRO 128 KW,electric,electrique,2110.0,,128.0,0.0,,166.0,530.0,1
+VOLKSWAGEN,ID.5 PRO 150 KW,electric,electrique,2118.0,,150.0,0.0,,165.5,529.5,2
+VOLKSWAGEN,ID.5 PRO 210 KW,electric,electrique,2130.0,,210.0,0.0,,161.0,546.0,1
+VOLKSWAGEN,ID.5 PRO 210KW,electric,electrique,2131.0,,210.0,0.0,,159.0,552.0,1192
+VOLKSWAGEN,ID.7 PRO,electric,electrique,2180.0,,210.0,0.0,,143.0,609.0,83
+VOLKSWAGEN,ID.7 PRO 210KW,electric,electrique,2172.0,,210.0,0.0,,143.0,613.0,123
+VOLKSWAGEN,ID.7 PRO S,electric,electrique,2226.0,,210.0,0.0,,141.0,686.0,117
+VOLKSWAGEN,ID.7 TOURER GTX,electric,electrique,2336.0,,250.0,0.0,,171.0,568.0,29
+VOLKSWAGEN,ID.7 TOURER PRO,electric,electrique,2191.0,,210.0,0.0,,148.0,591.0,328
+VOLKSWAGEN,ID.7 TOURER PRO S,electric,electrique,2235.0,,210.0,0.0,,144.0,670.0,218
+VOLKSWAGEN,KOMBI,diesel,thermique,1982.0,1968.0,110.0,200.5,7.65,,,2
+VOLKSWAGEN,MULTIVAN,diesel,thermique,2136.0,1968.0,110.0,173.0,6.6,,,36
+VOLKSWAGEN,MULTIVAN,petrol/electric,hybride_rechargeable,2341.0,1498.0,130.0,20.0,0.9,225.0,90.0,127
+VOLKSWAGEN,PASSAT,diesel,thermique,1682.0,1968.0,110.0,132.0,5.0,,,518
+VOLKSWAGEN,PASSAT,petrol,hybride,1573.0,1498.0,110.0,125.0,5.5,,,657
+VOLKSWAGEN,PASSAT,petrol,thermique,1471.0,1498.0,110.0,146.0,6.4,,,28
+VOLKSWAGEN,PASSAT,petrol/electric,hybride_rechargeable,1849.0,1498.0,110.0,9.0,0.4,164.0,128.0,381
+VOLKSWAGEN,POLO,ng,thermique,1296.0,999.0,66.0,100.0,,,,8
+VOLKSWAGEN,POLO,petrol,thermique,1173.0,999.0,70.0,122.0,5.3,,,24401
+VOLKSWAGEN,T-CROSS,petrol,thermique,1305.0,999.0,85.0,132.0,5.8,,,13845
+VOLKSWAGEN,T-ROC,diesel,thermique,1452.0,1968.0,110.0,131.0,5.0,,,2678
+VOLKSWAGEN,T-ROC,petrol,hybride,1474.0,1498.0,110.0,130.0,5.7,,,1321
+VOLKSWAGEN,T-ROC,petrol,thermique,1355.0,1498.0,110.0,137.0,6.0,,,12709
+VOLKSWAGEN,TAIGO,petrol,thermique,1263.0,999.0,85.0,129.0,5.7,,,6658
+VOLKSWAGEN,TAYRON,diesel,thermique,1829.0,1968.0,110.0,150.0,5.7,,,182
+VOLKSWAGEN,TAYRON,petrol,hybride,1747.0,1498.0,110.0,149.0,6.5,,,655
+VOLKSWAGEN,TAYRON,petrol/electric,hybride_rechargeable,1948.0,1498.0,130.0,11.0,0.5,181.0,115.0,804
+VOLKSWAGEN,TIGUAN,diesel,thermique,1708.0,1968.0,110.0,144.0,5.5,,,3280
+VOLKSWAGEN,TIGUAN,petrol,hybride,1638.0,1498.0,110.0,139.0,6.1,,,3596
+VOLKSWAGEN,TIGUAN,petrol,thermique,1647.0,1498.0,110.0,158.0,6.9,,,62
+VOLKSWAGEN,TIGUAN,petrol/electric,hybride_rechargeable,1866.0,1498.0,110.0,10.0,0.4,176.0,119.0,8802
+VOLKSWAGEN,TOUAREG EHYBRID,petrol/electric,hybride_rechargeable,2443.0,2995.0,250.0,51.0,2.3,237.0,50.0,11
+VOLKSWAGEN,TOUAREG R,petrol/electric,hybride_rechargeable,2470.0,2995.0,250.0,52.0,2.3,249.0,50.0,101
+VOLKSWAGEN,TOURAN,diesel,thermique,1677.0,1968.0,110.0,142.0,5.4,,,664
+VOLKSWAGEN,TOURAN,petrol,thermique,1566.0,1498.0,110.0,148.0,6.5,,,916
+VOLKSWAGEN,TRANSPORTER,diesel,thermique,2157.0,1996.0,110.0,194.5,7.45,,,30
+VOLKSWAGEN,TRANSPORTER CARAVELLE,diesel,thermique,2242.0,1996.0,110.0,213.0,8.1,,,57
+VOLKSWAGEN,TRANSPORTER CARAVELLE,electric,electrique,2514.0,,210.0,0.0,,245.0,304.0,19
+VOLKSWAGEN,UP!,electric,electrique,1248.0,,61.0,0.0,,145.5,255.5,2
+VOLKSWAGEN,UP!,ng,thermique,1083.0,999.0,50.0,104.0,,,,1
+VOLKSWAGEN,UP!,petrol,thermique,991.0,999.0,48.0,116.0,5.1,,,2
+VOLVO,C40,electric,electrique,2095.0,,185.0,0.0,,164.0,576.0,106
+VOLVO,EC40,electric,electrique,2095.0,,185.0,0.0,,164.0,577.0,468
+VOLVO,ES90,electric,electrique,2410.0,,245.0,0.0,,165.0,630.0,16
+VOLVO,EX30,electric,electrique,1850.0,,200.0,0.0,,170.0,475.0,2760
+VOLVO,EX30 CROSS COUNTRY,electric,electrique,1960.0,,315.0,0.0,,187.0,427.0,131
+VOLVO,EX40,electric,electrique,2075.0,,185.0,0.0,,168.0,569.0,1611
+VOLVO,EX90,electric,electrique,2780.0,,300.0,0.0,,209.0,608.0,475
+VOLVO,S60,petrol/electric,hybride_rechargeable,2039.0,1969.0,228.0,18.0,0.8,170.0,89.0,1
+VOLVO,V60,petrol,hybride,1734.0,1969.0,145.0,144.0,6.3,,,462
+VOLVO,V60,petrol/electric,hybride_rechargeable,2064.0,1969.0,186.0,17.0,0.8,166.0,91.0,144
+VOLVO,XC40,electric,electrique,2075.0,,185.0,0.0,,167.0,569.0,71
+VOLVO,XC40,petrol,hybride,1688.0,1969.0,120.0,151.0,6.6,,,3646
+VOLVO,XC40,petrol/electric,hybride_rechargeable,1812.0,1477.0,95.0,48.0,2.1,154.5,45.5,2
+VOLVO,XC60,petrol,hybride,1900.0,1969.0,184.0,181.0,8.7,,,2
+VOLVO,XC60,petrol/electric,hybride_rechargeable,2150.0,1969.0,186.0,25.0,1.1,184.0,80.0,2266
+VOLVO,XC90,petrol/electric,hybride_rechargeable,2365.0,1969.0,228.0,32.0,1.4,201.0,69.0,1064
+XPENG,G6,electric,electrique,2190.0,,218.0,0.0,,179.0,550.0,2549
+XPENG,G9,electric,electrique,2435.0,,405.0,0.0,,213.0,520.0,765

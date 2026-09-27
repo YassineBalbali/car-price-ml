@@ -1,5 +1,8 @@
+# Environnement local : entraînement des modèles et génération des vecteurs
 -r requirements.txt
-jupyter==1.1.1
-matplotlib==3.11.2
-seaborn==0.13.2
-tornado==6.5.4
+
+# sentence-transformers n'est plus nécessaire : fastembed suffit
+# sentence-transformers
+jupyter
+matplotlib
+seaborn

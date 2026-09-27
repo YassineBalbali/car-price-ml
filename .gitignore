@@ -1,5 +1,11 @@
+@"
 .venv/
 __pycache__/
 .ipynb_checkpoints/
 *.pyc
-data/
+node_modules/
+data/*.csv
+!data/catalogue_fr_2025.csv
+"@ | Set-Content .gitignore
+
+git status
