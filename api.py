@@ -135,8 +135,30 @@ def _prechauffer():
             print(f"Modèle sémantique indisponible : {e}")
 
     threading.Thread(target=travail, daemon=True).start()
-MODELE_CONSO = joblib.load("models/eu_conso.pkl")
-MODELE_ELEC = joblib.load("models/eu_conso_electrique.pkl")
+# Les modèles ne sont PAS chargés au démarrage : sur un hébergement limité
+# à 512 Mo, le pic d'allocation tuait le processus avant qu'il ne réponde.
+# Chacun est chargé à sa première utilisation, puis gardé en mémoire.
+MODELE_CONSO = None
+MODELE_ELEC = None
+_VERROU_MODELES = threading.Lock()
+
+
+def _modele_conso():
+    global MODELE_CONSO
+    if MODELE_CONSO is None:
+        with _VERROU_MODELES:
+            if MODELE_CONSO is None:
+                MODELE_CONSO = joblib.load("models/eu_conso.pkl")
+    return MODELE_CONSO
+
+
+def _modele_elec():
+    global MODELE_ELEC
+    if MODELE_ELEC is None:
+        with _VERROU_MODELES:
+            if MODELE_ELEC is None:
+                MODELE_ELEC = joblib.load("models/eu_conso_electrique.pkl")
+    return MODELE_ELEC
 
 # Texte de recherche précalculé une seule fois au démarrage :
 # « marque modèle » en minuscules, et sa version sans espaces
@@ -290,6 +312,10 @@ def health():
     return {
         "status": "ok",
         "vehicules": len(CATALOGUE),
+        "modeles_charges": {
+            "carburant": MODELE_CONSO is not None,
+            "electrique": MODELE_ELEC is not None,
+        },
         "recherche_semantique": VECTEURS is not None,
         "semantique_autorisee": SEMANTIQUE_ACTIVE,
     }
@@ -446,7 +472,7 @@ def recherche_semantique(
 def predict_carburant(v: VehiculeThermique):
     """Prédiction pour un véhicule thermique ou hybride non rechargeable."""
     df = pd.DataFrame([v.model_dump()])
-    litres = float(MODELE_CONSO.predict(df)[0])
+    litres = float(_modele_conso().predict(df)[0])
 
     if litres <= 0:
         raise HTTPException(500, "Prédiction invalide")
@@ -468,7 +494,7 @@ def predict_carburant(v: VehiculeThermique):
 def predict_electrique(v: VehiculeElectrique):
     """Prédiction pour un véhicule 100 % électrique."""
     df = pd.DataFrame([v.model_dump()])
-    wh_km = float(MODELE_ELEC.predict(df)[0])
+    wh_km = float(_modele_elec().predict(df)[0])
 
     if wh_km <= 0:
         raise HTTPException(500, "Prédiction invalide")
