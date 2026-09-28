@@ -2980,3 +2980,80 @@ body {
     font-size: 1.85rem;
   }
 }
+
+/* ─── Liste de résultats compacte sur mobile ─────── */
+
+/* iOS applique sa couleur système au texte des boutons quand aucune
+   couleur n'est déclarée : d'où les noms en bleu sur téléphone. */
+button,
+.entree,
+.entree h3,
+.entree p,
+.liste-ajout button,
+.choix button,
+.ligne {
+  color: var(--encre);
+}
+
+@media (max-width: 760px) {
+  .registre {
+    gap: 0;
+    border: 1px solid var(--trait);
+    border-radius: 3px;
+    background: var(--surface);
+    overflow: hidden;
+  }
+
+  .registre li + li .entree {
+    border-top: 1px solid var(--trait);
+  }
+
+  .entree {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 11px 13px;
+    border: none;
+    border-left: 3px solid transparent;
+    border-radius: 0;
+  }
+
+  .entree.active {
+    background: var(--rouge-clair);
+  }
+
+  .identite h3 {
+    margin: 0;
+    font-size: 0.92rem;
+    line-height: 1.25;
+  }
+
+  .identite h3 em {
+    padding: 1px 5px;
+    font-size: 0.55rem;
+  }
+
+  .identite p {
+    font-size: 0.72rem;
+    margin-top: 1px;
+  }
+
+  .mesure {
+    text-align: right;
+    flex-shrink: 0;
+  }
+
+  .mesure strong {
+    font-size: 1.1rem;
+  }
+
+  .mesure .u {
+    font-size: 0.68rem;
+  }
+
+  /* La mention WLTP n'apporte rien dans une liste : chaque valeur l'est */
+  .mesure .legende {
+    display: none;
+  }
+}
