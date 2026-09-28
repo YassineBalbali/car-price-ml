@@ -1,4 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&family=Inter:wght@400;500;600;700&display=swap");
+/* Une graisse de moins est un fichier de moins à télécharger.
+   Newsreader 400 pour les titres, Inter 400/600/700 pour le reste. */
+@import url("https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400&family=Inter:wght@400;600;700&display=swap");
 
 :root {
   --fond: #f4f4f5;
@@ -183,7 +185,7 @@ h1 {
 
 .referentiel strong {
   font-size: 0.83rem;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 /* ─── Bandes ─────────────────────────────────────── */
@@ -263,7 +265,7 @@ h1 {
   color: #fff;
   font: inherit;
   font-size: 0.86rem;
-  font-weight: 500;
+  font-weight: 600;
   cursor: pointer;
   white-space: nowrap;
 }
@@ -589,7 +591,7 @@ select:focus {
   color: #fff;
   font: inherit;
   font-size: 0.88rem;
-  font-weight: 500;
+  font-weight: 600;
   cursor: pointer;
 }
 
@@ -1111,7 +1113,7 @@ td em {
 
 .mini-grille small {
   font-size: 0.68rem;
-  font-weight: 500;
+  font-weight: 600;
   color: var(--doux);
 }
 
@@ -1366,7 +1368,7 @@ td em {
 
 .barre-cout-tete .montant em {
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .piste {
@@ -1566,7 +1568,7 @@ td em {
 
 .cartes strong span {
   font-size: 0.78rem;
-  font-weight: 500;
+  font-weight: 600;
   color: var(--doux);
 }
 
@@ -2272,7 +2274,7 @@ input[type="range"]:disabled {
 
 .interrupteur span {
   font-size: 0.8rem;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .interrupteur em {
@@ -3055,5 +3057,109 @@ button,
   /* La mention WLTP n'apporte rien dans une liste : chaque valeur l'est */
   .mesure .legende {
     display: none;
+  }
+}
+
+/* ═══ ALLÉGEMENT MOBILE ═════════════════════════════
+   Sur un écran de poche, le contenu explicatif pensé pour le bureau
+   noie l'essentiel. On masque ce qui est contextuel, jamais ce qui
+   est une donnée ou une réserve méthodologique importante. */
+
+@media (max-width: 760px) {
+  /* Encadrés et paragraphes d'accompagnement */
+  .referentiel,
+  .protocole-bande,
+  .aide,
+  .aide-semantique,
+  .description-auto,
+  .remarque,
+  .carte-cause p,
+  .commentaire {
+    display: none;
+  }
+
+  /* Le chapeau reste, mais court */
+  .chapeau {
+    font-size: 0.86rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  h1 {
+    font-size: 1.75rem;
+    margin-bottom: 10px;
+  }
+
+  .kicker {
+    margin-bottom: 10px;
+    font-size: 0.6rem;
+  }
+
+  /* Espacements resserrés */
+  .bande,
+  .metho-bloc,
+  .bloc-cout,
+  .bloc-tableau,
+  .bareme,
+  .deux-colonnes {
+    margin-bottom: 16px;
+  }
+
+  .panneau,
+  .panneau-usage,
+  .flotte,
+  .bloc-cout,
+  .bloc-tableau,
+  .recherche,
+  .face-a-face {
+    padding: 16px;
+  }
+
+  /* Notes de lecture : conservées, mais compactes */
+  .note {
+    font-size: 0.72rem;
+    line-height: 1.5;
+    padding-left: 10px;
+  }
+
+  /* La fiche des caractéristiques double le tableau qui suit */
+  .fiche-vehicule {
+    display: none;
+  }
+
+  /* Analyse de flotte : les chiffres suffisent */
+  .flotte-titre {
+    gap: 8px;
+    margin-bottom: 14px;
+  }
+
+  .flotte-titre p {
+    display: none;
+  }
+
+  .cartes {
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+  }
+
+  .cartes article {
+    padding: 12px;
+  }
+
+  .cartes strong {
+    font-size: 1.3rem;
+  }
+
+  .carte-tete {
+    min-height: 0;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3px;
+  }
+
+  footer p {
+    font-size: 0.68rem;
   }
 }
