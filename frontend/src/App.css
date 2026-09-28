@@ -92,6 +92,9 @@ nav {
   width: auto;
   margin: -42px 0;
   mix-blend-mode: multiply;
+  /* Les marges négatives font déborder l'image sur les liens voisins :
+     sans ceci, elle intercepte les appuis destinés au menu. */
+  pointer-events: none;
 }
 
 .liens {
@@ -2733,4 +2736,247 @@ input[type="range"]:disabled {
   font-style: italic;
   color: var(--tres-doux);
   max-width: 62ch;
+}
+
+/* ═══ MOBILE ════════════════════════════════════════
+   Corrections de débordement horizontal et de zones tactiles.
+   Une page plus large que l'écran décale toutes les cibles de clic. */
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Sans ceci, un enfant de flex ou de grille refuse de se réduire
+   sous la largeur de son contenu et élargit toute la page. */
+.entree,
+.identite,
+.choisi,
+.choisi-texte,
+.camp,
+.bande-titre,
+.mini-grille div,
+.carte-vehicule,
+.panneau,
+.reglage {
+  min-width: 0;
+}
+
+.identite h3,
+.choisi strong,
+.carte-vehicule h3 {
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 760px) {
+  .site {
+    padding: 0 14px 40px;
+  }
+
+  /* Navigation : liens défilables, cibles tactiles d'au moins 44 px */
+  nav {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 2px;
+    padding: 6px 0 0;
+  }
+
+  .marque {
+    gap: 8px;
+  }
+
+  .logo-img {
+    height: 86px;
+    margin: -24px 0;
+  }
+
+  .liens {
+    gap: 4px;
+    margin: 0 -14px;
+    padding: 0 14px 8px;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+
+  .liens::-webkit-scrollbar {
+    display: none;
+  }
+
+  .liens button {
+    padding: 10px 12px;
+    font-size: 0.82rem;
+    border-radius: 3px;
+  }
+
+  .liens button.actif {
+    background: var(--rouge-clair);
+  }
+
+  /* En-têtes de section : le libellé et le décompte passent à la ligne */
+  header,
+  .entete-comp,
+  .entete-usage,
+  .entete-metho {
+    padding: 22px 0 20px;
+  }
+
+  .bande-titre {
+    display: grid;
+    gap: 2px;
+    padding-bottom: 12px;
+  }
+
+  .bande-titre h2 {
+    font-size: 1.3rem;
+  }
+
+  .bande-titre .droite {
+    margin-left: 0;
+    font-size: 0.72rem;
+  }
+
+  .entete-comp-ligne {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 14px;
+  }
+
+  .actions-comp button {
+    flex: 1;
+  }
+
+  /* Véhicule sélectionné : vignette au-dessus, plus de colonne écrasée */
+  .choisi {
+    display: grid;
+    grid-template-columns: 96px 1fr;
+    gap: 12px;
+    align-items: start;
+  }
+
+  .choisi .vignette {
+    width: 96px;
+    min-height: 62px;
+  }
+
+  .choisi .puce {
+    grid-column: 1 / -1;
+    padding: 10px;
+    text-align: center;
+  }
+
+  /* Registre et résultats */
+  .entree {
+    padding: 14px 16px;
+  }
+
+  .mesure strong {
+    font-size: 1.7rem;
+  }
+
+  /* Réglages et formulaires */
+  .reglages,
+  .reglage,
+  .tarifs {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+  }
+
+  .pilules button,
+  .charges button,
+  .bascule button {
+    padding: 10px 12px;
+  }
+
+  .deux-champs,
+  .cases,
+  .bareme-grille,
+  .choix,
+  .choix.quatre,
+  .fiche-vehicule dl {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .choix.cinq {
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  .choix.cinq button {
+    padding: 12px 4px;
+  }
+
+  .repartition label {
+    grid-template-columns: 1fr;
+    gap: 2px;
+  }
+
+  .repartition b {
+    text-align: left;
+  }
+
+  .protocole-bande {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  /* Tableaux : défilement interne plutôt que débordement de page */
+  .tableau,
+  .defilement,
+  .texte {
+    overflow-x: auto;
+  }
+
+  .chiffres {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  .principal strong {
+    font-size: 2.3rem;
+  }
+
+  /* Pages de texte */
+  .texte {
+    padding: 22px 18px;
+  }
+
+  .metho-titre h2,
+  .panneau h2,
+  .usage-tete h2 {
+    font-size: 1.2rem;
+  }
+
+  .appel,
+  .bareme {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .bouton-principal {
+    text-align: center;
+  }
+}
+
+@media (max-width: 420px) {
+  .deux-champs,
+  .cases,
+  .bareme-grille,
+  .choix,
+  .choix.quatre {
+    grid-template-columns: 1fr;
+  }
+
+  .choisi {
+    grid-template-columns: 1fr;
+  }
+
+  .choisi .vignette {
+    width: 100%;
+    min-height: 130px;
+  }
+
+  h1 {
+    font-size: 1.85rem;
+  }
 }
