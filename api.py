@@ -38,7 +38,12 @@ VECTEURS = None
 MODELE_TEXTE = None
 DESCRIPTIONS = None
 
-if os.path.exists("data/vecteurs.npy"):
+# La recherche sémantique charge un modèle ONNX de 250 Mo : impossible sur
+# un hébergement limité à 512 Mo de mémoire. Elle n'est donc activée que si
+# SEMANTIQUE=1, valeur mise en local et laissée absente en production.
+SEMANTIQUE_ACTIVE = os.getenv("SEMANTIQUE", "0") == "1"
+
+if SEMANTIQUE_ACTIVE and os.path.exists("data/vecteurs.npy"):
     VECTEURS = np.load("data/vecteurs.npy")
     if len(VECTEURS) != len(CATALOGUE):
         print(
@@ -286,6 +291,7 @@ def health():
         "status": "ok",
         "vehicules": len(CATALOGUE),
         "recherche_semantique": VECTEURS is not None,
+        "semantique_autorisee": SEMANTIQUE_ACTIVE,
     }
 
 
@@ -405,8 +411,8 @@ def recherche_semantique(
     if VECTEURS is None:
         raise HTTPException(
             503,
-            "Recherche sémantique indisponible : lancez embeddings.py pour "
-            "générer data/vecteurs.npy",
+            "Recherche sémantique désactivée sur ce serveur, faute de mémoire "
+            "suffisante. Elle fonctionne en local avec SEMANTIQUE=1.",
         )
 
     try:
