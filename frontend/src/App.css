@@ -78,7 +78,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   gap: 24px;
-  padding: 10px 0 12px;
+  padding: 14px 0 16px;
   border-bottom: 1px solid var(--trait-fort);
 }
 
@@ -90,12 +90,11 @@ nav {
 
 .logo-img {
   display: block;
-  height: 130px;
+  height: 38px;
   width: auto;
-  margin: -42px 0;
   mix-blend-mode: multiply;
-  /* Les marges négatives font déborder l'image sur les liens voisins :
-     sans ceci, elle intercepte les appuis destinés au menu. */
+  /* Par sécurité : une image ne doit jamais intercepter les appuis
+     destinés aux liens voisins. */
   pointer-events: none;
 }
 
@@ -2601,8 +2600,8 @@ input[type="range"]:disabled {
   }
 
   .logo-img {
-    height: 100px;
-    margin: -32px 0;
+    height: 28px;
+    margin: 0;
   }
 
   .liens {
@@ -2789,8 +2788,8 @@ body {
   }
 
   .logo-img {
-    height: 86px;
-    margin: -24px 0;
+    height: 30px;
+    margin: 0;
   }
 
   .liens {
