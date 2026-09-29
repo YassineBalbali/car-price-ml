@@ -3162,3 +3162,159 @@ button,
     font-size: 0.68rem;
   }
 }
+
+/* ═══ FINITIONS MOBILE ══════════════════════════════ */
+
+@media (max-width: 760px) {
+  /* Safari zoome automatiquement sur un champ dont le texte fait moins
+     de 16 px, et ne dézoome jamais ensuite. C'est la cause la plus
+     fréquente de formulaires inutilisables sur iPhone. */
+  input,
+  select,
+  textarea,
+  .barre input,
+  .champ input,
+  .champ select,
+  .tarifs input,
+  .bareme-grille input {
+    font-size: 16px;
+  }
+
+  /* Zones tactiles d'au moins 44 px, recommandation Apple et Google */
+  .puce,
+  .charges button,
+  .barre button,
+  .bouton-sec,
+  .retirer,
+  .lancer,
+  .pilules button,
+  .liste-ajout button,
+  .ligne {
+    min-height: 44px;
+  }
+
+  .retirer {
+    width: 44px;
+  }
+
+  .interrupteur {
+    padding: 13px 14px;
+  }
+
+  .interrupteur input {
+    width: 20px;
+    height: 20px;
+  }
+
+  /* Le reflet gris au doigt fait paraître l'interface lente */
+  * {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  button,
+  .entree,
+  .interrupteur {
+    -webkit-touch-callout: none;
+  }
+
+  /* La rotation de l'écran ne doit pas grossir les textes */
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+
+  /* Barre de gestes de l'iPhone : le pied de page passait dessous */
+  .site {
+    padding-bottom: calc(40px + env(safe-area-inset-bottom));
+  }
+
+  /* Bascule à deux options : le libellé passait sur deux lignes */
+  .bascule button {
+    font-size: 0.64rem;
+    letter-spacing: 0.02em;
+    padding: 11px 4px;
+  }
+
+  /* Tableau comparatif : colonnes lisibles pendant le défilement */
+  .tableau-multi {
+    min-width: 520px;
+    font-size: 0.78rem;
+  }
+
+  .tableau-multi th:first-child,
+  .tableau-multi td:first-child {
+    position: sticky;
+    left: 0;
+    width: auto;
+    min-width: 132px;
+    background: var(--surface);
+    box-shadow: 1px 0 0 var(--trait);
+  }
+
+  .tableau-multi tr.section td {
+    position: static;
+    box-shadow: none;
+  }
+
+  /* Cartes du comparateur : une par écran, sans hauteur perdue */
+  .carte-vehicule {
+    padding: 12px;
+  }
+
+  .photo {
+    aspect-ratio: 16 / 9;
+    margin-bottom: 10px;
+  }
+
+  .bloc-conso strong {
+    font-size: 1.7rem;
+  }
+
+  .carte-ajout {
+    min-height: 150px;
+  }
+
+  /* Barres de coût */
+  .barre-cout-tete {
+    flex-wrap: wrap;
+    font-size: 0.78rem;
+  }
+
+  .bilan-cout {
+    font-size: 0.78rem;
+  }
+
+  /* Panneau d'impact des filtres avancés */
+  .impact .grand {
+    font-size: 2.2rem;
+  }
+
+  .impact-detail li {
+    font-size: 0.74rem;
+  }
+
+  /* Défilement fluide entre les sections */
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@media (max-width: 420px) {
+  .bascule {
+    flex-direction: column;
+  }
+
+  .bascule button {
+    font-size: 0.68rem;
+    padding: 12px;
+  }
+
+  .choix.cinq {
+    grid-template-columns: repeat(5, 1fr);
+    gap: 5px;
+  }
+
+  .tarifs label,
+  .bareme-grille label {
+    justify-content: space-between;
+  }
+}
