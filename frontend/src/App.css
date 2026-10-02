@@ -3530,3 +3530,54 @@ button,
     font-size: 0.58rem;
   }
 }
+
+/* ═══ ONGLETS AVEC ICÔNES ═══════════════════════════ */
+
+/* Sur grand écran : libellé long seul, aucune icône */
+.liens .ico,
+.liens .court {
+  display: none;
+}
+
+@media (max-width: 760px) {
+  .liens button {
+    flex-direction: column;
+    gap: 3px;
+    min-height: 52px;
+    padding: 5px 2px;
+  }
+
+  .liens .ico {
+    display: block;
+    width: 21px;
+    height: 21px;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 1.7;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+
+  .liens .long {
+    display: none;
+  }
+
+  .liens .court {
+    display: block;
+    font-size: 0.62rem;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+  }
+
+  .liens button.actif .ico {
+    stroke-width: 2;
+  }
+
+  .liens {
+    padding-top: 4px;
+  }
+
+  .site {
+    padding-bottom: calc(92px + env(safe-area-inset-bottom));
+  }
+}

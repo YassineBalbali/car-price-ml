@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import "./App.css";
 
-const API_URL = import.meta.env.VITE_API_URL ?? "http://127.0.0.1:8000";
+const API_URL = "http://127.0.0.1:8000";
 
 const CARBURANTS = [
   ["petrol", "Essence sans plomb 95-E10"],
@@ -33,12 +33,50 @@ const BESOINS = [
   ["Hybride urbaine", "hybride efficace dans les embouteillages"],
 ];
 
+/* Chaque onglet porte un libellé long pour le bureau et un libellé court
+   pour la barre d'onglets mobile, où quatre colonnes se partagent la
+   largeur de l'écran. */
 const PAGES = [
-  ["simulateur", "Simulateur"],
-  ["comparateur", "Comparateur"],
-  ["usage", "Conditions réelles"],
-  ["methodologie", "Méthodologie & Sources"],
+  ["simulateur", "Simulateur", "Simulateur", "jauge"],
+  ["comparateur", "Comparateur", "Comparer", "balance"],
+  ["usage", "Conditions réelles", "Conditions", "curseurs"],
+  ["methodologie", "Méthodologie & Sources", "Méthode", "fiole"],
 ];
+
+const ICONES = {
+  jauge: (
+    <>
+      <path d="M4 17a8 8 0 1 1 16 0" />
+      <path d="M12 17l4.5-5.5" />
+      <circle cx="12" cy="17" r="1.3" />
+    </>
+  ),
+  balance: (
+    <>
+      <path d="M5 19V9" />
+      <path d="M12 19V5" />
+      <path d="M19 19v-6" />
+      <path d="M3 19h18" />
+    </>
+  ),
+  curseurs: (
+    <>
+      <path d="M4 7h10M18 7h2" />
+      <path d="M4 12h4M12 12h8" />
+      <path d="M4 17h12M20 17h0" />
+      <circle cx="16" cy="7" r="2" />
+      <circle cx="10" cy="12" r="2" />
+      <circle cx="18" cy="17" r="2" />
+    </>
+  ),
+  fiole: (
+    <>
+      <path d="M10 3v6.5L5.5 17A2 2 0 0 0 7.2 20h9.6a2 2 0 0 0 1.7-3L14 9.5V3" />
+      <path d="M9 3h6" />
+      <path d="M8 14h8" />
+    </>
+  ),
+};
 
 /* ─── Correction d'usage ───────────────────────────────
    Ces coefficients ne viennent PAS du modèle d'apprentissage : les données
@@ -889,13 +927,18 @@ export default function App() {
           <img src="/logo.png" alt="AutoConso" className="logo-img" />
         </div>
         <div className="liens">
-          {PAGES.map(([c, libelle]) => (
+          {PAGES.map(([c, libelle, court, icone]) => (
             <button
               key={c}
               className={page === c ? "actif" : ""}
               onClick={() => setPage(c)}
+              aria-current={page === c ? "page" : undefined}
             >
-              {libelle}
+              <svg className="ico" viewBox="0 0 24 24" aria-hidden="true">
+                {ICONES[icone]}
+              </svg>
+              <span className="long">{libelle}</span>
+              <span className="court">{court}</span>
             </button>
           ))}
         </div>
