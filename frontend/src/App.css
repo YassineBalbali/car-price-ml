@@ -3408,3 +3408,125 @@ button,
     font-size: 0.72rem;
   }
 }
+
+/* ═══ BARRE D'ONGLETS MOBILE ════════════════════════
+   Le haut d'un grand écran n'est pas atteignable au pouce. Les
+   applications natives placent la navigation en bas pour cette raison. */
+
+@media (max-width: 760px) {
+  nav {
+    position: static;
+    flex-direction: row;
+    justify-content: center;
+    gap: 0;
+    padding: 12px 0 10px;
+    margin: 0;
+    background: none;
+    backdrop-filter: none;
+    border-bottom: 1px solid var(--trait);
+  }
+
+  .logo-img {
+    height: 28px;
+  }
+
+  .liens {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 40;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0;
+    padding: 6px 4px calc(6px + env(safe-area-inset-bottom));
+    background: rgba(255, 255, 255, 0.96);
+    backdrop-filter: blur(12px);
+    border-top: 1px solid var(--trait);
+    box-shadow: 0 -1px 12px rgba(16, 16, 18, 0.06);
+  }
+
+  .liens button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 46px;
+    padding: 6px 2px;
+    background: none;
+    border: none;
+    border-radius: 6px;
+    font-size: 0.64rem;
+    font-weight: 600;
+    line-height: 1.15;
+    text-align: center;
+    white-space: normal;
+    color: var(--doux);
+  }
+
+  .liens button.actif {
+    background: var(--rouge-clair);
+    border: none;
+    color: var(--rouge);
+  }
+
+  /* Le contenu ne doit pas finir sous la barre */
+  .site {
+    padding-bottom: calc(86px + env(safe-area-inset-bottom));
+  }
+
+  /* Respiration générale : moins de cadres, plus d'air */
+  .panneau,
+  .recherche,
+  .panneau-usage,
+  .flotte,
+  .bloc-cout,
+  .bloc-tableau,
+  .texte,
+  .carte-vehicule,
+  .face-a-face {
+    border-radius: 8px;
+    box-shadow: 0 1px 2px rgba(16, 16, 18, 0.04);
+  }
+
+  .registre {
+    border-radius: 8px;
+  }
+
+  .bande-titre h2,
+  .panneau h2 {
+    font-size: 1.22rem;
+  }
+
+  .num {
+    font-size: 0.6rem;
+  }
+
+  /* Les chiffres sont le cœur du site : on leur donne du poids */
+  .principal strong {
+    font-size: 2.6rem;
+  }
+
+  .chiffres {
+    padding-bottom: 16px;
+  }
+
+  /* Boutons d'action pleine largeur, plus faciles à viser */
+  .barre {
+    gap: 6px;
+  }
+
+  .barre button {
+    padding: 11px 16px;
+  }
+
+  .lancer,
+  .bouton-sec {
+    border-radius: 6px;
+  }
+}
+
+@media (max-width: 420px) {
+  .liens button {
+    font-size: 0.58rem;
+  }
+}
