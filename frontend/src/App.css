@@ -3318,3 +3318,93 @@ button,
     justify-content: space-between;
   }
 }
+
+/* ═══ NAVIGATION MOBILE ═════════════════════════════
+   Un menu défilant oblige à chercher les onglets cachés. Sur quatre
+   entrées, une grille les montre toutes d'un seul coup d'œil. */
+
+@media (max-width: 760px) {
+  nav {
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 8px;
+    padding: 8px 0 10px;
+    margin: 0 -14px;
+    padding-left: 14px;
+    padding-right: 14px;
+    background: rgba(244, 244, 245, 0.94);
+    backdrop-filter: blur(8px);
+  }
+
+  .marque {
+    justify-content: center;
+  }
+
+  .logo-img {
+    height: 26px;
+  }
+
+  /* Les quatre onglets visibles, sans défilement */
+  .liens {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6px;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+  }
+
+  .liens button {
+    width: 100%;
+    padding: 9px 6px;
+    background: var(--surface);
+    border: 1px solid var(--trait);
+    border-radius: 3px;
+    font-size: 0.78rem;
+    font-weight: 600;
+    text-align: center;
+    white-space: normal;
+    line-height: 1.2;
+    min-height: 40px;
+  }
+
+  .liens button.actif {
+    background: var(--rouge);
+    border-color: var(--rouge);
+    color: #fff;
+  }
+
+  /* L'en-tête collant masquerait la cible d'une ancre */
+  html {
+    scroll-padding-top: 120px;
+  }
+
+  /* La bascule reprend deux colonnes : empilée, elle occupait
+     un quart de l'écran pour deux options. */
+  .bascule {
+    flex-direction: row;
+  }
+
+  .bascule button {
+    font-size: 0.62rem;
+    padding: 11px 3px;
+    line-height: 1.25;
+  }
+}
+
+@media (max-width: 420px) {
+  .bascule {
+    flex-direction: row;
+  }
+
+  .bascule button {
+    font-size: 0.58rem;
+  }
+
+  .liens button {
+    font-size: 0.72rem;
+  }
+}
