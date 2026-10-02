@@ -3581,3 +3581,25 @@ button,
     padding-bottom: calc(92px + env(safe-area-inset-bottom));
   }
 }
+
+/* ═══ EN-TÊTE MOBILE : LOGO À GAUCHE ════════════════ */
+
+@media (max-width: 760px) {
+  nav {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 0;
+  }
+
+  .marque {
+    justify-content: flex-start;
+    flex: 1;
+    min-width: 0;
+  }
+
+  .logo-img {
+    height: 26px;
+  }
+}
