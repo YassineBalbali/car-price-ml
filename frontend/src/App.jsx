@@ -1,7 +1,11 @@
 import { useState, useEffect } from "react";
 import "./App.css";
 
-const API_URL = "http://127.0.0.1:8000";
+// En développement (npm run dev), on parle au backend local ; partout
+// ailleurs, à l'API en ligne. Plus aucune variable Vercel à configurer.
+const API_URL = import.meta.env.DEV
+  ? "http://127.0.0.1:8000"
+  : "https://car-price-ml-906z.onrender.com";
 
 const CARBURANTS = [
   ["petrol", "Essence sans plomb 95-E10"],
