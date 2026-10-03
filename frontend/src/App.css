@@ -3770,3 +3770,27 @@ button,
     grid-template-columns: 1fr;
   }
 }
+
+/* Lien de bascule connexion / inscription */
+.bascule-compte {
+  margin: 16px 0 0;
+  text-align: center;
+  font-size: 0.84rem;
+  color: var(--doux);
+}
+
+.bascule-compte button {
+  padding: 0;
+  background: none;
+  border: none;
+  font: inherit;
+  font-weight: 600;
+  color: var(--rouge);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  cursor: pointer;
+}
+
+.bascule-compte button:hover {
+  color: var(--rouge-sombre);
+}

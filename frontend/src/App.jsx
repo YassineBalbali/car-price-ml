@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import "./App.css";
 
-const API_URL = import.meta.env.VITE_API_URL ?? "http://127.0.0.1:8000";
+const API_URL = "http://127.0.0.1:8000";
 
 const CARBURANTS = [
   ["petrol", "Essence sans plomb 95-E10"],
@@ -728,6 +728,36 @@ function FenetreCompte({ fermer, onConnexion }) {
               : "Me connecter"}
           </button>
         </form>
+
+        <p className="bascule-compte">
+          {inscription ? (
+            <>
+              Déjà membre ?{" "}
+              <button
+                type="button"
+                onClick={() => {
+                  setMode("connexion");
+                  setErreur(null);
+                }}
+              >
+                Se connecter
+              </button>
+            </>
+          ) : (
+            <>
+              Pas encore de compte ?{" "}
+              <button
+                type="button"
+                onClick={() => {
+                  setMode("inscription");
+                  setErreur(null);
+                }}
+              >
+                Créer un compte
+              </button>
+            </>
+          )}
+        </p>
 
         <p className="note">
           Votre mot de passe n'est jamais enregistré : seule une empreinte
