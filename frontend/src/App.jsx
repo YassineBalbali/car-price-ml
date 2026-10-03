@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import "./App.css";
 
-const API_URL = "http://127.0.0.1:8000";
+const API_URL = import.meta.env.VITE_API_URL ?? "http://127.0.0.1:8000";
 
 const CARBURANTS = [
   ["petrol", "Essence sans plomb 95-E10"],
@@ -567,6 +567,178 @@ const ecrireCache = (k, valeur) => {
   }
 };
 
+function FenetreCompte({ fermer, onConnexion }) {
+  const [mode, setMode] = useState("connexion");
+  const [email, setEmail] = useState("");
+  const [motDePasse, setMotDePasse] = useState("");
+  const [prenom, setPrenom] = useState("");
+  const [nom, setNom] = useState("");
+  const [erreur, setErreur] = useState(null);
+  const [envoi, setEnvoi] = useState(false);
+
+  const inscription = mode === "inscription";
+
+  const valider = async (e) => {
+    e.preventDefault();
+    setErreur(null);
+
+    if (motDePasse.length < 8) {
+      return setErreur("Le mot de passe doit faire au moins 8 caractères.");
+    }
+
+    setEnvoi(true);
+    try {
+      const res = await fetch(
+        `${API_URL}/auth/${inscription ? "inscription" : "connexion"}`,
+        {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(
+            inscription
+              ? { email, mot_de_passe: motDePasse, prenom, nom }
+              : { email, mot_de_passe: motDePasse }
+          ),
+        }
+      );
+
+      const donnees = await res.json().catch(() => ({}));
+
+      if (!res.ok) {
+        // FastAPI renvoie soit une chaîne, soit une liste de détails
+        const detail = donnees.detail;
+        setErreur(
+          typeof detail === "string"
+            ? detail
+            : Array.isArray(detail)
+            ? detail[0]?.msg ?? "Saisie invalide"
+            : "Une erreur est survenue."
+        );
+        return;
+      }
+
+      onConnexion(donnees);
+    } catch {
+      setErreur("Le serveur ne répond pas. Réessayez dans quelques secondes.");
+    } finally {
+      setEnvoi(false);
+    }
+  };
+
+  return (
+    <div className="voile" onClick={fermer}>
+      <div
+        className="fenetre"
+        onClick={(e) => e.stopPropagation()}
+        role="dialog"
+        aria-modal="true"
+      >
+        <button className="fermer" onClick={fermer} aria-label="Fermer">
+          ×
+        </button>
+
+        <span className="num">Compte AutoConso</span>
+        <h2>{inscription ? "Créer un compte" : "Se connecter"}</h2>
+
+        <div className="bascule">
+          <button
+            className={!inscription ? "actif" : ""}
+            onClick={() => {
+              setMode("connexion");
+              setErreur(null);
+            }}
+          >
+            Connexion
+          </button>
+          <button
+            className={inscription ? "actif" : ""}
+            onClick={() => {
+              setMode("inscription");
+              setErreur(null);
+            }}
+          >
+            Inscription
+          </button>
+        </div>
+
+        <form onSubmit={valider}>
+          {inscription && (
+            <div className="deux-champs">
+              <label className="champ">
+                <span className="etiquette">Prénom</span>
+                <input
+                  type="text"
+                  autoComplete="given-name"
+                  required
+                  maxLength={80}
+                  value={prenom}
+                  onChange={(e) => setPrenom(e.target.value)}
+                />
+              </label>
+              <label className="champ">
+                <span className="etiquette">Nom</span>
+                <input
+                  type="text"
+                  autoComplete="family-name"
+                  required
+                  maxLength={80}
+                  value={nom}
+                  onChange={(e) => setNom(e.target.value)}
+                />
+              </label>
+            </div>
+          )}
+
+          <label className="champ">
+            <span className="etiquette">Adresse électronique</span>
+            <input
+              type="email"
+              autoComplete="email"
+              required
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              placeholder="vous@exemple.fr"
+            />
+          </label>
+
+          <label className="champ">
+            <span className="etiquette">Mot de passe</span>
+            <input
+              type="password"
+              autoComplete={inscription ? "new-password" : "current-password"}
+              required
+              minLength={8}
+              value={motDePasse}
+              onChange={(e) => setMotDePasse(e.target.value)}
+              placeholder="Au moins 8 caractères"
+            />
+            {inscription && (
+              <span className="sous">
+                Huit caractères minimum, dont une lettre et un chiffre.
+              </span>
+            )}
+          </label>
+
+          {erreur && <p className="erreur">{erreur}</p>}
+
+          <button className="lancer" type="submit" disabled={envoi}>
+            {envoi
+              ? "Envoi…"
+              : inscription
+              ? "Créer mon compte"
+              : "Me connecter"}
+          </button>
+        </form>
+
+        <p className="note">
+          Votre mot de passe n'est jamais enregistré : seule une empreinte
+          irréversible l'est. La session est conservée trente jours sur cet
+          appareil.
+        </p>
+      </div>
+    </div>
+  );
+}
+
 const Silhouette = () => (
   <svg viewBox="0 0 120 50" className="silhouette" aria-hidden="true">
     <path
@@ -578,8 +750,20 @@ const Silhouette = () => (
   </svg>
 );
 
+const CLE_SESSION = "autoconso-session";
+
+const lireSession = () => {
+  try {
+    return JSON.parse(localStorage.getItem(CLE_SESSION));
+  } catch {
+    return null;
+  }
+};
+
 export default function App() {
   const [page, setPage] = useState("simulateur");
+  const [session, setSession] = useState(lireSession);
+  const [compteOuvert, setCompteOuvert] = useState(false);
   const [stats, setStats] = useState(null);
 
   /* ─── État du simulateur ─── */
@@ -926,6 +1110,36 @@ export default function App() {
         <div className="marque">
           <img src="/logo.png" alt="AutoConso" className="logo-img" />
         </div>
+        <div className="compte">
+          {session ? (
+            <>
+              <span className="courriel">
+                {session.prenom ? `Bonjour ${session.prenom}` : session.email}
+              </span>
+              <button
+                className="bouton-compte"
+                onClick={() => {
+                  localStorage.removeItem(CLE_SESSION);
+                  setSession(null);
+                }}
+              >
+                Déconnexion
+              </button>
+            </>
+          ) : (
+            <button
+              className="bouton-compte principal"
+              onClick={() => setCompteOuvert(true)}
+            >
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <circle cx="12" cy="8" r="3.4" />
+                <path d="M5 20c0-3.6 3.1-5.6 7-5.6s7 2 7 5.6" />
+              </svg>
+              <span>Se connecter</span>
+            </button>
+          )}
+        </div>
+
         <div className="liens">
           {PAGES.map(([c, libelle, court, icone]) => (
             <button
@@ -2869,6 +3083,17 @@ export default function App() {
             </section>
           )}
         </>
+      )}
+
+      {compteOuvert && (
+        <FenetreCompte
+          fermer={() => setCompteOuvert(false)}
+          onConnexion={(donnees) => {
+            localStorage.setItem(CLE_SESSION, JSON.stringify(donnees));
+            setSession(donnees);
+            setCompteOuvert(false);
+          }}
+        />
       )}
 
       <footer>

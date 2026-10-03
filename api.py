@@ -29,6 +29,17 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+# Comptes utilisateurs. Le module est optionnel : si ses dépendances
+# manquent, l'API continue de fonctionner sans authentification.
+try:
+    import auth
+
+    app.include_router(auth.routeur)
+    COMPTES_ACTIFS = True
+except ImportError as e:
+    print(f"Comptes désactivés : {e}")
+    COMPTES_ACTIFS = False
+
 CATALOGUE = recherche.colonnes_derivees(pd.read_csv("data/catalogue_fr_2025.csv"))
 
 # ─── Recherche sémantique ───────────────────────────────────────────────
@@ -318,6 +329,7 @@ def health():
         },
         "recherche_semantique": VECTEURS is not None,
         "semantique_autorisee": SEMANTIQUE_ACTIVE,
+        "comptes": COMPTES_ACTIFS,
     }
 
 
