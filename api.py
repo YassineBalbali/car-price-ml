@@ -25,7 +25,9 @@ app = FastAPI(
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
-    allow_methods=["GET", "POST"],
+    # OPTIONS doit être autorisé : le navigateur l'envoie en vérification
+    # (preflight) avant tout POST portant un en-tête Content-Type.
+    allow_methods=["*"],
     allow_headers=["*"],
 )
 
